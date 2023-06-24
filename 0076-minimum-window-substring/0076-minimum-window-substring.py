@@ -1,36 +1,37 @@
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
 
-        if len(t)>len(s):return ""
+        t_char=collections.Counter(t)
+        unique_t=len(t_char)
+
+        win_char=collections.Counter()
         
-
-        t_count=collections.Counter(t)
-        unique_char=len(t_count)
-      
-        win_count=collections.Counter()
-
-        left=0  
-        sub_char=0
+        left=0
         min_length=float('inf')
-        min_left=0
         min_right=0
-        
-        for right in range(len(s)):
-            win_count[s[right]]+=1
+        min_left=0
 
-            if win_count[s[right]]==t_count[s[right]]:
-                sub_char+=1
+        match=0
+
+        for right in range(len(s)):
             
-            while(sub_char==unique_char):
-                if right-left+1<min_length:
+            win_char[s[right]]+=1
+
+            if win_char[s[right]]==t_char[s[right]]:
+                match+=1
+            
+            while(match==unique_t):
+                if min_length>right-left+1:
                     min_length=right-left+1
                     min_left=left
                     min_right=right
-                
-                if win_count[s[left]]==t_count[s[left]]:
-                    sub_char-=1
-                win_count[s[left]]-=1
-                left+=1
-        
-        return '' if min_length==float('inf') else s[min_left:min_right+1]
 
+                if win_char[s[left]]==t_char[s[left]]:
+                    match-=1
+
+                win_char[s[left]]-=1
+                left+=1
+
+        return s[min_left:min_right+1] if min_length!=float('inf') else ""
+            
+            
