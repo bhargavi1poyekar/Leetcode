@@ -21,7 +21,7 @@ class Solution:
             if win_count[s[right]]==t_count[s[right]]:
                 sub_char+=1
             
-            while(left<=right and sub_char==unique_char):
+            while(sub_char==unique_char):
                 if right-left+1<min_length:
                     min_length=right-left+1
                     min_left=left
