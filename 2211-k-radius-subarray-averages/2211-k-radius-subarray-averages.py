@@ -12,8 +12,8 @@ class Solution:
             if i-k<0 or i+k>=len(nums):
                 ans[i]=-1
             else:
-                avg=(prefix_sum[i+k+1]-prefix_sum[i-k])//num_in_win
-                ans[i]=avg
+                ans[i]=(prefix_sum[i+k+1]-prefix_sum[i-k])//num_in_win
+                
         
         return ans
 
