@@ -7,7 +7,7 @@ class Solution:
         right=n-1
 
         while(left<=right):
-            print(s_list,left,right)
+            
             if not s_list[left].isalpha():
                 left+=1
             
