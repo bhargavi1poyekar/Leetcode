@@ -16,9 +16,9 @@ class Solution:
             if (curr_len-counter[maxChar]>k):
                 counter[s[left]]-=1
                 left+=1
-                curr_len=right-left+1
+                # curr_len=right-left+1
             
-            max_length=max(max_length,curr_len)
+            max_length=max(max_length,right-left+1)
 
         return max_length
 
