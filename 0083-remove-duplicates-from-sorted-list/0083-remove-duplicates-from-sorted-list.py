@@ -6,7 +6,7 @@
 class Solution:
     def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
 
-        ptr=head
+        
         slow=head
         fast=head
 
@@ -19,4 +19,4 @@ class Solution:
         
         if slow!=None:
             slow.next=None
-        return ptr
+        return head
