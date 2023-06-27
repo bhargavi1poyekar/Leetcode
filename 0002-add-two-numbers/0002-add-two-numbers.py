@@ -17,7 +17,6 @@ class Solution:
             val=val1+val2+carry
             carry=val//10
             val=val%10
-            print(val)
 
             newNode=ListNode(val)
 
