@@ -14,10 +14,9 @@ class Solution:
         dummy.next=head
 
         prev=dummy
-        slow=head
-        fast=head
+        slow,fast=head,head
 
-        while(count>0 and fast):
+        while(count>0):
             fast=fast.next
             count-=1
         
