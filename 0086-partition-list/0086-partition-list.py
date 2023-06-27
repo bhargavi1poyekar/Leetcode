@@ -12,13 +12,13 @@ class Solution:
         while(head):
 
             if head.val<x:
-                node=ListNode(head.val)
-                small.next=node
+                
+                small.next=head
                 small=small.next
 
             else:
-                node=ListNode(head.val)
-                large.next=node
+                
+                large.next=head
                 large=large.next
             
             head=head.next
