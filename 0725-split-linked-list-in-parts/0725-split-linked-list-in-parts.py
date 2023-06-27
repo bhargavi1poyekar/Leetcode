@@ -38,7 +38,6 @@ class Solution:
                 if prev: prev.next.next=None
                
             ans.append(h.next)
-            count=0
         return ans
 
                 
