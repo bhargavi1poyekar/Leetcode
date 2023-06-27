@@ -29,7 +29,7 @@ class Solution:
                     count+=1
                 prev.next.next=None
             else:
-                print(curr)
+               
                 while(count<each_part_count):
                     prev=curr
                     curr.next=head
