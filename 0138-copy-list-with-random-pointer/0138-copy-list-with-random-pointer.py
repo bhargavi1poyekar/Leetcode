@@ -16,7 +16,7 @@ class Solution:
             copynode=Node(curr.val)
             copynode.next=curr.next
             curr.next=copynode
-            curr=copynode.next
+            curr=curr.next.next
             
         curr=head
         while(curr):
@@ -27,7 +27,6 @@ class Solution:
         
        
         head2=head.next
-        # print(head2.val,head2.next,head2.random)
         ptr=head2
         while(ptr and ptr.next):
             ptr.next=ptr.next.next 
