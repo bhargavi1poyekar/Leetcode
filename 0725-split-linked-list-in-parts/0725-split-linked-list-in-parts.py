@@ -18,12 +18,12 @@ class Solution:
         ans=[]
         for i in range(1,k+1):
             h=curr=ListNode()
-            # prev=None
+           
             count=0
 
             if i<=node_with_extra:
                 while(count<each_part_count+1):
-                    # prev=curr
+                    
                     curr.next=head
                     curr,head=curr.next,head.next
                     count+=1
@@ -31,7 +31,7 @@ class Solution:
             else:
                
                 while(count<each_part_count):
-                    # prev=curr
+                    
                     curr.next=head
                     curr,head=curr.next,head.next
                     count+=1
