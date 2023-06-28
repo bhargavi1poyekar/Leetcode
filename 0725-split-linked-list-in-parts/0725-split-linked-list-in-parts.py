@@ -18,24 +18,24 @@ class Solution:
         ans=[]
         for i in range(1,k+1):
             h=curr=ListNode()
-            prev=None
+            # prev=None
             count=0
 
             if i<=node_with_extra:
                 while(count<each_part_count+1):
-                    prev=curr
+                    # prev=curr
                     curr.next=head
                     curr,head=curr.next,head.next
                     count+=1
-                prev.next.next=None
+                curr.next=None
             else:
                
                 while(count<each_part_count):
-                    prev=curr
+                    # prev=curr
                     curr.next=head
                     curr,head=curr.next,head.next
                     count+=1
-                if prev: prev.next.next=None
+                if curr: curr.next=None
                
             ans.append(h.next)
         return ans
