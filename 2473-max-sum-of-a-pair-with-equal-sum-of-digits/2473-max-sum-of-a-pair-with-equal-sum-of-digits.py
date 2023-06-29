@@ -1,7 +1,7 @@
 class Solution:
     def maximumSum(self, nums: List[int]) -> int:
 
-        maxsum=0
+        maxsum=-1
         digsum_hash={}
         for num in nums:
             digsum=0
@@ -19,4 +19,4 @@ class Solution:
             else:
                 digsum_hash[digsum]=num_org
         
-        return maxsum if maxsum>0 else -1
+        return maxsum 
