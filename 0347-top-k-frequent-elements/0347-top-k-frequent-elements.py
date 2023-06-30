@@ -3,12 +3,10 @@ class Solution:
 
         nums_count=collections.Counter(nums)
         max_freq=max(nums_count.values())
-        # print(max_freq)
 
         buckets=[[] for i in range(max_freq)]
 
         for i in nums_count:
-            # print(nums_count[i])
             buckets[nums_count[i]-1].append(i)
 
         ans=[]
