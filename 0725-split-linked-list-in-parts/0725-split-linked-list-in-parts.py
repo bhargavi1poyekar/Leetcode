@@ -8,36 +8,42 @@ class Solution:
 
         curr=head
         n=0
+        # Find length of linked list
         while(curr):
-            curr=curr.next
             n+=1
+            curr=curr.next
         
-        min_nodes_each_part=n//k
+        each_part_nodes=n//k
         extra_nodes_part=n%k
+        print(each_part_nodes, extra_nodes_part)
 
         ans=[]
         curr=head
-       
         for i in range(1,k+1):
+            h=dummy=ListNode()
             if i<=extra_nodes_part:
-                h1=dummy=ListNode()
-                for nodes in range(min_nodes_each_part+1):
-                    h1.next=curr
-                    h1,curr=h1.next,curr.next
-                h1.next=None
+                
+                for node in range(each_part_nodes+1):
+                    h.next=curr
+                    h,curr=h.next,curr.next
+                h.next=None
             else:
-                h1=dummy=ListNode()
-                for nodes in range(min_nodes_each_part):
-                    h1.next=curr
-                    h1,curr=h1.next,curr.next
-                h1.next=None
-            
+                for node in range(each_part_nodes):
+                    h.next=curr
+                    h,curr=h.next,curr.next
+                h.next=None
             ans.append(dummy.next)
         
         return ans
-
                 
-                    
 
 
-        
+
+
+
+
+
+
+
+
+
