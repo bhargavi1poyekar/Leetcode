@@ -18,7 +18,7 @@ class Solution:
             slow=slow.next
             fast=fast.next.next
         
-        if prev and prev.next:
-            prev.next=prev.next.next
+        
+        prev.next=prev.next.next
 
         return head
