@@ -6,24 +6,19 @@
 class Solution:
     def partition(self, head: Optional[ListNode], x: int) -> Optional[ListNode]:
 
-        h1=small=ListNode()
-        h2=large=ListNode()
+        small=shead=ListNode()
+        large=lhead=ListNode()
 
         while(head):
-
             if head.val<x:
-                
                 small.next=head
                 small=small.next
-
             else:
-                
                 large.next=head
                 large=large.next
             
             head=head.next
         
+        small.next=lhead.next
         large.next=None
-        small.next=h2.next
-
-        return h1.next
+        return shead.next
