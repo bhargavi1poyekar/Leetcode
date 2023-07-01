@@ -6,9 +6,7 @@
 class Solution:
     def removeElements(self, head: Optional[ListNode], val: int) -> Optional[ListNode]:
 
-        if not head: return head
-
-        dummy=ListNode(0)
+        dummy=ListNode()
         dummy.next=head
         
         prev,curr=dummy,head
@@ -21,4 +19,4 @@ class Solution:
             curr=curr.next
         
         return dummy.next
-        
+
