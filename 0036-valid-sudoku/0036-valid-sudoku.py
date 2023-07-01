@@ -24,7 +24,6 @@ class Solution:
                 cols[c].add(val)
 
                 box_idx=(r//3)*3+(c//3)
-
                 
                 if val in boxes[box_idx]:
                     return False
