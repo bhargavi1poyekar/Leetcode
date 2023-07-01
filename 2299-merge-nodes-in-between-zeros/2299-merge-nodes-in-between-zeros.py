@@ -7,17 +7,18 @@ class Solution:
     def mergeNodes(self, head: Optional[ListNode]) -> Optional[ListNode]:
 
         head=head.next
-        start,curr=head,head
-
-        while(curr):
+        slow=head
+        fast=head
+        sum=0
+        while(fast):
+            while(fast.val!=0):
+                sum+=fast.val
+                fast=fast.next
+            slow.val=sum
             sum=0
-            while(curr.val!=0):
-                sum+=curr.val
-                curr=curr.next
-            start.val=sum
-            start.next=curr.next
-            curr=curr.next
-            start=curr
+            slow.next=fast.next
+            slow=fast.next
+            fast=fast.next
         
         return head
 
