@@ -9,33 +9,39 @@ class Solution:
         Do not return anything, modify head in-place instead.
         """
 
-        if not head.next: return head
+        if not head or not head.next:
+            return head
 
-        slow=head
-        fast=head
-
+        slow,fast=head,head
+        
         while(fast and fast.next):
             prev=slow
             slow=slow.next
             fast=fast.next.next
-
-        curr=slow
+        
         prev.next=None
+
         prev=None
-       
+        curr=slow
         while(curr):
             nn=curr.next
             curr.next=prev
             prev=curr
             curr=nn
-       
-        h=dummy=ListNode()
-
-        while(head and prev):
-            dummy.next=head
-            dummy,head=dummy.next,head.next
-            dummy.next=prev
-            dummy,prev=dummy.next,prev.next
         
-        return(h.next)
+        dummy=ListNode()
+        curr=dummy
+        
+        while(prev and head):
+            curr.next=head
+            curr,head=curr.next,head.next
+            curr.next=prev
+            curr,prev=curr.next,prev.next
+        
+        return dummy.next
+
+
+
+
+
 
