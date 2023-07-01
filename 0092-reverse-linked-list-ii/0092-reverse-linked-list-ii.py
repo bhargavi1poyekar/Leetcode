@@ -11,34 +11,29 @@ class Solution:
         
         if left==right:
             return head
-        
+
         prev=None
         curr=head
 
-        # Bringing prev and curr to their positions: curr=>left and prev=left-1
         while(left>1):
             prev=curr
             curr=curr.next
-            left,right=left-1,right-1 # dec left,n
+            left-=1
+            right-=1
         
         con,tail=prev,curr
 
-        while(right):
-            next_n=curr.next
+        while(right>=1):
+            nn=curr.next
             curr.next=prev
             prev=curr
-            curr=next_n
+            curr=nn
             right-=1
-
+        
         if con:
             con.next=prev
-        else:
-            head=prev
-        
-        tail.next=curr
-        return head
-        
+        else:head=prev
 
-        
-         
-        
+        tail.next=curr
+
+        return head
