@@ -8,31 +8,32 @@ class Solution:
 
         curr=head
         n=0
+
         # Find length of linked list
         while(curr):
             n+=1
             curr=curr.next
         
-        each_part_nodes=n//k
-        extra_nodes_part=n%k
-        print(each_part_nodes, extra_nodes_part)
+        each_part_nodes=n//k # Min nodes in each part
+        extra_nodes_part=n%k # Number of parts with extra nodes
+       
 
         ans=[]
         curr=head
-        for i in range(1,k+1):
-            h=dummy=ListNode()
-            if i<=extra_nodes_part:
-                
+        for i in range(1,k+1): # For every part
+            h=dummy=ListNode() # Create an empty list
+            if i<=extra_nodes_part: # Parts with extra node
                 for node in range(each_part_nodes+1):
-                    h.next=curr
+                    h.next=curr 
                     h,curr=h.next,curr.next
                 h.next=None
             else:
-                for node in range(each_part_nodes):
+                for node in range(each_part_nodes): # Parts with min nodes.
                     h.next=curr
                     h,curr=h.next,curr.next
                 h.next=None
-            ans.append(dummy.next)
+
+            ans.append(dummy.next) # Append list to part 
         
         return ans
                 
