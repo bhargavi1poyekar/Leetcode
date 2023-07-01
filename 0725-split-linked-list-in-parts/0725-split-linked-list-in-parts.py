@@ -7,38 +7,37 @@ class Solution:
     def splitListToParts(self, head: Optional[ListNode], k: int) -> List[Optional[ListNode]]:
 
         curr=head
-        node_count=0
+        n=0
         while(curr):
             curr=curr.next
-            node_count+=1
+            n+=1
         
-        each_part_count=node_count//k
-        node_with_extra=node_count%k
+        min_nodes_each_part=n//k
+        extra_nodes_part=n%k
 
         ans=[]
+        curr=head
+       
         for i in range(1,k+1):
-            h=curr=ListNode()
-           
-            count=0
-
-            if i<=node_with_extra:
-                while(count<each_part_count+1):
-                    
-                    curr.next=head
-                    curr,head=curr.next,head.next
-                    count+=1
-                curr.next=None
+            if i<=extra_nodes_part:
+                h1=dummy=ListNode()
+                for nodes in range(min_nodes_each_part+1):
+                    h1.next=curr
+                    h1,curr=h1.next,curr.next
+                h1.next=None
             else:
-               
-                while(count<each_part_count):
-                    
-                    curr.next=head
-                    curr,head=curr.next,head.next
-                    count+=1
-                if curr: curr.next=None
-               
-            ans.append(h.next)
+                h1=dummy=ListNode()
+                for nodes in range(min_nodes_each_part):
+                    h1.next=curr
+                    h1,curr=h1.next,curr.next
+                h1.next=None
+            
+            ans.append(dummy.next)
+        
         return ans
 
                 
+                    
+
+
         
