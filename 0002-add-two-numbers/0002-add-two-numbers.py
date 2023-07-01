@@ -11,6 +11,7 @@ class Solution:
         carry=0
 
         while l1 or l2 or carry:
+            
             val1=l1.val if l1 else 0
             val2=l2.val if l2 else 0
 
@@ -18,15 +19,15 @@ class Solution:
             carry=val//10
             val=val%10
 
-            newNode=ListNode(val)
-
-            curr.next=newNode
+            newnode=ListNode(val)
+            curr.next=newnode
             curr=curr.next
 
             l1=l1.next if l1 else 0
             l2=l2.next if l2 else 0
         
         return dummy.next
+            
 
 
 
