@@ -8,20 +8,17 @@ class Solution:
 
         beg=head
         end=head
-        
-        count=1
-        while(count<k):
+
+        while(k>1):
             beg=beg.next
-            count+=1
+            k-=1
         
         fast=beg
         while(fast.next):
-            fast=fast.next
             end=end.next
+            fast=fast.next
         
         beg.val,end.val=end.val,beg.val
+    
         return head
-        
-
-        
 
