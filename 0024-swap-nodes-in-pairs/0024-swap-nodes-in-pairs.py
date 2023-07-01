@@ -8,17 +8,19 @@ class Solution:
 
         if not head or not head.next:
             return head
+        
         dummy=head.next
 
         while(head and head.next):
 
-            next_n=head.next.next
+            nextpair=head.next.next
             head.next.next=head
-
-            if next_n and next_n.next:
-                head.next=next_n.next
+            if nextpair and nextpair.next:
+                head.next=nextpair.next
             else:
-                head.next=next_n
-            head=next_n
+                head.next=nextpair
+            
+            head=nextpair
         
         return dummy
+            
