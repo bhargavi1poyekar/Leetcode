@@ -15,7 +15,7 @@ class Solution:
             ascend.append(nums[right]) 
             descend.append(nums[right])
 
-            while descend[0]-ascend[0]>limit:
+            if descend[0]-ascend[0]>limit:
                 if descend[0]==nums[left]:
                     descend.popleft()
                 elif ascend[0]==nums[left]:
