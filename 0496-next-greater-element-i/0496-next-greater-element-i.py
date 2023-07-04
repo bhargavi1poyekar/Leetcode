@@ -14,10 +14,8 @@ class Solution:
 
         ans=[]
         for i in nums1:
-            if i in hash_pair:
-                ans.append(hash_pair[i])
-            else:
-                ans.append(-1)
+            ans.append(hash_pair[i])
+            
         
         return ans
 
