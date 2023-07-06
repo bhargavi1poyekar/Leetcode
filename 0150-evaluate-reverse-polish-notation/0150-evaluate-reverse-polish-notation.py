@@ -5,10 +5,10 @@ class Solution:
         op=['+','/','-','*']
         for tok in tokens:
             if tok in op:
-                if stack:
-                    op1=stack.pop()
-                if stack:
-                    op2=stack.pop()
+                
+                op1=stack.pop()
+                op2=stack.pop()
+                
                 if tok=='+':
                     stack.append(op1+op2)
                 elif tok=='*':
