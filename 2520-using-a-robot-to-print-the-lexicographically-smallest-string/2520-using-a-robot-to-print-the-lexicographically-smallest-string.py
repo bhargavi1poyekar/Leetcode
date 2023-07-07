@@ -9,10 +9,9 @@ class Solution:
            
             t_stack.append(ch)
 
-            if char_freq[ch]==1:
-                del char_freq[ch]
-            else:
-                char_freq[ch]-=1
+            char_freq[ch]-=1
+            if char_freq[ch]==0:
+                del char_freq[ch]    
             
             while t_stack and char_freq and t_stack[-1]<=min(char_freq):
                 paper.append(t_stack.pop())
