@@ -1,24 +1,23 @@
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
-
+        next_greater={}
         stack=[]
-        hash_pair={}
-        for i in range(len(nums2)):
-            while stack and nums2[i]>stack[-1]:
-                hash_pair[stack.pop()]=nums2[i]
-            stack.append(nums2[i])
 
-        while stack:
-            hash_pair[stack.pop()]=-1
-        
-
-        ans=[]
-        for i in nums1:
-            ans.append(hash_pair[i])
+        for num in nums2:
+            while stack and stack[-1]<num:
+                next_greater[stack.pop()]=num
             
+            stack.append(num)
         
-        return ans
-
+        while stack:
+            next_greater[stack.pop()]=-1
+        
+        answer=[]
+        for num in nums1:
+            answer.append(next_greater[num])
+        
+        return answer
+         
 
 
             
