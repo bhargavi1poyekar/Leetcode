@@ -2,19 +2,22 @@ class Solution:
     def isValid(self, s: str) -> bool:
 
         stack=[]
-        pairs={'(':')','{':'}','[':']'}
+        brackets={'(':')','{':'}','[':']'}
 
         for i in s:
-            if i in pairs:
-                stack.append(pairs[i])
+            if i in brackets:
+                stack.append(brackets[i])
             else:
                 if not stack:
                     return False
                 elif i==stack[-1]:
                     stack.pop()
                 else:
-                    return False
+                    return False 
         
-        return not stack 
+        return True if not stack else False
+
+
+                
                 
                 
