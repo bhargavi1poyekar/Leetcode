@@ -1,28 +1,38 @@
 class Solution:
     def longestSubarray(self, nums: List[int], limit: int) -> int:
-        ascend=deque()
-        descend=deque()
-
-        left=ans=0
+        
+        inc_queue=deque()
+        dec_queue=deque()
+        left,max_length=0,0
 
         for right in range(len(nums)):
-
-            while ascend and ascend[-1]>nums[right]:
-                ascend.pop()
-            while descend and descend[-1]<nums[right]:
-                descend.pop()
-
-            ascend.append(nums[right]) 
-            descend.append(nums[right])
-
-            if descend[0]-ascend[0]>limit:
-                if descend[0]==nums[left]:
-                    descend.popleft()
-                elif ascend[0]==nums[left]:
-                    ascend.popleft()
-
-                left+=1
-
-            ans=max(ans,right-left+1) 
+            while(inc_queue and inc_queue[-1]>nums[right]):
+                inc_queue.pop()
+            
+            inc_queue.append(nums[right])
         
-        return ans
+            while(dec_queue and dec_queue[-1]<nums[right]):
+                dec_queue.pop()
+            
+            dec_queue.append(nums[right])
+
+            while(dec_queue[0]-inc_queue[0]>limit):
+                if inc_queue[0]==nums[left]:
+                    inc_queue.popleft()
+                
+                if dec_queue[0]==nums[left]:
+                    dec_queue.popleft()
+                
+                left+=1
+            
+            max_length=max(max_length,right-left+1)
+        
+        return max_length
+                
+
+                
+
+
+
+            
+        
