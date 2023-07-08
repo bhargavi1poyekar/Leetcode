@@ -2,13 +2,14 @@ class Solution:
     def finalPrices(self, prices: List[int]) -> List[int]:
 
         stack=[]
-        ans=prices
 
-        for i in range(len(prices)):
-            while(stack and prices[stack[-1]]>=prices[i]):
+        final_price=prices
+
+        for p in range(len(prices)):
+            while stack and prices[stack[-1]]>=prices[p]:
                 index=stack.pop()
-                ans[index]=prices[index]-prices[i]
+                final_price[index]=prices[index]-prices[p]
             
-            stack.append(i)
+            stack.append(p)
         
-        return(ans)
+        return(final_price)
