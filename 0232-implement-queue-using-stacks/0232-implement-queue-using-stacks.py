@@ -9,16 +9,16 @@ class MyQueue:
 
     def pop(self) -> int:
         if not self.stack2:
-            while(self.stack):
+            while self.stack:
                 self.stack2.append(self.stack.pop())
-        
-        return self.stack2.pop()
+        return self.stack2.pop()      
 
     def peek(self) -> int:
         if self.stack2:
             return self.stack2[-1]
         return self.stack[0]
 
+       
     def empty(self) -> bool:
         # print(self.stack)
         return not self.stack and not self.stack2
