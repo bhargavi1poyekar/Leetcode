@@ -4,21 +4,22 @@ class Solution:
         stack=[-1]
         max_area=0
 
-        for right in range(len(heights)):
+        for right in range(len(heights)+1):
 
-            while stack[-1]!=-1 and heights[stack[-1]]>=heights[right]:
-                h=heights[stack.pop()]
+            while stack[-1]!=-1 and (right==len(heights) or heights[stack[-1]]>heights[right]):
+                ht=heights[stack.pop()]
                 w=right-stack[-1]-1
-                max_area=max(max_area,h*w)
-            
+                max_area=max(max_area,ht*w)
+
             stack.append(right)
         
-        while stack[-1]!=-1:
-            h=heights[stack.pop()]
-            w=len(heights)-stack[-1]-1
-            max_area=max(max_area,h*w)
-        
         return max_area
+
+        
+
+
+        
+
             
        
         
