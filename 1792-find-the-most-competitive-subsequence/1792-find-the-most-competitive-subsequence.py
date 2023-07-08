@@ -1,16 +1,14 @@
 class Solution:
     def mostCompetitive(self, nums: List[int], k: int) -> List[int]:
 
-        queue=deque()
+        inc_stack=[]
+        allowed_skips=len(nums)-k
 
-        count=len(nums)-k
-
-        for num in nums:
-            # print(queue)
-            while(queue and queue[-1]>num and count):
-                queue.pop()
-                count-=1
+        for i in range(len(nums)):
+            while inc_stack and allowed_skips and inc_stack[-1]>nums[i]:
+                inc_stack.pop()
+                allowed_skips-=1
             
-            queue.append(num)
+            inc_stack.append(nums[i])
         
-        return(list(queue)[:k])
+        return inc_stack[:k]
