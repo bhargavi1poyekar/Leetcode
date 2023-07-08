@@ -5,7 +5,6 @@ class MyStack:
         self.queue2=deque()
 
     def push(self, x: int) -> None:
-        top=x
         self.queue.append(x)
         
     def pop(self) -> int:
