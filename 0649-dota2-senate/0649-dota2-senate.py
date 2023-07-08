@@ -8,14 +8,15 @@ class Solution:
                 rq.append(i)
             else:
                 dq.append(i)
-        ptr=0
+            
+        idx=0
         while rq and dq:
-            if senate[ptr]=='R' and ptr in rq:
+            if idx in rq:
                 dq.popleft()
                 rq.append(rq.popleft())
-            elif senate[ptr]=='D' and ptr in dq:
+            elif idx in dq:
                 rq.popleft()
                 dq.append(dq.popleft())
-            ptr=(ptr+1)%len(senate)
+            idx=(idx+1)%len(senate)
         
         return 'Radiant' if rq else 'Dire'
