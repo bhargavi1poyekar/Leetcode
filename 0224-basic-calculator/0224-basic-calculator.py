@@ -2,36 +2,35 @@ class Solution:
     def calculate(self, s: str) -> int:
 
         stack=[]
-        res=0
-        op=0
+        res,val=0,0
         sign=1
 
-        for i in s:
-            if i=='(':
+        for ch in s:
+
+            if ch.isdigit():
+                val=val*10+int(ch)
+            
+            elif ch=='+':
+                res+=val*sign
+                sign=1
+                val=0
+            
+            elif ch=='-':
+                res+=val*sign
+                sign=-1
+                val=0
+            
+            elif ch=='(':
                 stack.append(res)
                 stack.append(sign)
-
                 res=0
                 sign=1
             
-            elif i.isdigit():
-                op=op*10+int(i)
-            
-            elif i=='+':
-                res+=sign*op
-                sign=1
-                op=0
-            
-            elif i=='-':
-                res+=sign*op
-                sign=-1
-                op=0
-            
-            elif i==')':
-                res+=sign*op
+            elif ch==')':
+                res+=val*sign
                 res*=stack.pop()
                 res+=stack.pop()
-                op=0
-        
-        return res+sign*op
-            
+                val=0
+
+        return res+(sign*val)
+                
