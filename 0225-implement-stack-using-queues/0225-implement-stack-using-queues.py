@@ -13,15 +13,14 @@ class MyStack:
             self.queue2.append(top)
         
         top=self.queue.popleft()
-        self.queue2,self.queue=self.queue,self.queue2
+        self.queue,self.queue2=self.queue2,self.queue
         return top
 
     def top(self) -> int:
         return self.queue[-1]
 
     def empty(self) -> bool:
-        return not self.queue and not self.queue2
-
+        return not self.queue
 
 # Your MyStack object will be instantiated and called as such:
 # obj = MyStack()
