@@ -13,11 +13,9 @@ class Solution:
                 elif abs(stack[-1])==abs(mag):
                     stack.pop()
                     flag=False
-                    break
                 
-                else:
-                    flag=False
-                    break
+                flag=False
+                break
                 
             if flag==True:
                 stack.append(mag)
