@@ -11,12 +11,18 @@ class Solution:
             
         idx=0
         while rq and dq:
-            if idx in rq:
+            # if idx in rq:
+            #     dq.popleft()
+            #     rq.append(rq.popleft())
+            # elif idx in dq:
+            #     rq.popleft()
+            #     dq.append(dq.popleft())
+            # idx=(idx+1)%len(senate)
+            if rq[0]<dq[0]:
                 dq.popleft()
-                rq.append(rq.popleft())
-            elif idx in dq:
+                rq.append(rq.popleft()+len(senate))
+            else:
                 rq.popleft()
-                dq.append(dq.popleft())
-            idx=(idx+1)%len(senate)
-        
+                dq.append(dq.popleft()+len(senate))
+
         return 'Radiant' if rq else 'Dire'
