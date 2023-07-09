@@ -1,30 +1,35 @@
 class Solution:
     def longestSubarray(self, nums: List[int], limit: int) -> int:
-
-        min_q=deque()
-        max_q=deque()
-        left=0
-        max_length=0
+        
+        inc_queue=deque() # increasing queue for min 
+        dec_queue=deque() # decreasing queue for max
+        left,max_length=0,0 
 
         for right in range(len(nums)):
 
-            while min_q and min_q[-1]>nums[right]:
-                min_q.pop()
-            min_q.append(nums[right])
+            # Maintain montonically increasing
+            while(inc_queue and inc_queue[-1]>nums[right]):
+                inc_queue.pop()
+            
+            inc_queue.append(nums[right])
+        
+            # Maintain montonically DEcreasing
+            while(dec_queue and dec_queue[-1]<nums[right]):
+                dec_queue.pop()
+            
+            dec_queue.append(nums[right])
 
-            while max_q and max_q[-1]<nums[right]:
-                max_q.pop()
-            max_q.append(nums[right])
-
-            while max_q and min_q and max_q[0]-min_q[0]>limit:
-                if min_q[0]==nums[left]:
-                    min_q.popleft()
+            # If window condition not satsifed, remove older element.
+            while(dec_queue[0]-inc_queue[0]>limit):
+                if inc_queue[0]==nums[left]: # while removing, check it is current min 
+                    inc_queue.popleft()
                 
-                if max_q[0]==nums[left]:
-                    max_q.popleft()
-                left+=1
+                if dec_queue[0]==nums[left]: # while removing, check it is current max
+                    dec_queue.popleft()
+                 
+                left+=1 # decrease window size 
             
             max_length=max(max_length,right-left+1)
         
         return max_length
-
+            
