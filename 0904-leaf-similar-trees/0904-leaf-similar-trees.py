@@ -13,10 +13,7 @@ class Solution:
             
             if not root.left and not root.right:
                 return [root.val]
-            
-            checkleaves(root.left)
-            checkleaves(root.right)
-
+                
             return checkleaves(root.left)+checkleaves(root.right)
         
         # print(checkleaves(root1))
