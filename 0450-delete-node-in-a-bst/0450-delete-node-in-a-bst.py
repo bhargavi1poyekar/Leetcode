@@ -8,13 +8,13 @@ class Solution:
     def deleteNode(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
 
         def findMin(root):
-            root=root.right
+            
             while root.left:
                 root=root.left
             return root.val
         
         def findMax(root):
-            root=root.left
+            
             while root.right:
                 root=root.right
             return root.val
@@ -30,10 +30,10 @@ class Solution:
             if not root.left and not root.right:
                 root=None
             elif root.right:
-                root.val=findMin(root)
+                root.val=findMin(root.right)
                 root.right=self.deleteNode(root.right,root.val)
             elif root.left:
-                root.val=findMax(root)
+                root.val=findMax(root.left)
                 root.left=self.deleteNode(root.left,root.val) 
 
         return root               
