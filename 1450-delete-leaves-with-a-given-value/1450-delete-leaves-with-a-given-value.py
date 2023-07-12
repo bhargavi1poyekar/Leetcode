@@ -15,6 +15,6 @@ class Solution:
 
         if not root.left and not root.right and root.val==target:
             return None
-        else:
-            return root
+        
+        return root
 
