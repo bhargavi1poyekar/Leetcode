@@ -7,28 +7,31 @@
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> List[List[int]]:
 
-        valid_paths=[]
-        self.dfs(root,valid_paths,[],targetSum)
-        return valid_paths
+       
 
-    def dfs(self, root, valid_paths, curr_path, remain_sum):
+        def dfs(root,curr_path, remain_sum):
 
-        if not root:
-            return
-        
-        curr_path.append(root.val)
-        # print(root.val,valid_paths,curr_path,remain_sum)
-
-        if root.val==remain_sum and not root.left and not root.right:
-            valid_paths.append(list(curr_path))
+            if not root: # If no root return
+                return
             
-        else:
-            self.dfs(root.left,valid_paths,curr_path,remain_sum-root.val)
-            self.dfs(root.right,valid_paths,curr_path,remain_sum-root.val)
+            curr_path.append(root.val) # add current node in curr_path
+            
+            # if curr node is equal to remain sum for target, and if lead node
+            if root.val==remain_sum and not root.left and not root.right: 
+                valid_paths.append(list(curr_path)) # append curr path to valid paths
+                
+            else:
+                # if not leaf node, go to left or right
+                dfs(root.left,curr_path,remain_sum-root.val) 
+                dfs(root.right,curr_path,remain_sum-root.val)
 
-
-        curr_path.pop()
-        return
+            # Remove curr node from curr_path
+            curr_path.pop()
+            
+        
+        valid_paths=[]
+        dfs(root,[],targetSum)
+        return valid_paths
 
         
 
