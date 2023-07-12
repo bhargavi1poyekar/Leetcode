@@ -7,6 +7,7 @@
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> List[List[int]]:
 
+        valid_paths=[]
        
 
         def dfs(root,curr_path, remain_sum):
@@ -29,7 +30,7 @@ class Solution:
             curr_path.pop()
             
         
-        valid_paths=[]
+       
         dfs(root,[],targetSum)
         return valid_paths
 
