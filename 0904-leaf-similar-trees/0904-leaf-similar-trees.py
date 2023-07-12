@@ -10,12 +10,12 @@ class Solution:
         def checkleaves(root):
             
             if not root: return []
-            if root:
-                if not root.left and not root.right:
-                    return [root.val]
-                
-                checkleaves(root.left)
-                checkleaves(root.right)
+            
+            if not root.left and not root.right:
+                return [root.val]
+            
+            checkleaves(root.left)
+            checkleaves(root.right)
 
             return checkleaves(root.left)+checkleaves(root.right)
         
