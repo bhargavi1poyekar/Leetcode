@@ -32,7 +32,7 @@ class Solution:
             elif root.right:
                 root.val=findMin(root.right)
                 root.right=self.deleteNode(root.right,root.val)
-            else:
+            elif root.left:
                 root.val=findMax(root.left)
                 root.left=self.deleteNode(root.left,root.val) 
 
