@@ -6,8 +6,9 @@ class Solution:
         for i in range(candidates):
             min_heap.append((costs[i],0))
         
-        for i in range(max(candidates,len(costs) - candidates),len(costs)):
+        for i in range(len(costs)-1,max(len(costs)-candidates-1,candidates-1),-1):
             min_heap.append((costs[i],1))
+
         
         nextHead,nextTail=candidates,len(costs)-candidates-1
         heapq.heapify(min_heap)
