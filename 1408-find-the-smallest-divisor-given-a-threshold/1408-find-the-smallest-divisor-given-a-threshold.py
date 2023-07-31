@@ -10,7 +10,6 @@ class Solution:
 
         left=1
         right=max(nums)
-        ans=-1
 
         while left<=right:
             mid=(left+right)//2
