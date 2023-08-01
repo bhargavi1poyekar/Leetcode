@@ -10,7 +10,8 @@ class Solution:
         
 
         left=1
-        right=max(candies)
+        # right=max(candies)
+        right=sum(candies)//k
 
         while left<=right:
             # print(left,right)
