@@ -3,7 +3,7 @@ class Solution:
         if not digits:
             return []
         def backtrack(curr,i):
-            print(curr,i)
+            
             if len(curr)==len(digits):
                 ans.append(''.join(list(curr)))
                 return
