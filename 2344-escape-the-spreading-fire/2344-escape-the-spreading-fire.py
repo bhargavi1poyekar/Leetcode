@@ -20,7 +20,7 @@ class Solution:
 				for dx, dy in directions:
 					x,y = row + dy, col + dx
 
-					if isValid(x,y) and fireReached[x][y] > time + 1:
+					if isValid(x,y) and fireReached[x][y] ==float('inf'):
 						fireReached[x][y] = time + 1
 						queue.append((x,y,time + 1))
 		
