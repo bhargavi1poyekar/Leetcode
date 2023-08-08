@@ -33,17 +33,17 @@ class Solution:
                 return
 
             # mark the square as visited.
-            temp = grid[row][col] 
-            grid[row][col] = -4
-            remain -= 1  
            
+            
             for x,y in directions:
                 next_r, next_c= row+x,col+y
                 if valid(next_r,next_c) and grid[next_r][next_c]>=0:
-                    backtrack(next_r, next_c, remain)
-
+                    temp = grid[row][col] 
+                    grid[row][col] = -4
+                    backtrack(next_r, next_c, remain-1)
+                    grid[row][col] = temp
             # unmark the square after the visit
-            grid[row][col] = temp
+           
 
         backtrack(s_row, s_col, empty)
 
