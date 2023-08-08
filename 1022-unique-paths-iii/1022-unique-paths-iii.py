@@ -28,8 +28,10 @@ class Solution:
             nonlocal path_count
 
             # base case
-            if grid[row][col] == 2 and remain == 1:
+            # print(row,col, remain)
+            if grid[row][col] == 2 and remain == 0:
                 path_count += 1
+                print('reached')
                 return
             
             for x,y in directions:
@@ -40,7 +42,7 @@ class Solution:
                     backtrack(next_r, next_c, remain-1)
                     grid[row][col] = temp
 
-        backtrack(s_row, s_col, empty)
+        backtrack(s_row, s_col, empty-1)
 
         return path_count
                 
