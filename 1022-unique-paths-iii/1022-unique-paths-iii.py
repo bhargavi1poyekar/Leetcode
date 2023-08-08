@@ -31,9 +31,6 @@ class Solution:
             if grid[row][col] == 2 and remain == 1:
                 path_count += 1
                 return
-
-            # mark the square as visited.
-           
             
             for x,y in directions:
                 next_r, next_c= row+x,col+y
@@ -42,8 +39,6 @@ class Solution:
                     grid[row][col] = -4
                     backtrack(next_r, next_c, remain-1)
                     grid[row][col] = temp
-            # unmark the square after the visit
-           
 
         backtrack(s_row, s_col, empty)
 
