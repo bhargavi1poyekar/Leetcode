@@ -3,37 +3,35 @@ class Solution:
         
         if len(t)>len(s):return "" # If t>s no substring
 
-        t_char=collections.Counter(t) # Char freq for t
-        unique=len(t_char) # unique characters in t
-
-        win_char=collections.Counter() # Char freq for window
-        match=0  # Match count of window and t
-
-        min_length=float('inf') 
-        min_right=0
-        min_left=0
+        t_freq=Counter(t)
+        unique_t_char=len(t_freq)
+        win_freq=Counter()
 
         left=0
+        min_len=float('inf')
+        min_left=0
+        min_right=0
+
+        match_count=0
 
         for right in range(len(s)):
+            win_freq[s[right]]+=1
+
+            if win_freq[s[right]]==t_freq[s[right]]:
+                match_count+=1
             
-            win_char[s[right]]+=1 # inc window count
-
-            if t_char[s[right]]==win_char[s[right]]: # If window count of char matches t count of char
-                match+=1
-
-            while(unique==match): # If all unique char match
-                if right-left+1<min_length: # Update min
-                    min_length=right-left+1 
-                    min_right=right
+            while match_count==unique_t_char:
+                if right-left+1 <min_len:
+                    min_len=right-left+1
                     min_left=left
+                    min_right=right
 
-                if t_char[s[left]]==win_char[s[left]]: # If they match before removing, dec match 
-                    match-=1
-                
-                win_char[s[left]]-=1 # dec wi freq
-                left+=1 # Inc window length
-        
-        return s[min_left:min_right+1] if min_length!=float('inf') else "" 
+                if win_freq[s[left]]==t_freq[s[left]]:
+                    match_count-=1
+                win_freq[s[left]]-=1
+                left+=1
+            
+        return s[min_left:min_right+1] if min_len!=float('inf') else ""
 
 
+       
