@@ -1,13 +1,13 @@
 class Solution:
     def minStartValue(self, nums: List[int]) -> int:
 
-        min_sum=0
-        prefix_sum=0
-        for i in range(len(nums)):
-            prefix_sum+=nums[i]
-            min_sum=min(prefix_sum,min_sum)
+        prefix_sum=[0]*len(nums)
+        prefix_sum[0]=nums[0]
+        for i in range(1,len(nums)):
+            prefix_sum[i]=nums[i]+prefix_sum[i-1]
         
-        if min_sum==0:
-            return 1
-        else:
+        min_sum=min(prefix_sum)
+        if min_sum<0:
             return abs(min_sum)+1
+        else:
+            return 1
