@@ -6,34 +6,37 @@
 class Solution:
     def reverseBetween(self, head: Optional[ListNode], left: int, right: int) -> Optional[ListNode]:
 
-        if not head:
+        if not head or not head.next:
             return head
         
-        if left==right:
-            return head
-
         prev=None
         curr=head
 
-        while(left>1):
+        while left>1:
             prev=curr
             curr=curr.next
             left-=1
             right-=1
         
-        con,tail=prev,curr
+        con=prev
+        tail=curr
 
-        while(right>=1):
+        while curr and right>0:
             nn=curr.next
             curr.next=prev
             prev=curr
             curr=nn
+        
             right-=1
         
-        if con:
+        if not con:
+            head=prev
+        else:
             con.next=prev
-        else:head=prev
-
+        
         tail.next=curr
-
         return head
+
+
+
+
