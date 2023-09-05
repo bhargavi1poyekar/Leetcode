@@ -9,26 +9,24 @@ class Solution:
         slow=head
         fast=head
 
-        while(fast and fast.next):
-            slow=slow.next
+        while fast and fast.next:
             fast=fast.next.next
-
+            slow=slow.next
+        
         prev=None
         curr=slow
-        while(curr):
+
+        while curr:
             nn=curr.next
             curr.next=prev
             prev=curr
             curr=nn
         
         max_sum=0
-        while(head and prev):
-            max_sum=max(max_sum, head.val+prev.val)
+
+        while head and prev:
+            max_sum=max(max_sum,head.val+prev.val)
             head=head.next
             prev=prev.next
         
         return max_sum
-
-
-        
-
