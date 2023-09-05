@@ -11,16 +11,14 @@ class Solution:
         
         dummy=head.next
 
-        while(head and head.next):
-
-            nextpair=head.next.next
+        while head and head.next:
+            nn=head.next.next
             head.next.next=head
-            if nextpair and nextpair.next:
-                head.next=nextpair.next
+            if nn and nn.next:
+                head.next=nn.next
             else:
-                head.next=nextpair
+                head.next=nn
+            head=nn
             
-            head=nextpair
-        
         return dummy
-            
+
