@@ -1,28 +1,25 @@
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
 
-        maxChar=s[0]
-        charFreq=collections.Counter()
+        max_char=s[0]
         left=0
 
-        max_length=0
+        max_len=0
+
+        freq=Counter()
 
         for right in range(len(s)):
-            charFreq[s[right]]+=1
+            freq[s[right]]+=1
 
-            if charFreq[s[right]]>=charFreq[maxChar]:
-                maxChar=s[right]
+            if freq[s[right]]>=freq[max_char]:
+                max_char=s[right]
             
             current_len=right-left+1
 
-            if(current_len-charFreq[maxChar]>k):
-                charFreq[s[left]]-=1
+            if current_len-freq[max_char]>k:
+                freq[s[left]]-=1
                 left+=1
             
-            max_length=max(max_length,right-left+1)
+            max_len=max(max_len,right-left+1)
 
-        return max_length
-
-
-            
-
+        return max_len
