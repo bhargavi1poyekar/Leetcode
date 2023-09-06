@@ -9,27 +9,28 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
-        
+
         if not head:
             return head
-
+        
         curr=head
-        while(curr):
-            copy=Node(curr.val)
+        while curr:
+            copy=ListNode(curr.val)
             copy.next=curr.next
             curr.next=copy
             curr=curr.next.next
         
         curr=head
-        while(curr):
-            curr.next.random=curr.random.next if curr.random else None
+        while curr:
+            curr.next.random =curr.random.next if curr.random else None
             curr=curr.next.next
         
-        ptr=copyhead=head.next
-        while(copyhead and copyhead.next):
-            copyhead.next=copyhead.next.next
-            copyhead=copyhead.next
-        return ptr
-
+        copyHead=curr=head.next
+        while curr and curr.next:
+            curr.next=curr.next.next
+            curr=curr.next
         
+        return copyHead
+            
+
 
