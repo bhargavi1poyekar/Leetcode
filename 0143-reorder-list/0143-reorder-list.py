@@ -11,37 +11,33 @@ class Solution:
 
         if not head or not head.next:
             return head
-
-        slow,fast=head,head
+            
+        slow=head
+        fast=head
         
-        while(fast and fast.next):
+        
+        while fast and fast.next:
             prev=slow
-            slow=slow.next
             fast=fast.next.next
+            slow=slow.next
         
         prev.next=None
-
+       
         prev=None
         curr=slow
-        while(curr):
+
+        while curr:
             nn=curr.next
             curr.next=prev
             prev=curr
             curr=nn
         
-        dummy=ListNode()
-        curr=dummy
+        h=dummy=ListNode()
+        while prev and head:
+            h.next=head
+            h,head=h.next,head.next
+            h.next=prev
+            h,prev=h.next,prev.next
         
-        while(prev and head):
-            curr.next=head
-            curr,head=curr.next,head.next
-            curr.next=prev
-            curr,prev=curr.next,prev.next
         
         return dummy.next
-
-
-
-
-
-
