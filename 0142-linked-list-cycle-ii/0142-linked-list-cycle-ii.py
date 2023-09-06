@@ -10,19 +10,20 @@ class Solution:
         slow=head
         fast=head
 
-        while(fast and fast.next):
-            slow=slow.next
+        while fast and fast.next:
             fast=fast.next.next
+            slow=slow.next
 
             if slow==fast:
                 slow=head
-
-                while(slow!=fast):
+            
+                while slow!=fast:
                     slow=slow.next
                     fast=fast.next
                 
                 return slow
-            
-        return None
+
+        return None 
+        
 
         
