@@ -7,22 +7,22 @@ class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
 
         dummy=ListNode()
-        prev=dummy
+        
         dummy.next=head
-        curr=head
+        prev=dummy
+        fast=head
 
-        while(n):
-            curr=curr.next
+        while n>1:
+            fast=fast.next
             n-=1
-
-        while(curr):
+        
+        
+        while fast.next:
             prev=prev.next
-            curr=curr.next
-
-
+            fast=fast.next
+        
         prev.next=prev.next.next
         return dummy.next
 
-        
         
         
