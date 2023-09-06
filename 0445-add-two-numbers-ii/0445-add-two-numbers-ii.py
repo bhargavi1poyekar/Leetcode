@@ -6,44 +6,44 @@
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
 
-        l1=self.reverseList(l1)
-        l2=self.reverseList(l2)
+        def reverseLists(head):
 
-        dummy=ListNode()
-        curr=dummy
+            prev=None
+            curr=head
+
+            while curr:
+                nn=curr.next
+                curr.next=prev
+                prev=curr
+                curr=nn
+            
+            return prev
+        
+        l1=reverseLists(l1)
+        l2=reverseLists(l2)
+
         carry=0
-        while(l1 or l2 or carry):
+
+        head=curr=ListNode()
+
+        while l1 or l2 or carry:
+
             val1=l1.val if l1 else 0
             val2=l2.val if l2 else 0
 
-            val=val1+val2+carry
-            carry=val//10
-            val=val%10
+            ans=val1+val2+carry
 
-            newnode=ListNode(val)
-            curr.next=newnode
+            sum=ans%10
+            carry=ans//10
+
+            node=ListNode(sum)
+
+            curr.next=node
             curr=curr.next
 
             l1=l1.next if l1 else 0
             l2=l2.next if l2 else 0
-
-        return self.reverseList(dummy.next) 
-
         
-        
-    def reverseList(self,head):
+        return reverseLists(head.next)
 
-        if not head or not head.next:
-            return head
-        
-        prev=None
-        curr=head
-
-        while(curr):
-            nn=curr.next
-            curr.next=prev
-            prev=curr
-            curr=nn
-        
-        return prev
 
