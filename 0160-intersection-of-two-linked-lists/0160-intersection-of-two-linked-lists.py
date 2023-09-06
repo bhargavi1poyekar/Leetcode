@@ -15,4 +15,11 @@ class Solution:
             currB=currB.next if currB else headA
         
         return currA
+
+        # If No intersection currA and currB becomes equal when both become None. 
+
+
+
+
+    
         
