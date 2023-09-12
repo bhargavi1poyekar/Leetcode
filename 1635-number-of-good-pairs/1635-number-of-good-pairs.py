@@ -1,14 +1,15 @@
 class Solution:
     def numIdenticalPairs(self, nums: List[int]) -> int:
+        
+        hash_count=Counter()
 
-        count=0
-        hash_index={}
-
-        for num in nums:
-            if num in hash_index:
-                count+=hash_index[num]
-                hash_index[num]+=1
+        total_count=0
+        for i in range(len(nums)):
+            if nums[i] in hash_count:
+                total_count+=hash_count[nums[i]]
+                hash_count[nums[i]]+=1
             else:
-                hash_index[num]=1
+                hash_count[nums[i]]=1
+        
+        return total_count
             
-        return count
