@@ -1,11 +1,15 @@
 class Solution:
     def findLucky(self, arr: List[int]) -> int:
 
-        lucky=[]
-        count=collections.Counter(arr)
-        # print(count)
-        for i in count:
-            if count[i]==i:
-                lucky.append(i)
+        freq=Counter(arr)
 
-        return max(lucky) if len(lucky)!=0 else -1
+        max_lucky=-1
+        for val in freq:
+            if freq[val]==val:
+                max_lucky=max(max_lucky,val)
+            
+        return max_lucky
+
+
+
+        
