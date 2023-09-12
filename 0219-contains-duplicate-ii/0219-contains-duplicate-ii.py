@@ -7,10 +7,8 @@ class Solution:
             if nums[i] in hash_idx:
                 if abs(i-hash_idx[nums[i]])<=k:
                     return True
-                else:
-                    hash_idx[nums[i]]=i
-            else:
-                hash_idx[nums[i]]=i
+                    
+            hash_idx[nums[i]]=i
         
         return False
 
