@@ -1,10 +1,10 @@
 class Solution:
     def sumOfUnique(self, nums: List[int]) -> int:
 
-        unique=collections.Counter(nums)
-        
+        count=Counter(nums)
         sum=0
-        for i in unique:
-            if unique[i]==1:
-                sum+=i
+        for item in count:
+            if count[item]==1:
+                sum+=item
         return sum
+        
