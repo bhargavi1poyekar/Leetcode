@@ -1,6 +1,6 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        
+
         s_map=collections.Counter()
         t_map=collections.Counter()
 
@@ -14,3 +14,4 @@ class Solution:
                 return False
         
         return True
+        
