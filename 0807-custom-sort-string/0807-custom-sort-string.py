@@ -1,15 +1,17 @@
 class Solution:
     def customSortString(self, order: str, s: str) -> str:
 
-        s_count=collections.Counter(s)
+        s_freq=Counter(s)
 
-        ans=[]
-        for char in order:
-            ans.append(char*s_count[char])
-            del s_count[char]
+        ans=''
+        for ch in order:
+            if ch in s_freq:
+                ans+=ch*s_freq[ch]
+                del s_freq[ch]
         
-        for i in s_count:
-            ans.append(i*s_count[i])
+        for i in s_freq:
+            ans+=i*s_freq[i]
+        
+        return ans
 
-        return ''.join(ans)
-
+        
