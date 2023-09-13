@@ -1,6 +1,5 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-
         nums_count=collections.Counter(nums)
         max_freq=max(nums_count.values())
 
