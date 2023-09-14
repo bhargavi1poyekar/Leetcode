@@ -5,8 +5,8 @@ class Solution:
 
         for i in s:
             if stack and i==stack[-1]:
-                while stack and i==stack[-1]:
-                    stack.pop()
+                # while stack and i==stack[-1]:
+                stack.pop()
             elif stack and i!=stack[-1]:
                 stack.append(i)
             else:
