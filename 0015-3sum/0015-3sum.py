@@ -3,7 +3,7 @@ class Solution:
         
         def twoSum(nums,target):
             
-            # print("hello")
+           
             left=0
             right=len(nums)-1
             
@@ -23,7 +23,7 @@ class Solution:
         ans=[]
         for i in range(len(nums)):
             if nums[i]>0:
-                print("hello")
+                
                 break
             elif i!=0 and nums[i]!=nums[i-1]:
                 twoSum(nums[i+1:],-nums[i])
