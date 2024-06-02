@@ -6,10 +6,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0169-majority-element) |
+| [1392-find-the-difference-of-two-arrays](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 # Hash Table
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0169-majority-element) |
+| [1392-find-the-difference-of-two-arrays](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 # Divide and Conquer
 |  |
 | ------- |
