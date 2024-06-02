@@ -22,3 +22,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0169-majority-element) |
+# Linked List
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0021-merge-two-sorted-lists) |
+# Recursion
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0021-merge-two-sorted-lists) |
