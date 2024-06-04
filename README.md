@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0605-can-place-flowers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0643-maximum-average-subarray-i) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0724-find-pivot-index](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0739-daily-temperatures) |
@@ -89,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0409-longest-palindrome](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0409-longest-palindrome) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0605-can-place-flowers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0605-can-place-flowers) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Stack
 |  |
@@ -159,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Dynamic Programming
 |  |
 | ------- |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0806-domino-and-tromino-tiling](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0806-domino-and-tromino-tiling) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
