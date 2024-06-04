@@ -2,6 +2,7 @@ class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         if not digits:
             return []
+            
         def backtrack(curr,i):
             
             if len(curr)==len(digits):
