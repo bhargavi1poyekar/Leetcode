@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0169-majority-element) |
+| [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
 | [0605-can-place-flowers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0724-find-pivot-index) |
@@ -56,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0344-reverse-string) |
+| [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
 | [0409-longest-palindrome](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0409-longest-palindrome) |
 | [0443-string-compression](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0443-string-compression) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
@@ -114,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Depth-First Search
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
 | [0871-keys-and-rooms](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0871-keys-and-rooms) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
@@ -121,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Breadth-First Search
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
 | [0871-keys-and-rooms](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0871-keys-and-rooms) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -144,4 +148,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Graph
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
 | [0871-keys-and-rooms](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0871-keys-and-rooms) |
+# Union Find
+|  |
+| ------- |
+| [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
+# Shortest Path
+|  |
+| ------- |
+| [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
