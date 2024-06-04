@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1392-find-the-difference-of-two-arrays](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
 # Hash Table
 |  |
 | ------- |
@@ -59,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0344-reverse-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0344-reverse-string) |
 | [0443-string-compression](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0443-string-compression) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # String
 |  |
@@ -95,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
 | [2470-removing-stars-from-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2470-removing-stars-from-a-string) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
 # Math
 |  |
 | ------- |
@@ -183,6 +186,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
 # Quickselect
 |  |
 | ------- |
