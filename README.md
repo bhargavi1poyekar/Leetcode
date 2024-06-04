@@ -87,3 +87,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0724-find-pivot-index](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0724-find-pivot-index) |
+# Design
+|  |
+| ------- |
+| [0969-number-of-recent-calls](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0969-number-of-recent-calls) |
+# Queue
+|  |
+| ------- |
+| [0969-number-of-recent-calls](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0969-number-of-recent-calls) |
+# Data Stream
+|  |
+| ------- |
+| [0969-number-of-recent-calls](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0969-number-of-recent-calls) |
