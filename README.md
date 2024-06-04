@@ -5,6 +5,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0136-single-number](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0216-combination-sum-iii) |
@@ -207,3 +208,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0216-combination-sum-iii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0216-combination-sum-iii) |
+# Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0136-single-number) |
