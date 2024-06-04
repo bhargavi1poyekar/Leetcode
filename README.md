@@ -46,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0344-reverse-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0344-reverse-string) |
 | [0409-longest-palindrome](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0409-longest-palindrome) |
+| [1146-greatest-common-divisor-of-strings](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Sliding Window
 |  |
@@ -65,3 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
+# Math
+|  |
+| ------- |
+| [1146-greatest-common-divisor-of-strings](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
