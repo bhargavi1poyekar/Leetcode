@@ -1,7 +1,5 @@
 class Solution:
     def compress(self, chars: List[str]) -> int:
-
-       
         n=len(chars)
 
         if n==1:
@@ -38,5 +36,3 @@ class Solution:
         
         
         return index
-        
-
