@@ -106,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Tree
 |  |
 | ------- |
+| [0450-delete-node-in-a-bst](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
@@ -124,6 +125,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Binary Tree
 |  |
 | ------- |
+| [0450-delete-node-in-a-bst](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
@@ -135,4 +137,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Binary Search Tree
 |  |
 | ------- |
+| [0450-delete-node-in-a-bst](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
