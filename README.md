@@ -106,10 +106,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Tree
 |  |
 | ------- |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 # Depth-First Search
 |  |
 | ------- |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 # Breadth-First Search
 |  |
@@ -118,4 +120,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Binary Tree
 |  |
 | ------- |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+# Dynamic Programming
+|  |
+| ------- |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
