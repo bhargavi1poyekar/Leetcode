@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0328-odd-even-linked-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0328-odd-even-linked-list) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 # Recursion
 |  |
 | ------- |
@@ -48,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0344-reverse-string) |
 | [0443-string-compression](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0443-string-compression) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # String
 |  |
@@ -74,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2470-removing-stars-from-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2470-removing-stars-from-a-string) |
 # Simulation
 |  |
