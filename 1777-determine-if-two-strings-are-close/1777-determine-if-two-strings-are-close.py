@@ -1,6 +1,5 @@
 class Solution:
     def closeStrings(self, word1: str, word2: str) -> bool:
-        
         word1_count=collections.Counter(word1)
         word2_count=collections.Counter(word2)
 
