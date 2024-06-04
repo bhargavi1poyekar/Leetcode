@@ -1,16 +1,19 @@
 class Solution:
     def longestPalindrome(self, s: str) -> int:
 
-        s_counter=Counter(s)
+        hash_map = Counter(s)
+        palindrome_length = 0
+        odd_freq = False
 
-        odd=0
-        longest=0
-
-        for v in s_counter.values():
-            if v%2==0:
-                longest+=v
+        for char in hash_map:
+            if hash_map[char] % 2 == 0:
+                palindrome_length += hash_map[char]
             else:
-                odd=1
-                longest+=(v-1)
+                if not odd_freq:
+                    palindrome_length += hash_map[char]
+                    odd_freq = True
+                else:
+                    palindrome_length += hash_map[char] - 1
+
+        return palindrome_length 
         
-        return longest+odd
