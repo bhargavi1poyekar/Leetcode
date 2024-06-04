@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0643-maximum-average-subarray-i](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0739-daily-temperatures) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 # Hash Table
@@ -78,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0739-daily-temperatures) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2470-removing-stars-from-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2470-removing-stars-from-a-string) |
 # Simulation
@@ -158,3 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
+# Monotonic Stack
+|  |
+| ------- |
+| [0739-daily-temperatures](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0739-daily-temperatures) |
