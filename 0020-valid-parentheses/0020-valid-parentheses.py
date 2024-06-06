@@ -13,11 +13,9 @@ class Solution:
             if bracket in bracket_match:
                 stack.append(bracket_match[bracket])
             else:
-                if stack:
-                    if stack[-1] == bracket:
-                        stack.pop()
-                    else:
-                        return False
+                if stack and stack[-1] == bracket:
+                    stack.pop()
+                    
                 else:
                     return False
         
