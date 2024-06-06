@@ -1,7 +1,7 @@
 class Solution:
     def isValid(self, s: str) -> bool:
         
-        bracket_match = {
+        matching_brackets = {
             '{':'}',
             '[':']',
             '(':')'
@@ -10,14 +10,16 @@ class Solution:
         stack = []
 
         for bracket in s:
-            if bracket in bracket_match:
-                stack.append(bracket_match[bracket])
+
+            if bracket in matching_brackets:
+                stack.append(matching_brackets[bracket])
             else:
                 if stack and stack[-1] == bracket:
                     stack.pop()
-                    
                 else:
                     return False
-        
+            
         if not stack:
             return True
+
+            
