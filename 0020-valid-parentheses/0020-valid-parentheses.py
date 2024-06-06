@@ -1,19 +1,25 @@
 class Solution:
     def isValid(self, s: str) -> bool:
         
-        stack=[]
+        bracket_match = {
+            '{':'}',
+            '[':']',
+            '(':')'
+        }
 
-        for i in s:
-            if i=='(':
-                stack.append(')')
-            elif i=='{':
-                stack.append('}')
-            elif i=='[':
-                stack.append(']')
+        stack = []
+
+        for bracket in s:
+            if bracket in bracket_match:
+                stack.append(bracket_match[bracket])
             else:
-                if stack and stack[-1]==i:
-                    stack.pop()
+                if stack:
+                    if stack[-1] == bracket:
+                        stack.pop()
+                    else:
+                        return False
                 else:
                     return False
         
-        return len(stack)==0
+        if not stack:
+            return True
