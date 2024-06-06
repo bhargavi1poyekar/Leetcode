@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
+| [0876-hand-of-straights](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0876-hand-of-straights) |
 | [0907-koko-eating-bananas](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1036-rotting-oranges](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1036-rotting-oranges) |
 | [1044-find-common-characters](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1044-find-common-characters) |
@@ -35,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0169-majority-element) |
 | [0409-longest-palindrome](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0409-longest-palindrome) |
+| [0876-hand-of-straights](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0876-hand-of-straights) |
 | [1044-find-common-characters](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1044-find-common-characters) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1777-determine-if-two-strings-are-close](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
@@ -50,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0435-non-overlapping-intervals](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0876-hand-of-straights](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0876-hand-of-straights) |
 | [1397-search-suggestions-system](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1777-determine-if-two-strings-are-close](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 # Counting
@@ -103,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0605-can-place-flowers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0605-can-place-flowers) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0876-hand-of-straights](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0876-hand-of-straights) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Stack
 |  |
