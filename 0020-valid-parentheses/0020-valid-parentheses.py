@@ -21,5 +21,6 @@ class Solution:
             
         if not stack:
             return True
+        return False
 
             
