@@ -5,6 +5,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0075-sort-colors) |
 | [0128-longest-consecutive-sequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0169-majority-element) |
@@ -55,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0435-non-overlapping-intervals](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0435-non-overlapping-intervals) |
@@ -82,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Two Pointers
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0075-sort-colors) |
 | [0151-reverse-words-in-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0344-reverse-string) |
 | [0443-string-compression](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0443-string-compression) |
