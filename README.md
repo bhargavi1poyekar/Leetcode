@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1397-search-suggestions-system](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
 # Hash Table
 |  |
@@ -66,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1217-relative-sort-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1217-relative-sort-array) |
 | [1397-search-suggestions-system](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1777-determine-if-two-strings-are-close](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Counting
 |  |
 | ------- |
@@ -120,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0605-can-place-flowers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0605-can-place-flowers) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0876-hand-of-straights](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0876-hand-of-straights) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Stack
 |  |
