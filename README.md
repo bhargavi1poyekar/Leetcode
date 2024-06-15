@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
 | [0435-non-overlapping-intervals](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0502-ipo](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0502-ipo) |
 | [0523-continuous-subarray-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0605-can-place-flowers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0643-maximum-average-subarray-i) |
@@ -63,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0435-non-overlapping-intervals](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0502-ipo](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0502-ipo) |
 | [0876-hand-of-straights](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0876-hand-of-straights) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1137-height-checker](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1137-height-checker) |
@@ -123,6 +125,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0409-longest-palindrome](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0409-longest-palindrome) |
 | [0435-non-overlapping-intervals](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0502-ipo](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0502-ipo) |
 | [0605-can-place-flowers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0605-can-place-flowers) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0876-hand-of-straights](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0876-hand-of-straights) |
@@ -249,6 +252,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0502-ipo](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0502-ipo) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1397-search-suggestions-system](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1397-search-suggestions-system) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
