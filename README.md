@@ -151,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0020-valid-parentheses](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0020-valid-parentheses) |
 | [0155-min-stack](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0155-min-stack) |
+| [0225-implement-stack-using-queues](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0739-daily-temperatures) |
 | [0874-backspace-string-compare](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0874-backspace-string-compare) |
@@ -182,11 +183,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0155-min-stack) |
+| [0225-implement-stack-using-queues](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0969-number-of-recent-calls](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0969-number-of-recent-calls) |
 # Queue
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0969-number-of-recent-calls](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0969-number-of-recent-calls) |
 # Data Stream
 |  |
