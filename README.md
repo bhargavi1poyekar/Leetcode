@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1392-find-the-difference-of-two-arrays](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1397-search-suggestions-system](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
@@ -235,6 +236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0853-most-profit-assigning-work](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0853-most-profit-assigning-work) |
 | [0907-koko-eating-bananas](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1397-search-suggestions-system](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1397-search-suggestions-system) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 # Graph
 |  |
 | ------- |
