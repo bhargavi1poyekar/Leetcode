@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1036-rotting-oranges) |
 | [1044-find-common-characters](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1044-find-common-characters) |
 | [1137-height-checker](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1137-height-checker) |
+| [1138-grumpy-bookstore-owner](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1138-grumpy-bookstore-owner) |
 | [1217-relative-sort-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1217-relative-sort-array) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1397-search-suggestions-system](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1397-search-suggestions-system) |
@@ -131,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0643-maximum-average-subarray-i) |
+| [1138-grumpy-bookstore-owner](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1138-grumpy-bookstore-owner) |
 # Greedy
 |  |
 | ------- |
