@@ -11,5 +11,3 @@ class Solution:
             hash_idx[nums[i]]=i
         
         return False
-
-        
