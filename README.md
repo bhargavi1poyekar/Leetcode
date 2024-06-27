@@ -268,6 +268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0547-number-of-provinces) |
 | [0871-keys-and-rooms](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0871-keys-and-rooms) |
+| [1916-find-center-of-star-graph](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1916-find-center-of-star-graph) |
 # Union Find
 |  |
 | ------- |
