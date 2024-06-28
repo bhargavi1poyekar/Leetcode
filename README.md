@@ -320,3 +320,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0982-minimum-increment-to-make-array-unique](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1137-height-checker](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1217-relative-sort-array) |
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+<!---LeetCode Topics End-->
