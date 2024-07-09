@@ -330,4 +330,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+## Depth-First Search
+|  |
+| ------- |
+| [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
+## Breadth-First Search
+|  |
+| ------- |
+| [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
+## Graph
+|  |
+| ------- |
+| [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 <!---LeetCode Topics End-->
