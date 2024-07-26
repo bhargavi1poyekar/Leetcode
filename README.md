@@ -326,6 +326,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
 ## Two Pointers
 |  |
 | ------- |
@@ -342,4 +343,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
+## Stack
+|  |
+| ------- |
+| [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
+## Simulation
+|  |
+| ------- |
+| [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
 <!---LeetCode Topics End-->
