@@ -355,4 +355,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1136-actors-and-directors-who-cooperated-at-least-three-times](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1136-actors-and-directors-who-cooperated-at-least-three-times) |
+| [1390-average-selling-price](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1390-average-selling-price) |
 <!---LeetCode Topics End-->
