@@ -326,6 +326,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0053-maximum-subarray](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0053-maximum-subarray) |
 | [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
 ## Two Pointers
 |  |
@@ -360,4 +361,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0619-biggest-single-number](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0619-biggest-single-number) |
 | [1136-actors-and-directors-who-cooperated-at-least-three-times](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1136-actors-and-directors-who-cooperated-at-least-three-times) |
 | [1390-average-selling-price](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1390-average-selling-price) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0053-maximum-subarray) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
