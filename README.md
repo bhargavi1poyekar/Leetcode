@@ -351,4 +351,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
+## Database
+|  |
+| ------- |
+| [1136-actors-and-directors-who-cooperated-at-least-three-times](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1136-actors-and-directors-who-cooperated-at-least-three-times) |
 <!---LeetCode Topics End-->
