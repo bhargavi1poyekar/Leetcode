@@ -356,6 +356,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0175-combine-two-tables](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0175-combine-two-tables) |
+| [0586-customer-placing-the-largest-number-of-orders](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0586-customer-placing-the-largest-number-of-orders) |
 | [0595-big-countries](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0595-big-countries) |
 | [0596-classes-more-than-5-students](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0596-classes-more-than-5-students) |
 | [0619-biggest-single-number](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0619-biggest-single-number) |
