@@ -379,6 +379,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1136-actors-and-directors-who-cooperated-at-least-three-times](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1136-actors-and-directors-who-cooperated-at-least-three-times) |
 | [1179-game-play-analysis-i](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1179-game-play-analysis-i) |
 | [1390-average-selling-price](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1390-average-selling-price) |
+| [1462-list-the-products-ordered-in-a-period](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1462-list-the-products-ordered-in-a-period) |
 ## Divide and Conquer
 |  |
 | ------- |
