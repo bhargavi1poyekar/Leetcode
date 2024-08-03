@@ -330,6 +330,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0053-maximum-subarray) |
 | [0283-move-zeroes](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0283-move-zeroes) |
 | [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2727-number-of-senior-citizens](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2727-number-of-senior-citizens) |
 ## Two Pointers
@@ -403,10 +404,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Sorting
 |  |
 | ------- |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Greedy
 |  |
