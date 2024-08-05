@@ -1,10 +1,14 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
 
-        hash=Counter(nums)
+        hash = {}
 
-        for i in hash:
-            if hash[i]>=2:
+        for i in nums:
+            if i in hash:
                 return True
+            hash[i]=1
         
         return False
+
+
+        
