@@ -2,18 +2,21 @@ class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
 
         grp=[]
-        hash_map={}
-        count=0
+        hash={}
+        grp_idx=0
+
+        for i in range(len(strs)):
+            word = ''.join(sorted(strs[i]))
         
-        for word in strs:
-            word_sorted=''.join(sorted(word))
-            
-            if word_sorted in hash_map:
-                grp[hash_map[word_sorted]].append(word)
+            if word not in hash:
+                grp.append([strs[i]])
+                hash[word]=grp_idx
+                grp_idx+=1
             else:
-                grp.append([word])
-                hash_map[word_sorted]=count
-                count+=1
-            
+                grp[hash[word]].append(strs[i])
+
         
-        return grp
+        return(grp)
+
+
+        
