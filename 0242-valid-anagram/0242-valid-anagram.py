@@ -5,7 +5,7 @@ class Solution:
 
         if len(s)!=len(t):
             return False
-        
+            
         for i in range(len(s)):
             counter[ord(s[i])-ord('a')]+=1
             counter[ord(t[i])-ord('a')]-=1
@@ -17,3 +17,5 @@ class Solution:
         return True
 
 
+
+        
