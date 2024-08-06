@@ -397,6 +397,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1390-average-selling-price](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1390-average-selling-price) |
 | [1462-list-the-products-ordered-in-a-period](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1462-list-the-products-ordered-in-a-period) |
 | [1541-top-travellers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1541-top-travellers) |
+| [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 ## Divide and Conquer
 |  |
 | ------- |
