@@ -3,13 +3,12 @@ class Solution:
 
         start = 0
         end = 0
-
-        while start < len(nums) and end < len(nums):
-            if nums[end] == nums[start]:
+        n = len(nums)
+        while start < n and end < n:
+            if nums[start] == nums[end]:
                 end += 1
             else:
                 nums[start+1] = nums[end]
                 start += 1
-        
+
         return start+1
-        
