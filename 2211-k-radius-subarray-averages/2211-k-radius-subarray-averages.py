@@ -1,18 +1,20 @@
 class Solution:
     def getAverages(self, nums: List[int], k: int) -> List[int]:
-
-        prefix=[]
-        prefix.append(0)
-        for i in range(len(nums)):
-            prefix.append(prefix[i]+nums[i])
+        if len(nums)<2*k:
+            return [-1]*len(nums)
         
-        num=2*k+1
+        total_count=2*k+1
 
-        avg=[-1]*len(nums)
+        prefix_sum=[0]*(len(nums)+1)
+        avgs=[-1]*len(nums)
+
         for i in range(len(nums)):
-            if i-k>=0 and i+k<len(nums):
-                avg[i]=int((prefix[i+k+1]-prefix[i-k])/num)
-
-        return avg
-
+            prefix_sum[i+1]=prefix_sum[i]+nums[i]
         
+        print(prefix_sum)
+        
+        for i in range(len(nums)):
+            if i>=k and i<len(nums)-k:
+                avgs[i]=(prefix_sum[i+k+1]-prefix_sum[i-k])//total_count
+        
+        return avgs
