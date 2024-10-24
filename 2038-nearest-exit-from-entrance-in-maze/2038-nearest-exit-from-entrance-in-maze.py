@@ -5,7 +5,7 @@ class Solution:
 
         e_row,e_col=entrance
         queue=deque([(e_row,e_col,1)])
-        seen={((e_row,e_col))}
+        seen={(e_row,e_col)}
 
         directions=[(0,1),(1,0),(-1,0),(0,-1)]
 
