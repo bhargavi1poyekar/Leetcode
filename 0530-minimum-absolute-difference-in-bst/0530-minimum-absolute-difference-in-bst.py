@@ -16,4 +16,9 @@ class Solution:
             inorder(root.right)
 
         inorder(root)
-        return inorder_list[1] - inorder_list[0]
+
+        min_abs=float('inf')
+        for i in range(len(inorder_list)-1):
+            min_abs=min(inorder_list[i+1]-inorder_list[i], min_abs)
+        
+        return min_abs
