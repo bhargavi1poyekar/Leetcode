@@ -347,6 +347,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2211-k-radius-subarray-averages](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2211-k-radius-subarray-averages) |
+| [2310-minimum-operations-to-halve-array-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2727-number-of-senior-citizens](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2727-number-of-senior-citizens) |
 ## Two Pointers
 |  |
@@ -510,6 +511,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0011-container-with-most-water) |
+| [2310-minimum-operations-to-halve-array-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
 ## Recursion
 |  |
 | ------- |
@@ -598,4 +600,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0200-number-of-islands) |
 | [1073-number-of-enclaves](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1073-number-of-enclaves) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2310-minimum-operations-to-halve-array-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
 <!---LeetCode Topics End-->
