@@ -334,6 +334,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0152-maximum-product-subarray) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0200-number-of-islands](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0238-product-of-array-except-self) |
@@ -594,6 +595,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0035-search-insert-position](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0035-search-insert-position) |
 | [0098-validate-binary-search-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0098-validate-binary-search-tree) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
