@@ -2,7 +2,7 @@ class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
 
         left = 0
-        right = len(letters) - 1 
+        right = len(letters) - 1
 
         while left <= right:
             mid = (right + left ) //2
