@@ -328,6 +328,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0035-search-insert-position](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0035-search-insert-position) |
 | [0049-group-anagrams](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0053-maximum-subarray) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -588,6 +589,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search Tree
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0035-search-insert-position) |
 | [0098-validate-binary-search-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
