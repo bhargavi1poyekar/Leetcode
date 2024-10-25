@@ -351,6 +351,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2163-kth-distinct-string-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2211-k-radius-subarray-averages](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2211-k-radius-subarray-averages) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2727-number-of-senior-citizens](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2727-number-of-senior-citizens) |
 ## Two Pointers
 |  |
@@ -364,6 +365,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0941-sort-array-by-parity](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [1019-squares-of-a-sorted-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -512,6 +514,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1019-squares-of-a-sorted-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 ## Greedy
 |  |
 | ------- |
@@ -596,6 +599,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0784-insert-into-a-binary-search-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0792-binary-search](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0792-binary-search) |
 | [0975-range-sum-of-bst](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0975-range-sum-of-bst) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 ## Union Find
 |  |
 | ------- |
