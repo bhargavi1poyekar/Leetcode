@@ -12,25 +12,25 @@ class Solution:
 
         if not head:
             return head
-        
-        curr=head
+
+        curr = head
+
         while curr:
-            copy=ListNode(curr.val)
-            copy.next=curr.next
-            curr.next=copy
-            curr=curr.next.next
-        
-        curr=head
-        while curr:
-            curr.next.random =curr.random.next if curr.random else None
-            curr=curr.next.next
-        
-        copyHead=curr=head.next
+            node = ListNode(curr.val)
+            node.next = curr.next
+            curr.next = node
+            curr = curr.next.next
+
+        curr = head
         while curr and curr.next:
-            curr.next=curr.next.next
-            curr=curr.next
+            curr.next.random = curr.random.next if curr.random else None
+            curr = curr.next.next
         
+        copyHead = curr = head.next
+
+        while curr and curr.next:
+            curr.next = curr.next.next
+            curr = curr.next
         return copyHead
-            
 
-
+        
