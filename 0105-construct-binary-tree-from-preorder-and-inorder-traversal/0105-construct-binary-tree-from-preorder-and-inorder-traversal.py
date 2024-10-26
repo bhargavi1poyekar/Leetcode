@@ -7,25 +7,29 @@
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
         
-        idx=0
-        def createTree(left_bound,right_bound):
-            nonlocal idx
-
-            if left_bound>right_bound:
+        self.idx = 0
+        def createTree(left_bound, right_bound):
+            if left_bound > right_bound:
                 return None
             
-            val=preorder[idx]
-            root=TreeNode(val)
-            index=hash_idx[val]
-            idx+=1
+            val  = preorder[self.idx]
+            self.idx += 1
 
-            root.left=createTree(left_bound,index-1)
-            root.right=createTree(index+1,right_bound)
+            root = TreeNode(val)
+            index = hash_idx[val]
+
+            root.left = createTree(left_bound, index-1)
+            root.right = createTree(index+1, right_bound)
 
             return root
         
-        hash_idx={}
+        hash_idx = {}
         for i in range(len(inorder)):
-            hash_idx[inorder[i]]=i
+            hash_idx[inorder[i]] = i
+        
+        return createTree(0, len(inorder)-1)
 
-        return createTree(0,len(inorder)-1)
+
+        
+
+        
