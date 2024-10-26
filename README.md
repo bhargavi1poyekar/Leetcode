@@ -394,6 +394,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0112-path-sum) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0200-number-of-islands](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0200-number-of-islands) |
@@ -419,6 +420,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0112-path-sum) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0200-number-of-islands](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -607,6 +609,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0112-path-sum) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0222-count-complete-tree-nodes](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0222-count-complete-tree-nodes) |
@@ -635,6 +638,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0112-path-sum) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0222-count-complete-tree-nodes](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0222-count-complete-tree-nodes) |
@@ -699,6 +703,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0025-reverse-nodes-in-k-group](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0092-reverse-linked-list-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0092-reverse-linked-list-ii) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0138-copy-list-with-random-pointer](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0143-reorder-list) |
