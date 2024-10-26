@@ -338,6 +338,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0200-number-of-islands](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0200-number-of-islands) |
+| [0209-minimum-size-subarray-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0283-move-zeroes) |
@@ -539,12 +540,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0238-product-of-array-except-self) |
 ## Sliding Window
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0076-minimum-window-substring) |
+| [0209-minimum-size-subarray-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [2211-k-radius-subarray-averages](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2211-k-radius-subarray-averages) |
 ## Tree
@@ -604,6 +607,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0209-minimum-size-subarray-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
