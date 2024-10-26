@@ -434,6 +434,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0020-valid-parentheses](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0071-simplify-path](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0071-simplify-path) |
 | [0094-binary-tree-inorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
@@ -495,6 +496,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0049-group-anagrams) |
+| [0071-simplify-path](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0125-valid-palindrome) |
 | [0205-isomorphic-strings](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0205-isomorphic-strings) |
