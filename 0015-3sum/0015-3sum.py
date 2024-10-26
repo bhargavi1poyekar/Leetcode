@@ -1,35 +1,49 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        
-        def twoSum(nums,target):
-            
-           
-            left=0
-            right=len(nums)-1
-            
-            while left<right:
-                if nums[left]+nums[right]==target:
-                    ans.append([nums[left],nums[right],-target])
-                    left+=1
-                    right-=1
-                    while left<right and nums[left]==nums[left-1]:
-                        left+=1
-                elif nums[left]+nums[right]<target:
-                    left+=1
-                else:
-                    right-=1
-            
-        nums.sort()
-        ans=[]
-        for i in range(len(nums)):
-            if nums[i]>0:
+
+        def two_sum(arr, target):
+            left = 0
+            right = len(arr) - 1
+            triplets = []
+            while left < right:
+                if arr[left] + arr[right] == target:
+                    triplets.append([arr[left], arr[right], -target])
+                    left += 1
+                    right -= 1
+                    while left < right and arr[left] == arr[left-1]:
+                        left += 1
                 
-                break
-            elif i!=0 and nums[i]!=nums[i-1]:
-                twoSum(nums[i+1:],-nums[i])
-            elif i==0:
-                twoSum(nums[i+1:],-nums[i])
+                elif arr[left] + arr[right] > target:
+                    right -= 1
+                else:
+                    left += 1
+            
+            return triplets
         
-        return ans
+        nums.sort()
+        results = []
+
+        for i in range(len(nums)-1):
+            if nums[i] > 0:
+                continue
+            elif i != 0 and nums[i-1] != nums[i]:
+                results.extend(two_sum(nums[i+1:], -nums[i]))
+            elif i == 0:
+                results.extend(two_sum(nums[i+1:], -nums[i]))
+        
+        return results
 
 
+
+            
+
+
+
+                    
+
+    
+        
+
+
+
+        
