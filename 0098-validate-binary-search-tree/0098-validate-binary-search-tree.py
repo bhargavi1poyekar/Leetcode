@@ -9,7 +9,7 @@ class Solution:
         def isValid(root, low, high):
             if not root:
                 return True
-
+            
             if not low < root.val < high:
                 return False
             
