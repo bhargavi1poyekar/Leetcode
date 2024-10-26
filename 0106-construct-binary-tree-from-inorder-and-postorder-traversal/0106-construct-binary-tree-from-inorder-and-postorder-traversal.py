@@ -6,25 +6,24 @@
 #         self.right = right
 class Solution:
     def buildTree(self, inorder: List[int], postorder: List[int]) -> Optional[TreeNode]:
-
-        def createTree(low, high):
-
-            if low>high:
+        
+        # self.idx = len(inorder)-1
+        def createTree(left_bound, right_bound):
+            if left_bound > right_bound:
                 return None
             
-            val=postorder.pop()
-            root=TreeNode(val)
-            idx=hash_idx[val]
-            root.right=createTree(idx+1,high)
-            root.left=createTree(low,idx-1)
-
+            val = postorder.pop()
+            idx = hash_idx[val]
+            root = TreeNode(val)
+            root.right = createTree(idx+1, right_bound)
+            root.left = createTree(left_bound, idx-1)
+            
+            
             return root
-
         
-        hash_idx={}
+        hash_idx = {}
+
         for i in range(len(inorder)):
-            hash_idx[inorder[i]]=i
+            hash_idx[inorder[i]] = i
         
-        return createTree(0,len(inorder)-1)
-
-       
+        return createTree(0, len(inorder)-1)
