@@ -10,11 +10,9 @@ class Solution:
         def check_same(p, q):
             if not p and not q:
                 return True
-            if not p:
+            elif not p or not q:
                 return False
-            if not q:
-                return False
-            
-            return p.val == q.val and check_same(p.right, q.right) and check_same(p.left, q.left)
-            
+
+            return p.val == q.val and check_same(p.left, q.left) and check_same(p.right, q.right)
+
         return check_same(p, q)
