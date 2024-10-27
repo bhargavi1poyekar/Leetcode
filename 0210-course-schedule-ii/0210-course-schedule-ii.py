@@ -23,4 +23,4 @@ class Solution:
                 if indegree[nghbr] == 0:
                     queue.append(nghbr)
 
-        return course_order 
+        return course_order if len(course_order) == numCourses else []
