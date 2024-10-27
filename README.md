@@ -346,6 +346,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0283-move-zeroes) |
+| [0695-max-area-of-island](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0695-max-area-of-island) |
 | [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0739-daily-temperatures) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
@@ -409,6 +410,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0695-max-area-of-island](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0695-max-area-of-island) |
 | [0975-range-sum-of-bst](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1073-number-of-enclaves](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
@@ -434,6 +436,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0530-minimum-absolute-difference-in-bst](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0547-number-of-provinces](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0695-max-area-of-island](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0695-max-area-of-island) |
 | [1073-number-of-enclaves](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1254-deepest-leaves-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1254-deepest-leaves-sum) |
@@ -692,12 +695,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0547-number-of-provinces) |
+| [0695-max-area-of-island](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0695-max-area-of-island) |
 | [1073-number-of-enclaves](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1073-number-of-enclaves) |
 ## Matrix
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0695-max-area-of-island) |
 | [1073-number-of-enclaves](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1073-number-of-enclaves) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Heap (Priority Queue)
