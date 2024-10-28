@@ -1,31 +1,33 @@
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
-       
-        def valid(row, col):
-            return 0 <= row < m and 0 <= col < n
-
-        def backtrack(row, col, i, seen):
-            if i == len(word):
+        
+        def isValid(row, col):
+            return 0 <= row < Row and 0 <= col < Col
+        
+        directions = [(0, 1), (0, -1), (-1, 0), (1, 0)]
+        
+        def backtrack(row, col, curr_idx, seen):
+            if curr_idx == len(word):
                 return True
-
-            for dx, dy in directions:
-                next_row, next_col = row + dy, col + dx
-                if valid(next_row, next_col) and (next_row, next_col) not in seen:
-                    if board[next_row][next_col] == word[i]:
-                        seen.add((next_row, next_col))
-                        if backtrack(next_row, next_col, i + 1, seen):
-                            return True
-                        seen.remove((next_row, next_col))
             
+            for dx, dy in directions:
+                nextr, nextc = row + dx, col + dy
+                if isValid(nextr, nextc) and (nextr, nextc) not in seen:
+                    if board[nextr][nextc] == word[curr_idx]:
+                        seen.add((nextr, nextc))
+                        if backtrack(nextr, nextc, curr_idx + 1, seen):
+                            return True
+                        seen.remove((nextr, nextc))
+
             return False
 
-        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
-        m = len(board)
-        n = len(board[0])
+        Row = len(board)
+        Col = len(board[0])
 
-        for row in range(m):
-            for col in range(n):
+        for row in range(Row):
+            for col in range(Col):
                 if board[row][col] == word[0] and backtrack(row, col, 1, {(row, col)}):
                     return True
-        
+            
         return False
+
