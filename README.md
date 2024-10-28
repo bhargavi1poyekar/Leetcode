@@ -331,6 +331,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0026-remove-duplicates-from-sorted-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0035-search-insert-position](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0035-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0046-permutations](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0056-merge-intervals) |
@@ -773,4 +774,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0210-course-schedule-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0210-course-schedule-ii) |
+## Backtracking
+|  |
+| ------- |
+| [0046-permutations](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0046-permutations) |
 <!---LeetCode Topics End-->
