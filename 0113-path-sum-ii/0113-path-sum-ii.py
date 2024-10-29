@@ -6,21 +6,25 @@
 #         self.right = right
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> List[List[int]]:
-        
-        valid_paths = [] 
-        def path_sum(root, curr_path, remain_sum):
+        paths = []
+        def path_sum(root, remaining_sum, curr_path):
             if not root:
-                return 
+                return None
             
             curr_path.append(root.val)
             if not root.left and not root.right:
-                if remain_sum == root.val:
-                    valid_paths.append(list(curr_path))
-            
-            path_sum(root.left, curr_path, remain_sum - root.val)
-            path_sum(root.right, curr_path, remain_sum - root.val)
+                if root.val - remaining_sum == 0:
+                    paths.append(curr_path[:])
 
+            if root.left:
+                path_sum(root.left, remaining_sum - root.val, curr_path)
+            
+            if root.right:
+                path_sum(root.right, remaining_sum - root.val, curr_path)
+            
             curr_path.pop()
+            return
         
-        path_sum(root, [], targetSum)
-        return valid_paths
+        path_sum(root, targetSum, [])
+        return paths
+
