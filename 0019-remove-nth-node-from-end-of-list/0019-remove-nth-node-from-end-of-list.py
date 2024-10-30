@@ -14,7 +14,7 @@ class Solution:
             fast = fast.next
             n -= 1
 
-        print(n)
+        # print(n)
         
         while fast.next:
             slow = slow.next
