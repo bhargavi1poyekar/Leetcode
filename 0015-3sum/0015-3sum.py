@@ -25,7 +25,7 @@ class Solution:
 
         for i in range(len(nums)-1):
             if nums[i] > 0:
-                continue
+                break
             elif i != 0 and nums[i-1] != nums[i]:
                 results.extend(two_sum(nums[i+1:], -nums[i]))
             elif i == 0:
