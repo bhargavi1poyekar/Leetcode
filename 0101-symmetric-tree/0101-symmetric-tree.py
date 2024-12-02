@@ -11,9 +11,7 @@ class Solution:
             if not p and not q:
                 return True
             
-            if not p:
-                return False
-            if not q:
+            if not p or not q:
                 return False
             
             return p.val == q.val and checksame(p.left, q.right) and checksame(p.right, q.left)
