@@ -7,10 +7,11 @@
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        
+
         def lca(root, p, q):
             if not root:
                 return None
+            
             if p == root or q == root:
                 return root
             
@@ -19,8 +20,8 @@ class Solution:
 
             if leftlca and rightlca:
                 return root
-            if leftlca:
+            elif leftlca:
                 return leftlca
             return rightlca
-
+        
         return lca(root, p, q)
