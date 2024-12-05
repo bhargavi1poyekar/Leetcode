@@ -6,7 +6,8 @@ class Solution:
         def backtrack(curr,i):
             
             if len(curr)==len(digits):
-                ans.append(''.join(list(curr)))
+                print(curr)
+                ans.append(''.join(curr))
                 return
             
             for letter in hash[digits[i]]:
