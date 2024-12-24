@@ -7,15 +7,19 @@
 class Solution:
     def maxAncestorDiff(self, root: Optional[TreeNode]) -> int:
 
-        def dfs(root, maxval, minval):
+        def ancestor(root, maxval, minval):
             if not root:
                 return maxval - minval
             
-            left = dfs(root.left, max(root.val, maxval), min(root.val, minval))
-            right = dfs(root.right, max(root.val, maxval), min(root.val, minval))
-
+            left = ancestor(root.left, max(maxval, root.val), min(minval, root.val))
+            right = ancestor(root.right, max(maxval, root.val), min(minval, root.val))
             return max(left, right)
+        
+        return ancestor(root, root.val, root.val)
 
-        return dfs(root, root.val, root.val)
+
+
+
+
 
         
