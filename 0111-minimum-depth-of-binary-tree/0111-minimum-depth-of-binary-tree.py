@@ -10,12 +10,15 @@ class Solution:
         def dfs(root):
             if not root:
                 return 0
-
-            if not root.left:
-                return 1 + dfs(root.right)
-            if not root.right:
-                return 1 + dfs(root.left)
-            return 1 + min(dfs(root.right), dfs(root.left))
-
-        return dfs(root)
             
+            left = dfs(root.left)
+            right = dfs(root.right)
+            if not root.left:
+                return 1 + right
+
+            if not root.right:
+                return 1 + left
+
+            return 1 + min(left, right) 
+        
+        return dfs(root)
