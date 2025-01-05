@@ -376,6 +376,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2358-number-of-ways-to-split-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [2465-shifting-letters-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2727-number-of-senior-citizens](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2727-number-of-senior-citizens) |
 ## Two Pointers
@@ -572,6 +573,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1619-path-crossing](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1619-path-crossing) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2465-shifting-letters-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2470-removing-stars-from-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2470-removing-stars-from-a-string) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2727-number-of-senior-citizens](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2727-number-of-senior-citizens) |
@@ -644,6 +646,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1537-maximum-score-after-splitting-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2358-number-of-ways-to-split-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
+| [2465-shifting-letters-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 ## Sliding Window
 |  |
