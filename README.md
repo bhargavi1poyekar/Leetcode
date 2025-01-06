@@ -370,6 +370,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2211-k-radius-subarray-averages](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2211-k-radius-subarray-averages) |
@@ -571,6 +572,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0567-permutation-in-string) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1619-path-crossing](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1619-path-crossing) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2465-shifting-letters-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2465-shifting-letters-ii) |
@@ -644,6 +646,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0713-subarray-product-less-than-k](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2358-number-of-ways-to-split-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2465-shifting-letters-ii) |
