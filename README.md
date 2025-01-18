@@ -369,6 +369,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1073-number-of-enclaves](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1127-last-stone-weight](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1127-last-stone-weight) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -472,6 +473,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1073-number-of-enclaves](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1254-deepest-leaves-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1254-deepest-leaves-sum) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1731-even-odd-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1731-even-odd-tree) |
@@ -483,6 +485,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0547-number-of-provinces) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 ## Stack
 |  |
@@ -785,12 +788,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1073-number-of-enclaves) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [1127-last-stone-weight](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1127-last-stone-weight) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
 ## Design
 |  |
@@ -872,6 +877,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 ## Trie
 |  |
 | ------- |
