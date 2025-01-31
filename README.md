@@ -405,6 +405,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0143-reorder-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0143-reorder-list) |
 | [0151-reverse-words-in-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0234-palindrome-linked-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0392-is-subsequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0392-is-subsequence) |
@@ -511,6 +512,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0155-min-stack) |
 | [0224-basic-calculator](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0224-basic-calculator) |
+| [0234-palindrome-linked-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0739-daily-temperatures) |
@@ -668,6 +670,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0143-reorder-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0224-basic-calculator) |
+| [0234-palindrome-linked-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0394-decode-string) |
 ## Counting
 |  |
@@ -839,6 +842,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 ## Math
 |  |
