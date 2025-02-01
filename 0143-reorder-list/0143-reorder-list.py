@@ -8,39 +8,41 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-
-        if not head or not head.next:
+        '''
+        Go to middle, separate the list, reverse, and then merge. 
+        '''
+        if not head and not head.next:
             return head
-        
-        ## Go to middle of LL:
-        
-        slow = head
-        fast = head
-
+            
+        slow = fast = head
+        prev = None
         while fast and fast.next:
             prev = slow
-            slow = slow.next 
+            slow = slow.next
             fast = fast.next.next
-        
-        prev.next = None
 
-        curr = slow
+        prev.next = None
         prev = None
+        curr = slow
+
         while curr:
             nn = curr.next
             curr.next = prev
             prev = curr
             curr = nn
         
-        newHead = dummy = ListNode()
-
+        newhead = newcurr = ListNode()
         while head and prev:
-            newHead.next = head
-            newHead, head = newHead.next, head.next
-            newHead.next = prev
-            newHead, prev = newHead.next, prev.next
+            newcurr.next = head
+            newcurr = newcurr.next
+            head = head.next
+            newcurr.next = prev
+            newcurr = newcurr.next
+            prev = prev.next
         
-        return dummy.next
-            
+        return newhead.next
+
+        
+
 
         
