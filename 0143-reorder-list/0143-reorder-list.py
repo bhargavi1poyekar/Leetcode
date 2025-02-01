@@ -11,9 +11,9 @@ class Solution:
         '''
         Go to middle, separate the list, reverse, and then merge. 
         '''
-        if not head and not head.next:
+        if not head or not head.next:
             return head
-            
+
         slow = fast = head
         prev = None
         while fast and fast.next:
