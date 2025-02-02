@@ -1,6 +1,6 @@
 class Solution:
     def simplifyPath(self, path: str) -> str:
-        
+
         stack = []
 
         for ch in path.split('/'):
@@ -13,4 +13,4 @@ class Solution:
                 stack.append(ch)
         
         return '/' + '/'.join(stack)
-            
+        
