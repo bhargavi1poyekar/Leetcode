@@ -6,36 +6,38 @@
 class Solution:
     def splitListToParts(self, head: Optional[ListNode], k: int) -> List[Optional[ListNode]]:
 
-        curr=head
-        num_nodes=0
+        # parts = [[] for i in range(k)]
+        parts = []
+        
+        # Count nodes. 
 
+        curr = head
+        num_nodes = 0
         while curr:
-            num_nodes+=1
-            curr=curr.next
-        
-        num_parts=num_nodes//k
-        parts_with_extra=num_nodes%k
+            curr = curr.next
+            num_nodes += 1
 
-        parts=[]
-        curr=head
+        parts_with_extra_node = num_nodes % k
+        num_nodes_in_each_part = num_nodes // k
+
+        curr = head
         for i in range(k):
-            h=dummy=ListNode()
-            count=0
-            if i<parts_with_extra:
-                while curr and count<num_parts+1:
-                    h.next=curr
-                    h=h.next
-                    curr=curr.next
-                    count+=1
-               
+            newcurr = newhead = ListNode()
+            count = 0
+            if i < parts_with_extra_node:
+                while curr and count < num_nodes_in_each_part + 1:
+                    newcurr.next = curr
+                    newcurr = newcurr.next
+                    curr = curr.next
+                    count += 1
             else:
-                while curr and count<num_parts:
-                    h.next=curr
-                    h=h.next
-                    curr=curr.next
-                    count+=1
-                    
-            h.next=None
-            parts.append(dummy.next)
-        
+                while curr and count < num_nodes_in_each_part:
+                    newcurr.next = curr
+                    newcurr = newcurr.next
+                    curr = curr.next
+                    count += 1
+            
+            newcurr.next = None
+            parts.append(newhead.next)
+
         return parts
