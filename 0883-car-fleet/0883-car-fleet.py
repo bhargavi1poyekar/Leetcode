@@ -5,7 +5,7 @@ class Solution:
 
         for pos, spd in sorted(zip(position, speed))[::-1]:
             distance = target - pos
-            time = distance // spd
+            time = distance / spd
 
             if stack and stack[-1] < time:
                 stack.append(time)
