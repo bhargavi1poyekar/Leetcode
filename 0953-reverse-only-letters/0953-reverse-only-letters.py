@@ -1,15 +1,12 @@
 class Solution:
     def reverseOnlyLetters(self, s: str) -> str:
+        stack = [i for i in s if i.isalpha()]
 
-        alpha_char = [ch for ch in s if ch.isalpha()]
-        reverse = []
-        
+        rev = []
         for ch in s:
-            if ch.isalpha():
-                reverse.append(alpha_char.pop())
+            if ch.isalpha(): 
+                rev.append(stack.pop())
             else:
-                reverse.append(ch)
+                rev.append(ch)
         
-        return ''.join(reverse)
-
-        
+        return ''.join(rev)
