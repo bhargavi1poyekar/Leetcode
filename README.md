@@ -532,6 +532,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
+| [2299-merge-nodes-in-between-zeros](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2470-removing-stars-from-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2470-removing-stars-from-a-string) |
 ## Database
 |  |
@@ -870,6 +871,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0908-middle-of-the-linked-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+| [2299-merge-nodes-in-between-zeros](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2299-merge-nodes-in-between-zeros) |
 ## Math
 |  |
 | ------- |
