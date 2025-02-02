@@ -8,11 +8,8 @@ class Solution:
             if brack in bracket:
                 stack.append(bracket[brack])
             else:
-                if stack:
-                    if brack == stack[-1]:
+                if stack and brack == stack[-1]:
                         stack.pop()
-                    else:
-                        return False
                 else:
                     return False
         
