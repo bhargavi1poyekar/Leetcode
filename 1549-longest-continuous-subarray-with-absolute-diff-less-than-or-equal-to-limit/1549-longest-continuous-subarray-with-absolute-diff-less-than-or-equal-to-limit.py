@@ -19,7 +19,7 @@ class Solution:
             
             dec_queue.append(nums[right])
 
-            # If window condition not satsifed, remove older element.
+            # If window condition not satsifed, remove older (left) element.
             while(dec_queue[0]-inc_queue[0]>limit):
                 if inc_queue[0]==nums[left]: # while removing, check it is current min 
                     inc_queue.popleft()
@@ -32,4 +32,3 @@ class Solution:
             max_length=max(max_length,right-left+1)
         
         return max_length
-            
