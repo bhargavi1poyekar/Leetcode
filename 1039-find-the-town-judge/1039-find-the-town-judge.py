@@ -11,7 +11,7 @@ class Solution:
             indegree[b] += 1
             indegree[a] -= 1
         
-        print(indegree)
+        # print(indegree)
         for person in indegree:
             if indegree[person] == n-1:
                 return person
