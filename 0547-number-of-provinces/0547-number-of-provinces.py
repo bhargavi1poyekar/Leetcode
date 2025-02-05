@@ -1,31 +1,27 @@
-from collections import defaultdict
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
+        
         graph = defaultdict(list)
-        n = len(isConnected)
 
-        for i in range(n):
-            for j in range(i+1,n):
+        for i in range(len(isConnected)):
+            for j in range(i+1, len(isConnected)):
                 if isConnected[i][j]:
                     graph[i].append(j)
                     graph[j].append(i)
-
-
+        
         def dfs(node):
-            for neighbor in graph[node]:
-                if neighbor not in seen:
-                    seen.add(neighbor)
-                    dfs(neighbor)
+            for nghbr in graph[node]:
+                if nghbr not in seen:
+                    seen.add(nghbr)
+                    dfs(nghbr)
         
         seen = set()
         num_province = 0
 
-        for node in range(n):
-            if node not in seen:
+        for i in range(len(isConnected)):
+            if i not in seen:
                 num_province += 1
-                seen.add(node)
-                dfs(node)
+                seen.add(i)
+                dfs(i)
         
         return num_province
-
-        
