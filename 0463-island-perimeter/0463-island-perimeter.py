@@ -2,8 +2,8 @@ class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:
         
         def isValid(row, col):
-            return 0 <= row < Row and 0 <= col < Col and grid[row][col] == 1
-        
+            return 0 <= row < Row and 0 <= col < Col and grid[row][col]
+            
         def dfs(row, col):
             if not isValid(row, col):
                 return 1
