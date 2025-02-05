@@ -4,15 +4,11 @@ class Solution:
         graph = defaultdict(list)
 
         for u, v in edges:
-            print(u, v)
             graph[u].append(v)
             graph[v].append(u)
-
-        print(graph)
         
         def dfs(node):
             for child in graph[node]:
-                # print(node, child)
                 if child not in seen:
                     seen.add(child) 
                     dfs(child)
@@ -22,5 +18,4 @@ class Solution:
             seen.add(node)
 
         dfs(0)
-        # print(seen)
         return len(seen) - len(restricted)
