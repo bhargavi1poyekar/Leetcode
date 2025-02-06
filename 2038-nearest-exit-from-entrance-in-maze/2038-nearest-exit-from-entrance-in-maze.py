@@ -1,28 +1,27 @@
 class Solution:
     def nearestExit(self, maze: List[List[str]], entrance: List[int]) -> int:
-        def valid(row,col):
-            return 0<=row<m and 0<=col<n and maze[row][col]=='.'
+        def isValid(row, col):
+            return 0 <= row < Row and 0 <= col < Col and maze[row][col] == '.'
+        def isExit(row, col):
+            return row == 0 or row == Row-1 or col == 0 or col == Col-1
 
-        e_row,e_col=entrance
-        queue=deque([(e_row,e_col,1)])
-        seen={(e_row,e_col)}
+        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
 
-        directions=[(0,1),(1,0),(-1,0),(0,-1)]
+        Row = len(maze)
+        Col = len(maze[0])
 
-        m=len(maze)
-        n=len(maze[0])
+        startr, startc = entrance
+        queue = deque([(startr, startc, 1)])
 
         while queue:
-            row,col,steps=queue.popleft()
-
-            for x,y in directions:
-                nextr,nextc=row+x,col+y
-                
-
-                if valid(nextr,nextc) and (nextr,nextc) not in seen:
-                    if (nextr==0 or nextr==m-1 or nextc==0 or nextc==n-1):
+            row, col, steps = queue.popleft()
+            
+            for dx, dy in directions:
+                nextr, nextc = row + dx, col + dy
+                if isValid(nextr, nextc):
+                    if isExit(nextr, nextc):
                         return steps
-                    seen.add((nextr,nextc))
-                    queue.append((nextr,nextc,steps+1))
+                    maze[nextr][nextc] = '+'
+                    queue.append((nextr, nextc, steps+1))
         
         return -1
