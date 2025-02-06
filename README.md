@@ -374,6 +374,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1127-last-stone-weight](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1127-last-stone-weight) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
+| [1364-tuple-with-same-product](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1524-string-matching-in-an-array) |
@@ -679,6 +680,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0567-permutation-in-string) |
 | [0952-word-subsets](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0952-word-subsets) |
 | [1039-find-the-town-judge](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1039-find-the-town-judge) |
+| [1364-tuple-with-same-product](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1502-construct-k-palindrome-strings](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1619-path-crossing](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1619-path-crossing) |
@@ -732,6 +734,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0383-ransom-note) |
+| [1364-tuple-with-same-product](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1502-construct-k-palindrome-strings](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
