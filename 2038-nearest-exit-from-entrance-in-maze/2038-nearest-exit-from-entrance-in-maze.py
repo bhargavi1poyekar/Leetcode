@@ -12,16 +12,17 @@ class Solution:
 
         startr, startc = entrance
         queue = deque([(startr, startc, 1)])
+        seen = {(startr, startc)}
 
         while queue:
             row, col, steps = queue.popleft()
             
             for dx, dy in directions:
                 nextr, nextc = row + dx, col + dy
-                if isValid(nextr, nextc):
+                if isValid(nextr, nextc) and (nextr, nextc) not in seen:
                     if isExit(nextr, nextc):
                         return steps
-                    maze[nextr][nextc] = '+'
+                    seen.add((nextr, nextc))
                     queue.append((nextr, nextc, steps+1))
         
         return -1
