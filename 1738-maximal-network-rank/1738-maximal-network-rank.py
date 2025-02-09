@@ -15,8 +15,8 @@ class Solution:
                 if j in graph[i]:
                     curr_rank-=1
                 
+                
                 max_rank=max(max_rank,curr_rank)
         
         return max_rank
-
 
