@@ -2,7 +2,6 @@ class Solution:
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
         
         def dfs(start, end, ratio, seen):
-            # if start in graph:
             if start == end:
                 return ratio
             for nghbr in graph[start]:
