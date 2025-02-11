@@ -460,6 +460,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0144-binary-tree-preorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0200-number-of-islands](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -499,6 +500,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
@@ -531,6 +533,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0133-clone-graph) |
+| [0207-course-schedule](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0547-number-of-provinces) |
@@ -999,6 +1002,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Topological Sort
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0820-find-eventual-safe-states](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0820-find-eventual-safe-states) |
 ## Backtracking
