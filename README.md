@@ -366,6 +366,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0792-binary-search](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0883-car-fleet) |
 | [0941-sort-array-by-parity](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0941-sort-array-by-parity) |
+| [0945-snakes-and-ladders](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0945-snakes-and-ladders) |
 | [0952-word-subsets](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0952-word-subsets) |
 | [0983-validate-stack-sequences](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0983-validate-stack-sequences) |
 | [1019-squares-of-a-sorted-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
@@ -506,6 +507,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0695-max-area-of-island) |
 | [0753-open-the-lock](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0753-open-the-lock) |
 | [0820-find-eventual-safe-states](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0820-find-eventual-safe-states) |
+| [0945-snakes-and-ladders](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -886,6 +888,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0417-pacific-atlantic-water-flow](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0695-max-area-of-island) |
+| [0945-snakes-and-ladders](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
