@@ -9,7 +9,7 @@ class Solution:
         def dfs(node, color):
             node_colors[node] = color
             for nghbr in graph[node]:
-                if node_colors[nghbr] == node_colors[node]:return False
+                if node_colors[nghbr] == color: return False
                 if node_colors[nghbr] == -1:
                     if not dfs(nghbr, 1-color):
                         return False
