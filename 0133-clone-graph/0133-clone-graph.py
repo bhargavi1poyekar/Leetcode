@@ -10,10 +10,9 @@ from typing import Optional
 class Solution:
     seen = {}
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
-        
         if not node:
             return node
-        
+
         if node in self.seen:
             return self.seen[node]
         
@@ -21,6 +20,6 @@ class Solution:
         self.seen[node] = clone
 
         if node.neighbors:
-            clone.neighbors = [self.cloneGraph(nghbr) for nghbr in (node.neighbors)]
-        
+            clone.neighbors = [self.cloneGraph(nghbr) for nghbr in node.neighbors]
+
         return clone
