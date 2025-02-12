@@ -476,6 +476,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0695-max-area-of-island) |
 | [0820-find-eventual-safe-states](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0904-leaf-similar-trees](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0904-leaf-similar-trees) |
+| [0922-possible-bipartition](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0922-possible-bipartition) |
 | [0975-range-sum-of-bst](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1073-number-of-enclaves](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
@@ -514,6 +515,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0695-max-area-of-island) |
 | [0753-open-the-lock](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0753-open-the-lock) |
 | [0820-find-eventual-safe-states](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0820-find-eventual-safe-states) |
+| [0922-possible-bipartition](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0922-possible-bipartition) |
 | [0945-snakes-and-ladders](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1073-number-of-enclaves) |
@@ -541,6 +543,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0547-number-of-provinces) |
 | [0820-find-eventual-safe-states](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0820-find-eventual-safe-states) |
+| [0922-possible-bipartition](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0922-possible-bipartition) |
 | [1032-satisfiability-of-equality-equations](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1032-satisfiability-of-equality-equations) |
 | [1039-find-the-town-judge](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1039-find-the-town-judge) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1229-shortest-path-with-alternating-colors) |
@@ -891,6 +894,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0695-max-area-of-island) |
+| [0922-possible-bipartition](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0922-possible-bipartition) |
 | [1032-satisfiability-of-equality-equations](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1032-satisfiability-of-equality-equations) |
 | [1073-number-of-enclaves](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1396-count-servers-that-communicate](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1396-count-servers-that-communicate) |
