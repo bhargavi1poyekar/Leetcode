@@ -504,6 +504,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0111-minimum-depth-of-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0112-path-sum) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0127-word-ladder](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0200-number-of-islands) |
@@ -658,6 +659,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0071-simplify-path](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0125-valid-palindrome) |
+| [0127-word-ladder](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0224-basic-calculator](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0224-basic-calculator) |
@@ -703,6 +705,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0127-word-ladder](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0141-linked-list-cycle) |
