@@ -1,6 +1,6 @@
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
-
+        
         if endWord not in wordList:
             return 0
 
@@ -25,4 +25,3 @@ class Solution:
                         seen.add(nghbr)
                         queue.append((nghbr,steps+1))
         return 0
-
