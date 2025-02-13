@@ -379,6 +379,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1364-tuple-with-same-product](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1396-count-servers-that-communicate) |
+| [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1428-jump-game-iii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1428-jump-game-iii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1524-string-matching-in-an-array) |
@@ -527,6 +528,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1229-shortest-path-with-alternating-colors](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1254-deepest-leaves-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1254-deepest-leaves-sum) |
 | [1396-count-servers-that-communicate](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1396-count-servers-that-communicate) |
+| [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1428-jump-game-iii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1428-jump-game-iii) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -919,6 +921,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1073-number-of-enclaves](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1396-count-servers-that-communicate](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1396-count-servers-that-communicate) |
+| [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1876-map-of-highest-peak](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1876-map-of-highest-peak) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
