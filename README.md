@@ -1000,6 +1000,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1477-product-of-the-last-k-numbers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [2206-detonate-the-maximum-bombs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2206-detonate-the-maximum-bombs) |
 | [2448-count-number-of-bad-pairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -1043,6 +1044,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0046-permutations](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0078-subsets) |
 | [0113-path-sum-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0113-path-sum-ii) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Memoization
 |  |
 | ------- |
