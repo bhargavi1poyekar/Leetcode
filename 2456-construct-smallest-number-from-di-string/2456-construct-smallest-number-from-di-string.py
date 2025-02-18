@@ -14,3 +14,4 @@ class Solution:
                     result.append(str(num_stack.pop()))
 
         return "".join(result)
+
