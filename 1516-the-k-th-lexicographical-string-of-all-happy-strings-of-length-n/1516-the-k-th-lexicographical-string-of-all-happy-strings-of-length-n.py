@@ -1,6 +1,6 @@
 class Solution:
     def getHappyString(self, n: int, k: int) -> str:
-
+        
         def backtrack(curr,last):
             if len(curr) == n:
                 ans.append(''.join(curr))
