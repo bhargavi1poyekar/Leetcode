@@ -393,6 +393,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+| [2107-find-unique-binary-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2107-find-unique-binary-string) |
 | [2145-grid-game](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2145-grid-game) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2206-detonate-the-maximum-bombs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2206-detonate-the-maximum-bombs) |
@@ -690,6 +691,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2107-find-unique-binary-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2107-find-unique-binary-string) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -736,6 +738,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1798-max-number-of-k-sum-pairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2107-find-unique-binary-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2107-find-unique-binary-string) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2434-design-a-number-container-system](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2434-design-a-number-container-system) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2445-reachable-nodes-with-restrictions) |
@@ -1055,6 +1058,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1160-letter-tile-possibilities](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
+| [2107-find-unique-binary-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2107-find-unique-binary-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Memoization
