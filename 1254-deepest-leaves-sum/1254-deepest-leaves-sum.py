@@ -13,16 +13,16 @@ class Solution:
         queue = deque([root])
         deepest_sum = 0
         while queue:
-            level = []
+            sum = 0
             for _ in range(len(queue)):
                 node = queue.popleft()
-                level.append(node.val)
+                sum += node.val
 
                 if node.left:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
             
-            deepest_sum = sum(level)
+            deepest_sum = sum
         
         return deepest_sum
