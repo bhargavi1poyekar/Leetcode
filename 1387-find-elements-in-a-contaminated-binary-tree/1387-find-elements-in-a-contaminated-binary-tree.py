@@ -7,12 +7,12 @@
 class FindElements:
 
     def __init__(self, root: Optional[TreeNode]):
-        self.treevals = []
+        self.treevals = set()
         def dfs(root, val):
             if not root:
                 return
             root.val = val
-            self.treevals.append(val)
+            self.treevals.add(val)
             dfs(root.left, 2*val + 1)
             dfs(root.right, 2*val + 2)
         
