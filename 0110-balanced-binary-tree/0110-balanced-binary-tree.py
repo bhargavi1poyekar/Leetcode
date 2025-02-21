@@ -6,24 +6,24 @@
 #         self.right = right
 class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
-
+        
         def dfs(root):
+            # if null node:
             if not root:
-                return True, 0
-
-            left_bal, left_ht = dfs(root.left)
-            if not left_bal:
-                return False, 0
+                return True, 0 # height is balanced and 0
             
-            right_bal, right_ht = dfs(root.right)
-            if not right_bal:
+            # Check left subtree -> if not balanced return False
+            left_balance, left_ht = dfs(root.left)
+            if not left_balance:
                 return False, 0
-            
-            return abs(right_ht - left_ht) <= 1, 1+ max(left_ht, right_ht)
-        
-        return dfs(root)[0]
-                
-        
 
+            # Check right subtree -> if not balanced return False
+            right_balance, right_ht = dfs(root.right)
+            if not right_balance:
+                return False, 0
+
+            
+            # if left and right subtree are balanced, now check balance of curr node. and return height of curr node.  
+            return abs(left_ht - right_ht) <= 1, 1+ max(left_ht, right_ht)
         
-        
+        return dfs(root)[0] # 0th index tells true of false for balanced
