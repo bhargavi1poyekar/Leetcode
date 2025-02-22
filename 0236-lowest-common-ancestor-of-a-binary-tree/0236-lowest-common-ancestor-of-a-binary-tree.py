@@ -11,8 +11,10 @@ class Solution:
         def lca(root, p, q):
             if not root:
                 return None
-            if p == root or q == root:
-                return root
+            if p == root:
+                return p
+            if q == root:
+                return q
             
             left = lca(root.left, p, q)
             right = lca(root.right, p, q)
