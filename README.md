@@ -486,6 +486,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0975-range-sum-of-bst](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1073-number-of-enclaves](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1254-deepest-leaves-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1254-deepest-leaves-sum) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -685,6 +686,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0952-word-subsets](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0952-word-subsets) |
 | [0953-reverse-only-letters](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0953-reverse-only-letters) |
 | [1032-satisfiability-of-equality-equations](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1032-satisfiability-of-equality-equations) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1160-letter-tile-possibilities](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1502-construct-k-palindrome-strings](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
@@ -861,6 +863,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0904-leaf-similar-trees](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0904-leaf-similar-trees) |
 | [0975-range-sum-of-bst](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1254-deepest-leaves-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1254-deepest-leaves-sum) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -899,6 +902,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0904-leaf-similar-trees](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0904-leaf-similar-trees) |
 | [0975-range-sum-of-bst](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1254-deepest-leaves-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1254-deepest-leaves-sum) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
