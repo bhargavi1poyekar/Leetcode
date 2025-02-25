@@ -4,21 +4,21 @@ class Solution:
         Modulo = (10 ** 9) + 7
 
         odd_prefix_count = 0
-        even_prefix_count = 1
+        even_prefix_count = 1 # Sum 0. 
 
-        odd_sum_subarray = 0
+        sub_odd_count = 0
 
         prefix_sum = 0
 
-        for i in range(len(arr)):
-            prefix_sum += arr[i]
+        for num in arr:
+            prefix_sum += num
 
             if prefix_sum % 2 == 0:
                 even_prefix_count += 1
-                odd_sum_subarray += odd_prefix_count
+                sub_odd_count += odd_prefix_count
             else:
                 odd_prefix_count += 1
-                odd_sum_subarray += even_prefix_count
+                sub_odd_count += even_prefix_count
 
         
-        return odd_sum_subarray % Modulo
+        return sub_odd_count % Modulo
