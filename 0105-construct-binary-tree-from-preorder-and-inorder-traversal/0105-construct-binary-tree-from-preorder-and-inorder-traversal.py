@@ -6,14 +6,14 @@
 #         self.right = right
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
-        
-        self.idx = 0
+        # self.idx = 0
+        preorder = deque(preorder)
         def createTree(left_bound, right_bound):
             if left_bound > right_bound:
                 return None
             
-            val  = preorder[self.idx]
-            self.idx += 1
+            val  = preorder.popleft()
+            # self.idx += 1
 
             root = TreeNode(val)
             index = hash_idx[val]
@@ -28,8 +28,3 @@ class Solution:
             hash_idx[inorder[i]] = i
         
         return createTree(0, len(inorder)-1)
-
-
-        
-
-        
