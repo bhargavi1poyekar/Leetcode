@@ -24,7 +24,7 @@ class Solution:
                 end_index -= 1
             great_ptr -= 1
 
-        pivot_arr = [pivot]*(end_index + 1 - start_index)
+        # pivot_arr = [pivot]*(end_index + 1 - start_index)
         rearrange_arr[start_index:end_index+1] = [pivot]*(end_index + 1 - start_index)
         # print()
         # print(pivot_arr)
