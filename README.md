@@ -713,6 +713,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1524-string-matching-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1619-path-crossing](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1619-path-crossing) |
 | [1666-make-the-string-great](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1666-make-the-string-great) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -857,6 +858,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0643-maximum-average-subarray-i](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0713-subarray-product-less-than-k](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [2211-k-radius-subarray-averages](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2211-k-radius-subarray-averages) |
 ## Tree
 |  |
