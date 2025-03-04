@@ -3,19 +3,14 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-
         slow = 0
         fast = 0
-        n = len(nums)
-        while slow<n and fast<n:
-            if nums[fast] == 0:
-                fast += 1
-            else:
-                nums[slow], nums[fast] = nums[fast], nums[slow]
-                slow += 1
-                fast += 1
-        
-        return nums
-        
 
+        while fast < len(nums):
+            if nums[fast] != 0:
+                nums[slow] = nums[fast]
+                slow += 1
+            
+            fast += 1
         
+        nums[slow:] = [0] * (len(nums) - slow)
