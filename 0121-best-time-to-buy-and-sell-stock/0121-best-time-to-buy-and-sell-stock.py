@@ -1,6 +1,5 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        
         lowest = prices[0]
         max_profit = 0 
 
