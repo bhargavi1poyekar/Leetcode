@@ -1,6 +1,5 @@
 class Solution:
     def maxOperations(self, nums: List[int], k: int) -> int:
-
         nums.sort()
 
         left = 0
@@ -19,5 +18,3 @@ class Solution:
                 right -= 1
         
         return max_op
-
-        
