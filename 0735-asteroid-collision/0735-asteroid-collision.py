@@ -4,20 +4,24 @@ class Solution:
         stack = []
 
         for ast in asteroids:
+            # print(stack)
             explode = False
-            while stack and (stack[-1] > 0 and ast < 0):
-                if abs(ast) < stack[-1]:
+            while stack and (ast < 0 and stack[-1] > 0):
+                # print(stack, ast)
+                if stack[-1] > abs(ast):
                     explode = True
                     break
-                elif abs(ast) == stack[-1]:
+                elif stack[-1] == abs(ast):
+                    stack.pop()
                     explode = True
-                    stack.pop()
                     break
-                else: 
+                elif stack[-1] < abs(ast):
                     stack.pop()
-                    # continue
+                    # explode = False
             
-            if not explode:
+            if explode == False:
                 stack.append(ast)
+        
+        return stack
 
-        return stack 
+                
