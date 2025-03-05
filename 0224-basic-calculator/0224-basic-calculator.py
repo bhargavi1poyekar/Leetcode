@@ -3,33 +3,38 @@ class Solution:
         
         stack = []
         res = 0
-        op = 0
+        num = 0
         sign = 1
 
-        for i in s:
-            if i == '(':
+        for ch in s:
+            if ch == '(':
                 stack.append(res)
                 stack.append(sign)
-
                 res = 0
                 sign = 1
             
-            elif i.isdigit():
-                op = op*10 + int(i)
-            
-            elif i == '+':
-                res += sign * op
-                sign = 1
-                op = 0
-            elif i == '-':
-                res += sign * op
-                sign = -1
-                op = 0
-            elif i ==')':
-                res += sign * op
-                res *= stack.pop() # sign
-                res += stack.pop() # prev result
-                op = 0
+            elif ch.isdigit():
+                num += num*10 + int(ch)
 
-        return res + sign * op
-    
+            elif ch == '+':
+                res += sign * num
+                sign = 1
+                num = 0
+            
+            elif ch == '-':
+                res += sign * num
+                sign = -1
+                num = 0
+            
+            elif ch == ')':
+                res += sign * num
+                res *= stack.pop()
+                res += stack.pop()
+                num = 0
+                sign = 1
+        
+        return res + sign * num
+
+         
+
+
