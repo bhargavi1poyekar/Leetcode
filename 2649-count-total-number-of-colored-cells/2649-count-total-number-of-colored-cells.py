@@ -22,9 +22,11 @@ class Solution:
 
         # return 
 
-        count = 1
-        for i in range(1, n):
-            count += 4*i
+        # count = 1
+        # for i in range(1, n):
+        #     count += 4*i
         
-        return count
+        # return count
+
+        return 1 + n * (n - 1) * 2
 
