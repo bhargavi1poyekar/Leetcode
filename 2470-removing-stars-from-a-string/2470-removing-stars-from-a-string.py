@@ -4,7 +4,7 @@ class Solution:
         stack = []
 
         for ch in s:
-            if ch == '*':
+            if ch  == '*':
                 if stack:
                     stack.pop()
             else:
