@@ -31,7 +31,7 @@ class Solution:
                 res *= stack.pop()
                 res += stack.pop()
                 num = 0
-                sign = 1
+                # sign = 1
         
         return res + sign * num
 
