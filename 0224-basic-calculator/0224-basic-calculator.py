@@ -14,7 +14,7 @@ class Solution:
                 sign = 1
             
             elif ch.isdigit():
-                num += num*10 + int(ch)
+                num = num*10 + int(ch)
 
             elif ch == '+':
                 res += sign * num
