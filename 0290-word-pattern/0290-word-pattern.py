@@ -1,18 +1,22 @@
 class Solution:
     def wordPattern(self, pattern: str, s: str) -> bool:
-        s = s.split(' ')
-        pattern_map = defaultdict()
-        s_map = defaultdict()
-
-        if len(s) != len(pattern):
+        
+        s_list = s.split(' ')
+        
+        if len(s_list) != len(pattern):
             return False
+        
+        s_map = defaultdict()
+        pattern_map = defaultdict()
 
-        for i in range(len(pattern)):
-            if pattern[i] not in pattern_map and s[i] not in s_map:
-                pattern_map[pattern[i]] = s[i]
-                s_map[s[i]] = pattern[i]
+        # print(pattern_list)
+
+        for i in range(len(s_list)):
+            if s_list[i] not in s_map and pattern[i] not in pattern_map:
+                s_map[s_list[i]] = pattern[i]
+                pattern_map[pattern[i]] = s_list[i]
             
-            elif pattern_map.get(pattern[i]) != s[i] or s_map.get(s[i]) != pattern[i]:
+            elif s_map.get(s_list[i]) != pattern[i] or pattern_map.get(pattern[i]) != s_list[i]:
                 return False
         
         return True
