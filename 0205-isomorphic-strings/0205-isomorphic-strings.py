@@ -1,8 +1,9 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        if len(s)!= len(t):
+        
+        if len(s) != len(t):
             return False
-
+        
         s_map = defaultdict()
         t_map = defaultdict()
 
@@ -13,5 +14,5 @@ class Solution:
             
             elif s_map.get(s[i]) != t[i] or t_map.get(t[i]) != s[i]:
                 return False
-        
-        return True
+
+        return True 
