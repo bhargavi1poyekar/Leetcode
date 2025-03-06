@@ -3,6 +3,7 @@ class Solution:
         word1_count=collections.Counter(word1)
         word2_count=collections.Counter(word2)
 
+
         word1_keys=set(word1_count.keys())
         word2_keys=set(word2_count.keys())
 
