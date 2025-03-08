@@ -1043,6 +1043,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0838-design-linked-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0838-design-linked-list) |
 | [0937-online-stock-span](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0937-online-stock-span) |
+| [0969-number-of-recent-calls](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0969-number-of-recent-calls) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [2434-design-a-number-container-system](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2434-design-a-number-container-system) |
@@ -1051,6 +1052,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0937-online-stock-span](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0937-online-stock-span) |
+| [0969-number-of-recent-calls](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0969-number-of-recent-calls) |
 | [1477-product-of-the-last-k-numbers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 ## Linked List
 |  |
@@ -1179,6 +1181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0225-implement-stack-using-queues) |
+| [0969-number-of-recent-calls](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0969-number-of-recent-calls) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 ## Ordered Set
 |  |
