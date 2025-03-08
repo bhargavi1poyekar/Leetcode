@@ -8,14 +8,14 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        '''
-        Go to middle, separate the list, reverse, and then merge. 
-        '''
         if not head or not head.next:
             return head
 
-        slow = fast = head
+        # Middle -> reverse -> merge. 
         prev = None
+        slow = head
+        fast = head
+
         while fast and fast.next:
             prev = slow
             slow = slow.next
@@ -30,19 +30,13 @@ class Solution:
             curr.next = prev
             prev = curr
             curr = nn
-        
-        newhead = newcurr = ListNode()
+
+        curr = newlist = ListNode()
+
         while head and prev:
-            newcurr.next = head
-            newcurr = newcurr.next
-            head = head.next
-            newcurr.next = prev
-            newcurr = newcurr.next
-            prev = prev.next
+            curr.next = head
+            curr, head = curr.next, head.next
+            curr.next = prev
+            curr, prev = curr.next, prev.next
         
-        return newhead.next
-
-        
-
-
-        
+        return newlist.next
