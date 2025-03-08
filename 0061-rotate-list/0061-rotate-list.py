@@ -22,14 +22,16 @@ class Solution:
         
         curr.next = head
         
+        prev = None
         slow = head
 
-        while count - k > 1:
+        while count - k:
+            prev = slow
             slow = slow.next
             count -= 1
         
-        head = slow.next
-        slow.next = None
+        head = slow
+        prev.next = None
 
         return head
 
