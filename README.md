@@ -738,6 +738,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2163-kth-distinct-string-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2465-shifting-letters-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2470-removing-stars-from-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2470-removing-stars-from-a-string) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
@@ -893,6 +894,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2211-k-radius-subarray-averages](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2211-k-radius-subarray-averages) |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 ## Tree
 |  |
 | ------- |
