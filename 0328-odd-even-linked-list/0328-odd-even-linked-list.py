@@ -9,18 +9,15 @@ class Solution:
         if not head or not head.next:
             return head
 
-        oddcurr = head
-        evenhead = evencurr = head.next
+        odd = oddHead = head
+        even = evenHead = head.next
 
-        while oddcurr and evencurr and oddcurr.next and evencurr.next:
-            oddcurr.next = evencurr.next
-            oddcurr = oddcurr.next
-            evencurr.next = oddcurr.next
-            evencurr = evencurr.next
+        while odd and odd.next and even and even.next:
+            odd.next = even.next
+            odd = odd.next
+            even.next = odd.next
+            even = even.next
         
-        oddcurr.next = evenhead
-        # evencurr.next = None
-        
+        odd.next = evenHead
+        # even.next = None
         return head
-
-        
