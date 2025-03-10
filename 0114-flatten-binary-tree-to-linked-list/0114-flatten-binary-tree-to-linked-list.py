@@ -9,21 +9,19 @@ class Solution:
         """
         Do not return anything, modify root in-place instead.
         """
-        if not root:
-            return None
-        
-        if not root.left and not root.right:
-            return root
+        self.prev = None
 
-        left_tail=self.flatten(root.left)        
-        right_tail=self.flatten(root.right)
+        def dfs(root):
+            if not root:
+                return
+            
+            dfs(root.right)
+            dfs(root.left)
 
-        if left_tail:
-            left_tail.right=root.right
-            root.right=root.left
-            root.left=None
-        
-        return right_tail if right_tail else left_tail
+            root.right = self.prev
+            root.left = None
 
+            self.prev = root
         
-        
+        dfs(root)
+        return root
