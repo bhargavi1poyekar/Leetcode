@@ -9,22 +9,22 @@ class Solution:
         
         self.longest = 0
 
-        def dfs(root, Left, curr_length):
+        def dfs(root, L, count):
             if not root:
-                return
+                return 
+            self.longest = max(count, self.longest)
             
-            self.longest = max(curr_length, self.longest)
-
-            if Left:
-                dfs(root.left, 1, 1)
-                dfs(root.right, 0, curr_length + 1)
+            if L:
+                dfs(root.left, True, 1)
+                dfs(root.right, False, count+1)
             else:
-                dfs(root.left, 1, curr_length + 1)
-                dfs(root.right, 0, 1)
-
-            return
-
-        dfs(root, 1, 0)
-        dfs(root, 0, 0) 
+                dfs(root.left, True, count+1)
+                dfs(root.right, False, 1)
+        
+        dfs(root, True, 0)
+        dfs(root, False, 0)
 
         return self.longest
+            
+
+            
