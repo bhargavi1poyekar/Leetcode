@@ -6,11 +6,12 @@
 #         self.right = right
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
+        
         if not root:
             return []
 
         queue = deque([root])
-        right_sv = []
+        rsv = []
 
         while queue:
             for _ in range(len(queue)):
@@ -19,10 +20,7 @@ class Solution:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
-                
-            right_sv.append(node.val)
-        
-        return right_sv
             
+            rsv.append(node.val)
 
-        
+        return rsv
