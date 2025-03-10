@@ -9,27 +9,25 @@ class Solution:
         
         if not root:
             return []
+            
+        queue = deque([root])
+        lot = []
+        level_idx = 0
 
-        queue =deque([root])
-        zigzag = []
-        level_num = 0
         while queue:
             level = []
             for _ in range(len(queue)):
                 node = queue.popleft()
                 level.append(node.val)
+
                 if node.left:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
-                
-            if level_num % 2 == 0:
-                zigzag.append(level)
+            if level_idx % 2 == 0:
+                lot.append(level)
             else:
-                zigzag.append(level[::-1])
+                lot.append(level[::-1])
+            level_idx += 1
             
-            level_num += 1
-        
-        return zigzag
-
-        
+        return lot
