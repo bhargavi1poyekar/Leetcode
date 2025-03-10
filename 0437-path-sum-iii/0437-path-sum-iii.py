@@ -6,30 +6,26 @@
 #         self.right = right
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
+        
+        self.num_paths = 0
+        self.hash = Counter()
+        self.hash[0] = 1 # -> very important. 
 
-        def dfs(root,curr_sum):
-
+        def dfs(root, curr_sum):
             if not root:
-                return
+                return 
             
-            nonlocal count
-            curr_sum+=root.val
+            curr_sum += root.val
+            # if (curr_sum - targetSum) in self.hash:
+            self.num_paths += self.hash[curr_sum - targetSum]
+            
+            self.hash[curr_sum] += 1
+            
+            dfs(root.left, curr_sum)
+            dfs(root.right, curr_sum)
 
-            count+=prefix_hash[curr_sum-targetSum]
-            prefix_hash[curr_sum]+=1
-            
-            dfs(root.left,curr_sum)
-            dfs(root.right,curr_sum)
-
-            prefix_hash[curr_sum]-=1
-            
-            
-       
-        count,curr_sum=0,0
-        prefix_hash=Counter()
-        prefix_hash[0]=1
-        dfs(root,curr_sum)
-        return count
-    
-    
-
+            self.hash[curr_sum] -= 1
+        
+        dfs(root, 0)
+        return self.num_paths
+        
