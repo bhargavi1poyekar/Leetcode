@@ -4,24 +4,24 @@ class Solution:
         graph = defaultdict(list)
 
         for i in range(len(isConnected)):
-            for j in range(i+1, len(isConnected)):
+            for j in range(i, len(isConnected)):
                 if isConnected[i][j]:
                     graph[i].append(j)
                     graph[j].append(i)
         
+        num_province = 0
+
         def dfs(node):
             for nghbr in graph[node]:
                 if nghbr not in seen:
                     seen.add(nghbr)
                     dfs(nghbr)
-        
-        seen = set()
-        num_province = 0
 
-        for i in range(len(isConnected)):
-            if i not in seen:
+        seen = set()
+        for node in graph:
+            if node not in seen:
+                seen.add(node)
                 num_province += 1
-                seen.add(i)
-                dfs(i)
+                dfs(node)
         
         return num_province
