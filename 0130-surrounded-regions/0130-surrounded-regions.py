@@ -5,19 +5,23 @@ class Solution:
         """
         def isValid(row, col):
             return 0 <= row < Row and 0 <= col < Col and board[row][col] == 'O'
-
+        
         directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
 
         def dfs(row, col):
-            seen.add((row, col))
+            if (row, col) not in seen:
+                seen.add((row, col))
+            else:
+                return
+
             for dx, dy in directions:
-                next_r, next_c = row + dx, col + dy
-                if isValid(next_r, next_c) and (next_r, next_c) not in seen: 
-                    dfs(next_r, next_c)
-            
+                nextr, nextc = row + dx, col + dy
+                if isValid(nextr, nextc):
+                    dfs(nextr, nextc)
+        
+        seen = set()
         Row = len(board)
         Col = len(board[0])
-        seen = set()
 
         for row in range(Row):
             if board[row][0] == 'O':
@@ -30,10 +34,15 @@ class Solution:
                 dfs(0, col)
             if board[Row-1][col] == 'O':
                 dfs(Row-1, col)
-
+        
         for row in range(Row):
             for col in range(Col):
-                if board[row][col] == 'O' and (row, col) not in seen:
+                if (row, col) not in seen and board[row][col] == 'O':
                     board[row][col] = 'X'
         
-        return board
+        # return board
+
+
+
+
+
