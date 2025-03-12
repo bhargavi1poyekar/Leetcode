@@ -20,6 +20,7 @@ class Solution:
             index += 1
         
         queue = deque([(0, 0)]) # current square and steps
+        seen = {0}
 
         while queue:
             curr, steps = queue.popleft()
@@ -31,7 +32,9 @@ class Solution:
                 return steps
             
             for next in range((curr + 1), min(curr + 7, end)):
-                queue.append((next, steps + 1))
+                if next not in seen:
+                    seen.add(next)
+                    queue.append((next, steps + 1))
         
         return -1 
 
