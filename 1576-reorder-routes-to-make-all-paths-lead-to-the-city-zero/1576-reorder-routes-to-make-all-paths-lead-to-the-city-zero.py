@@ -1,26 +1,28 @@
 class Solution:
     def minReorder(self, n: int, connections: List[List[int]]) -> int:
         
+        self.reorder = 0
         graph = defaultdict(list)
-        roads = set()
+        reversed_roads = set()
 
-        for u, v in connections:
-            graph[u].append(v)
-            graph[v].append(u)
-            roads.add((u, v))
+        for a, b in connections:
+            graph[a].append(b)
+            graph[b].append(a)
+            reversed_roads.add((a, b))
         
+        # print(reversed_roads)
+        # print(graph)
+        seen = {0}
+
         def dfs(node):
-            ans = 0
+            # print(node)
             for nghbr in graph[node]:
                 if nghbr not in seen:
-                    if (node, nghbr) in roads:
-                        ans += 1
                     seen.add(nghbr)
-                    ans += dfs(nghbr)
-            
-            return ans
-        
-        seen = {0}
-        ans = dfs(0)
-        return ans
+                    if (node, nghbr) in reversed_roads:
+                        print(node, nghbr)
+                        self.reorder += 1
+                    dfs(nghbr)
+        dfs(0)
+        return self.reorder
 
