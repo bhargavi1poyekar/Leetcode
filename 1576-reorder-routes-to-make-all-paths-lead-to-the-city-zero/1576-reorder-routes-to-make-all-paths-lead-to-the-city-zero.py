@@ -20,7 +20,7 @@ class Solution:
                 if nghbr not in seen:
                     seen.add(nghbr)
                     if (node, nghbr) in reversed_roads:
-                        print(node, nghbr)
+                        # print(node, nghbr)
                         self.reorder += 1
                     dfs(nghbr)
         dfs(0)
