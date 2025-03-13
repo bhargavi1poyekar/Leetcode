@@ -15,7 +15,7 @@ class MedianFinder:
             return -self.maxHeap[0]
         else:
             return (self.minHeap[0] - self.maxHeap[0])/2
-        
+
 
 
 # Your MedianFinder object will be instantiated and called as such:
