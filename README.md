@@ -355,6 +355,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0283-move-zeroes) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0463-island-perimeter) |
@@ -1095,6 +1096,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0023-merge-k-sorted-lists](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [1127-last-stone-weight](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1127-last-stone-weight) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
