@@ -1,6 +1,5 @@
 class Solution:
     def maximumCandies(self, candies: List[int], k: int) -> int:
-
         def distribute(max_candy):
             # print(f'max_candy:{max_candy}')
             count_children=0
