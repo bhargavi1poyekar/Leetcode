@@ -8,7 +8,7 @@ class Solution:
 
         for _ in range(k):
             max_stones = heapq.heappop(piles)
-            half = floor(max_stones / 2)
+            half = max_stones // 2
             heapq.heappush(piles, half)
         
         return -sum(piles)
