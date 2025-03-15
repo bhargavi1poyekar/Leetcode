@@ -355,6 +355,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0283-move-zeroes) |
+| [0347-top-k-frequent-elements](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -705,6 +706,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0215-kth-largest-element-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 ## Dynamic Programming
 |  |
@@ -805,6 +807,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0219-contains-duplicate-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0290-word-pattern) |
+| [0347-top-k-frequent-elements](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0383-ransom-note) |
 | [0424-longest-repeating-character-replacement](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0433-minimum-genetic-mutation](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0433-minimum-genetic-mutation) |
@@ -855,6 +858,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0274-h-index) |
 | [0295-find-median-from-data-stream](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0502-ipo](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0502-ipo) |
 | [0883-car-fleet](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0883-car-fleet) |
 | [0941-sort-array-by-parity](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0941-sort-array-by-parity) |
@@ -893,6 +897,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0383-ransom-note) |
 | [1160-letter-tile-possibilities](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1364-tuple-with-same-product](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1364-tuple-with-same-product) |
@@ -1109,6 +1114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0023-merge-k-sorted-lists](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0502-ipo](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0502-ipo) |
 | [1127-last-stone-weight](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1127-last-stone-weight) |
@@ -1301,4 +1307,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
