@@ -410,6 +410,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+| [2094-remove-stones-to-minimize-the-total](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2107-find-unique-binary-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2107-find-unique-binary-string) |
 | [2145-grid-game](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2145-grid-game) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -869,6 +870,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0502-ipo](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0502-ipo) |
 | [0649-dota2-senate](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0649-dota2-senate) |
 | [1502-construct-k-palindrome-strings](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
+| [2094-remove-stones-to-minimize-the-total](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -1110,6 +1112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1127-last-stone-weight](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1127-last-stone-weight) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [2094-remove-stones-to-minimize-the-total](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2413-smallest-number-in-infinite-set](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2413-smallest-number-in-infinite-set) |
 | [2434-design-a-number-container-system](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2434-design-a-number-container-system) |
