@@ -1,14 +1,13 @@
-import heapq
 class SmallestInfiniteSet:
 
     def __init__(self):
-        self.curr = 1
         self.min_heap = []
-        self.alreadyPresent=Counter() # if once trying add back, now again trying addback the same element
+        self.curr = 1
+        self.add_back = Counter()
 
     def popSmallest(self) -> int:
         if self.min_heap:
-            self.alreadyPresent[self.min_heap[0]]=0
+            self.add_back[self.min_heap[0]] -= 1
             return heapq.heappop(self.min_heap)
         else:
             min = self.curr
@@ -16,10 +15,10 @@ class SmallestInfiniteSet:
             return min
 
     def addBack(self, num: int) -> None:
-        if num < self.curr and self.alreadyPresent[num]==0:
-            heapq.heappush(self.min_heap, num)
-            self.alreadyPresent[num] = 1
-
+        if num < self.curr and not self.add_back[num]:
+            self.add_back[num] += 1
+            heapq.heappush(self.min_heap, num) 
+        
 
 
 # Your SmallestInfiniteSet object will be instantiated and called as such:
