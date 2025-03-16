@@ -6,13 +6,11 @@ class Solution:
                 ans.append(curr[:])
                 return 
             
-            for j in range(i, n+1):
-                curr.append(j)
-                backtrack(curr, j+1)
+            for num in range(i, n+1):
+                curr.append(num)
+                backtrack(curr, num+1)
                 curr.pop()
         
         ans = []
         backtrack([], 1)
         return ans
-            
-        
