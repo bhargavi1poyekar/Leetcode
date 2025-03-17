@@ -1,35 +1,31 @@
 class Solution:
     def totalNQueens(self, n: int) -> int:
 
-        def backtrack(row, diagonals, anti_diagonals, cols):
-            # Base case - N queens have been placed
+        def backtrack(row, diags, antidiags, cols):
             if row == n:
-                return 1
+                return 1 # return 1 solution
 
             solutions = 0
+
             for col in range(n):
-                curr_diagonal = row - col
-                curr_anti_diagonal = row + col
-                # If the queen is not placeable
-                if (col in cols 
-                      or curr_diagonal in diagonals 
-                      or curr_anti_diagonal in anti_diagonals):
+                curr_diag = row - col
+                curr_anti_diag = row + col
+
+                if col in cols or curr_diag in diags or curr_anti_diag in antidiags:
                     continue
-
-                # "Add" the queen to the board
+                
                 cols.add(col)
-                diagonals.add(curr_diagonal)
-                anti_diagonals.add(curr_anti_diagonal)
+                diags.add(curr_diag)
+                antidiags.add(curr_anti_diag)
 
-                # Move on to the next row with the updated board state
-                solutions += backtrack(row + 1, diagonals, anti_diagonals, cols)
+                solutions += backtrack(row+1, diags, antidiags, cols)
 
-                # "Remove" the queen from the board since we have already
-                # explored all valid paths using the above function call
                 cols.remove(col)
-                diagonals.remove(curr_diagonal)
-                anti_diagonals.remove(curr_anti_diagonal)
-
+                diags.remove(curr_diag)
+                antidiags.remove(curr_anti_diag)
+            
             return solutions
 
         return backtrack(0, set(), set(), set())
+
+        
