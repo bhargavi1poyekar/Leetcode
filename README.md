@@ -337,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -494,6 +495,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0100-same-tree) |
@@ -745,6 +747,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0151-reverse-words-in-a-string) |
@@ -1113,6 +1116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -1276,6 +1280,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0052-n-queens-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0052-n-queens-ii) |
 | [0077-combinations](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0079-word-search) |
 | [0113-path-sum-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0113-path-sum-ii) |
 | [0813-all-paths-from-source-to-target](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0813-all-paths-from-source-to-target) |
 | [1160-letter-tile-possibilities](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1160-letter-tile-possibilities) |
