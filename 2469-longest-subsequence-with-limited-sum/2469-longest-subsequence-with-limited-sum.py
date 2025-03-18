@@ -1,6 +1,5 @@
 class Solution:
     def answerQueries(self, nums: List[int], queries: List[int]) -> List[int]:
-
         def binary_search(arr,target):
             left=0
             right=len(arr)
