@@ -1,24 +1,24 @@
 class Solution:
     def decodeString(self, s: str) -> str:
         
-        stack = ['']
-        num = 0
-
-        for i in range(len(s)):
-            if s[i].isdigit():
-                num = num*10 + int(s[i])
-            elif s[i] == '[':
-                stack.append(num)
-                num = 0
-                stack.append('')
-            
-            elif s[i] == ']':
-                str1 = stack.pop()
+        stack = [""]
+        op = 0
+        curr_str = ""
+        for ch in s:
+            if ch.isalpha():
+                stack[-1] += ch
+            elif ch == '[':
+                stack.append(op)
+                stack.append("")
+                op = 0
+            elif ch == ']':
+                string = stack.pop()
                 count = stack.pop()
-                str2 = stack.pop()
-                stack.append(str2 + str1 * count)
-            
+                stack[-1] += string*count    
             else:
-                stack[-1] += s[i]
+                op = op*10 + int(ch)
         
         return stack[-1]
+
+        
+        
