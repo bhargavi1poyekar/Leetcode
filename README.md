@@ -432,6 +432,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2448-count-number-of-bad-pairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2465-shifting-letters-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2478-longest-nice-subarray](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2478-longest-nice-subarray) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2551-apply-operations-to-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
@@ -970,6 +971,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2211-k-radius-subarray-averages](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2211-k-radius-subarray-averages) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [2478-longest-nice-subarray](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2478-longest-nice-subarray) |
 | [3483-alternating-groups-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/3483-alternating-groups-ii) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Tree
@@ -1252,6 +1254,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0222-count-complete-tree-nodes](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2308-divide-array-into-equal-pairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
+| [2478-longest-nice-subarray](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2478-longest-nice-subarray) |
 | [2509-minimize-xor](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2509-minimize-xor) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
