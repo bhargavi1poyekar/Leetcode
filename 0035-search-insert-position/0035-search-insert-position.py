@@ -6,6 +6,7 @@ class Solution:
 
         while left < right:
             mid = (left + right) // 2
+
             if nums[mid] >= target:
                 right = mid
             else:
