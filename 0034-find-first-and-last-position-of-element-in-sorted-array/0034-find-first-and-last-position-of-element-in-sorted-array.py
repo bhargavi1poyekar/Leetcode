@@ -1,34 +1,38 @@
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
+        
+        if not nums:
+            return [-1, -1]
 
-        left, right=0, len(nums)-1
-        leftmost_index=-1
-        
-        while left<=right:
+        def first_binary_search(target):
+            left = 0
+            right = len(nums)
+
+            while left < right:
+                mid = (left + right ) // 2
+                if nums[mid] >= target:
+                    right = mid
+                else:
+                    left = mid + 1
             
-            mid=(left+right)//2
-            if nums[mid]>target:
-                right=mid-1
-            elif nums[mid]<target:
-                left=mid+1
-            else:
-                leftmost_index=mid
-                right=mid-1
-        
-        if leftmost_index==-1:
-            return [-1,-1]
-        
-        # print(leftmost_index)
-        
-        
-        # find left boundary
-        left, right=0, len(nums)
-        
-        while left<right:
-            mid=(left+right)//2
-            if nums[mid]>target:
-                right=mid
-            else:
-                left=mid+1
-        
-        return [leftmost_index,left-1]
+            return left
+
+        def last_binary_search(target):
+            left = 0
+            right = len(nums)
+
+            while left < right:
+                mid = (left + right ) // 2
+                if nums[mid] > target:
+                    right = mid
+                else:
+                    left = mid + 1
+            
+            return left
+
+        first = first_binary_search(target)
+        last = last_binary_search(target)
+
+        if first < len(nums) and nums[first] == target:
+            return [first, last-1]
+        return [-1, -1]
