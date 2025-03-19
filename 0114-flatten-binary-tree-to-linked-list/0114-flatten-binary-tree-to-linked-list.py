@@ -10,18 +10,18 @@ class Solution:
         Do not return anything, modify root in-place instead.
         """
         self.prev = None
-
         def dfs(root):
             if not root:
-                return
+                return 
             
             dfs(root.right)
             dfs(root.left)
 
             root.right = self.prev
             root.left = None
-
             self.prev = root
         
         dfs(root)
         return root
+
+        
