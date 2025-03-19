@@ -8,7 +8,7 @@ class Solution:
             t = 0
             for d in dist:
                 t = ceil(t)
-                t += d / k
+                t += (d / k)
             
             return t <= hour
         
