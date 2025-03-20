@@ -447,6 +447,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2551-apply-operations-to-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2567-closest-nodes-queries-in-a-binary-search-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2567-closest-nodes-queries-in-a-binary-search-tree) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2636-maximum-subsequence-score](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2636-maximum-subsequence-score) |
 | [2665-minimum-time-to-repair-cars](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2665-minimum-time-to-repair-cars) |
@@ -570,6 +571,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2206-detonate-the-maximum-bombs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2206-detonate-the-maximum-bombs) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2445-reachable-nodes-with-restrictions) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2567-closest-nodes-queries-in-a-binary-search-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2567-closest-nodes-queries-in-a-binary-search-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -1047,6 +1049,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1731-even-odd-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1731-even-odd-tree) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2445-reachable-nodes-with-restrictions) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2567-closest-nodes-queries-in-a-binary-search-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2567-closest-nodes-queries-in-a-binary-search-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -1097,6 +1100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1731-even-odd-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1731-even-odd-tree) |
+| [2567-closest-nodes-queries-in-a-binary-search-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2567-closest-nodes-queries-in-a-binary-search-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -1131,6 +1135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2000-minimum-speed-to-arrive-on-time](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2000-minimum-speed-to-arrive-on-time) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
+| [2567-closest-nodes-queries-in-a-binary-search-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2567-closest-nodes-queries-in-a-binary-search-tree) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2690-house-robber-iv) |
