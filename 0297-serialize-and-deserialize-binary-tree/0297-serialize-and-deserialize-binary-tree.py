@@ -13,52 +13,54 @@ class Codec:
         :type root: TreeNode
         :rtype: str
         """
-        tree_str=[]
-        queue=deque([root])
+        queue = deque([root])
+        serialize_list = []
         while queue:
-            node=queue.popleft()
-            if not node:
-                tree_str.append('Null')
-            else:
-                tree_str.append(str(node.val))
+            node = queue.popleft()
+            if node:
+                serialize_list.append(str(node.val))
                 queue.append(node.left)
                 queue.append(node.right)
+            else:
+                serialize_list.append('None')
         
-        return '/'.join(tree_str)
-
+        # print(serialize_list)
+        
+        return '/'.join(serialize_list)
+                
     def deserialize(self, data):
         """Decodes your encoded data to tree.
         
         :type data: str
         :rtype: TreeNode
         """
-        data=data.split('/')
-        if data[0]=='Null':
+        tree_list = data.split('/')
+        # print(tree_list)
+        if tree_list[0] == 'None':
             return None
+        root = TreeNode(int(tree_list[0]))
+        queue = deque([root])
+        tree_idx = 1
 
-        idx=1
-        root=TreeNode(int(data[0]))
-        queue=deque([root])
         while queue:
-            if data[idx]=='Null':
-                queue[0].left=None
-                idx+=1
-            else:  
-                queue[0].left=TreeNode(int(data[idx]))
-                queue.append(queue[0].left)
-                idx+=1
+            if tree_list[tree_idx] != 'None':
+                node = TreeNode(int(tree_list[tree_idx]))
+                queue[0].left = node
+                queue.append(node)
+            else:
+                queue[0].left = None
+            tree_idx += 1
 
-            if data[idx]=='Null':
-                queue[0].right=None
-                idx+=1
-            else:    
-                queue[0].right=TreeNode(int(data[idx]))
-                queue.append(queue[0].right)
-                idx+=1
+            if tree_list[tree_idx] != 'None':
+                node = TreeNode(int(tree_list[tree_idx]))
+                queue[0].right = node
+                queue.append(node)
+            else:
+                queue[0].right = None
+            tree_idx += 1
             queue.popleft()
         return root
 
-        
 
 # Your Codec object will be instantiated and called as such:
 # ser = Codec()
