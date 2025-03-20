@@ -1,5 +1,34 @@
 class Solution:
     def minimumCost(self, n, edges, queries):
+        def get_component_cost(source, component_id):
+            queue = deque()
+
+            # Initialize the component cost to the number that has only 1s in its binary representation
+            component_cost = -1
+
+            queue.append(source)
+            visited[source] = True
+
+            # Perform BFS to explore the component and calculate the cost
+            while queue:
+                node = queue.popleft()
+
+                # Mark the node as part of the current component
+                components[node] = component_id
+
+                # Explore all neighbors of the current node
+                for neighbor, weight in adj_list[node]:
+                    # Update the component cost by performing a bitwise AND of the edge weights
+                    component_cost &= weight
+
+                    # If the neighbor hasn't been visited, mark it as visited and add it to the queue
+                    if visited[neighbor]:
+                        continue
+                    visited[neighbor] = True
+                    queue.append(neighbor)
+
+            return component_cost
+        
         # Create the adjacency list of the graph
         adj_list = [[] for _ in range(n)]
         for edge in edges:
@@ -18,11 +47,7 @@ class Solution:
         for node in range(n):
             if not visited[node]:
                 # Get the component cost and mark all nodes in the component
-                component_cost.append(
-                    self._get_component_cost(
-                        node, adj_list, visited, components, component_id
-                    )
-                )
+                component_cost.append(get_component_cost(node, component_id))
                 component_id += 1
 
         result = []
@@ -39,33 +64,4 @@ class Solution:
         return result
 
     # Helper function to calculate the cost of a component using BFS
-    def _get_component_cost(
-        self, source, adj_list, visited, components, component_id
-    ):
-        nodes_queue = deque()
-
-        # Initialize the component cost to the number that has only 1s in its binary representation
-        component_cost = -1
-
-        nodes_queue.append(source)
-        visited[source] = True
-
-        # Perform BFS to explore the component and calculate the cost
-        while nodes_queue:
-            node = nodes_queue.popleft()
-
-            # Mark the node as part of the current component
-            components[node] = component_id
-
-            # Explore all neighbors of the current node
-            for neighbor, weight in adj_list[node]:
-                # Update the component cost by performing a bitwise AND of the edge weights
-                component_cost &= weight
-
-                # If the neighbor hasn't been visited, mark it as visited and add it to the queue
-                if visited[neighbor]:
-                    continue
-                visited[neighbor] = True
-                nodes_queue.append(neighbor)
-
-        return component_cost
+   
