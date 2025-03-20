@@ -1,18 +1,25 @@
 class Solution:
     def maxDistance(self, nums1: List[int], nums2: List[int]) -> int:
+        
+        def binary_search(target, left):
+            right = len(nums2)-1
 
-        ans = 0
-        p1, p2 = 0, 0
+            while left <= right:
+                mid = (left + right)//2
+                if nums2[mid] < target:
+                    right = mid - 1
+                else:
+                    left = mid + 1
+            
+            return left-1
         
-        while p1 < len(nums1) and p2 < len(nums2):
-            print(nums1[p1],nums2[p2],ans)
-            # If p1 is larger, we should move on to a smaller p1.
-            if nums1[p1] > nums2[p2]:
-                p1 += 1
-                
-            # Otherwise, get their distance and move on to a smaller p2.
-            else: 
-                ans = max(ans, p2 - p1)
-                p2 += 1
+        max_distance = 0
+        for i in range(len(nums1)):
+            j = binary_search(nums1[i], i)
+            print(j)
+            max_distance = max(max_distance, j-i)
         
-        return ans
+        return max_distance
+
+        
+
