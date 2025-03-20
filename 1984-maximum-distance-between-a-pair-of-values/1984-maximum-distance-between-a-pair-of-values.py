@@ -16,7 +16,7 @@ class Solution:
         max_distance = 0
         for i in range(len(nums1)):
             j = binary_search(nums1[i], i)
-            print(j)
+            # print(j)
             max_distance = max(max_distance, j-i)
         
         return max_distance
