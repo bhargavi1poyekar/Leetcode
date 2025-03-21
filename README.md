@@ -452,6 +452,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2553-total-cost-to-hire-k-workers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2567-closest-nodes-queries-in-a-binary-search-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2567-closest-nodes-queries-in-a-binary-search-tree) |
+| [2600-maximum-tastiness-of-candy-basket](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2636-maximum-subsequence-score](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2636-maximum-subsequence-score) |
 | [2665-minimum-time-to-repair-cars](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2665-minimum-time-to-repair-cars) |
@@ -917,6 +918,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2600-maximum-tastiness-of-candy-basket](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2636-maximum-subsequence-score](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2636-maximum-subsequence-score) |
 ## Greedy
 |  |
@@ -932,6 +934,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2469-longest-subsequence-with-limited-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2509-minimize-xor](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2509-minimize-xor) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
+| [2600-maximum-tastiness-of-candy-basket](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2636-maximum-subsequence-score](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2636-maximum-subsequence-score) |
 ## Recursion
 |  |
@@ -1148,6 +1151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2567-closest-nodes-queries-in-a-binary-search-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2567-closest-nodes-queries-in-a-binary-search-tree) |
+| [2600-maximum-tastiness-of-candy-basket](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2690-house-robber-iv) |
