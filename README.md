@@ -432,6 +432,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2163-kth-distinct-string-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2206-detonate-the-maximum-bombs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2206-detonate-the-maximum-bombs) |
 | [2211-k-radius-subarray-averages](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2211-k-radius-subarray-averages) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2308-divide-array-into-equal-pairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
@@ -653,6 +654,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1738-maximal-network-rank](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1738-maximal-network-rank) |
 | [2121-find-if-path-exists-in-graph](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2206-detonate-the-maximum-bombs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2206-detonate-the-maximum-bombs) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2445-reachable-nodes-with-restrictions) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/bhargavi1poyekar/Leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
@@ -810,6 +812,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2107-find-unique-binary-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2107-find-unique-binary-string) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -871,6 +874,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2107-find-unique-binary-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2107-find-unique-binary-string) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2308-divide-array-into-equal-pairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2333-count-number-of-rectangles-containing-each-point](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2333-count-number-of-rectangles-containing-each-point) |
 | [2413-smallest-number-in-infinite-set](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2413-smallest-number-in-infinite-set) |
@@ -1327,6 +1331,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0820-find-eventual-safe-states](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Backtracking
 |  |
 | ------- |
