@@ -10,7 +10,7 @@ class Solution:
         for idx, ingredient in enumerate(ingredients):
             for ing in ingredient:
                 if ing not in supplies:
-                    graph[ing].append(recipes[idx])
+                    graph[ing].append(idx)
                     indegree[idx] += 1
             
         queue = deque()
@@ -27,9 +27,9 @@ class Solution:
             possible_recipes.append(recipe)
 
             for nghbr in graph[recipe]:
-                indegree[recipes_to_idx[nghbr]] -= 1
-                if indegree[recipes_to_idx[nghbr]] == 0:
-                    queue.append(recipes_to_idx[nghbr])
+                indegree[nghbr] -= 1
+                if indegree[nghbr] == 0:
+                    queue.append(nghbr)
         
         return possible_recipes
             
