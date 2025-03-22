@@ -1,42 +1,37 @@
 class Solution:
     def snakesAndLadders(self, board: List[List[int]]) -> int:
         
-        n = len(board)
-        end = n**2
+        level = 0
         flat_board = []
-        # board_idx = 0
+        end = (len(board) ** 2)
 
-        index = 0
-        for i in range(n-1, -1, -1):
-            if index % 2 == 0:
-                for j in range(n):
-                    flat_board.append(board[i][j])
-                    # board_idx += 1
-            
+        for row in range(len(board)-1, -1, -1):
+            if level % 2 == 0:
+                for col in range(len(board)):
+                    flat_board.append(board[row][col])
             else:
-                for j in range(n-1, -1, -1):
-                    flat_board.append(board[i][j])
-                    # board_idx += 1
-            index += 1
+                for col in range(len(board)-1, -1, -1):
+                    flat_board.append(board[row][col])
+            
+            level += 1
         
-        queue = deque([(0, 0)]) # current square and steps
-        seen = {0}
+        queue = deque([(0, 0)]) # square, steps
+        seen = {(0)} 
 
         while queue:
-            curr, steps = queue.popleft()
+            print(queue)
+            square, steps = queue.popleft()
 
-            if flat_board[curr] != -1:
-                curr = flat_board[curr] - 1
-            
-            if curr == end - 1:
+            if flat_board[square] != -1:
+                square = flat_board[square]-1
+
+            if square == end - 1:
                 return steps
-            
-            for next in range((curr + 1), min(curr + 7, end)):
+            # print(square)
+
+            for next in range(square + 1, min(square + 7, end)):
                 if next not in seen:
                     seen.add(next)
                     queue.append((next, steps + 1))
-        
-        return -1 
 
-
-
+        return -1  
