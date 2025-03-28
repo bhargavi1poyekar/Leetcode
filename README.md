@@ -377,6 +377,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0724-find-pivot-index](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0739-daily-temperatures) |
+| [0740-delete-and-earn](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0740-delete-and-earn) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0747-min-cost-climbing-stairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0753-open-the-lock](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0753-open-the-lock) |
@@ -771,6 +772,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0152-maximum-product-subarray](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0198-house-robber) |
 | [0392-is-subsequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0392-is-subsequence) |
+| [0740-delete-and-earn](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1236-n-th-tribonacci-number](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1236-n-th-tribonacci-number) |
@@ -870,6 +872,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0433-minimum-genetic-mutation](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0433-minimum-genetic-mutation) |
 | [0496-next-greater-element-i](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0567-permutation-in-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0567-permutation-in-string) |
+| [0740-delete-and-earn](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0740-delete-and-earn) |
 | [0753-open-the-lock](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0753-open-the-lock) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
