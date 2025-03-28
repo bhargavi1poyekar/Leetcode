@@ -773,6 +773,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0392-is-subsequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0392-is-subsequence) |
 | [0747-min-cost-climbing-stairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [1236-n-th-tribonacci-number](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1236-n-th-tribonacci-number) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -1313,6 +1314,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0224-basic-calculator](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0224-basic-calculator) |
 | [0445-add-two-numbers-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0445-add-two-numbers-ii) |
 | [1014-k-closest-points-to-origin](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1236-n-th-tribonacci-number](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1236-n-th-tribonacci-number) |
 | [1477-product-of-the-last-k-numbers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
@@ -1389,6 +1391,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0070-climbing-stairs) |
+| [1236-n-th-tribonacci-number](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1236-n-th-tribonacci-number) |
 ## Counting Sort
 |  |
 | ------- |
