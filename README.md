@@ -424,6 +424,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1876-map-of-highest-peak](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1896-maximum-score-from-performing-multiplication-operations](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1984-maximum-distance-between-a-pair-of-values](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1984-maximum-distance-between-a-pair-of-values) |
 | [2000-minimum-speed-to-arrive-on-time](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2000-minimum-speed-to-arrive-on-time) |
@@ -780,6 +781,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [1896-maximum-score-from-performing-multiplication-operations](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## String
 |  |
