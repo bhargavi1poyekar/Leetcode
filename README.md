@@ -470,6 +470,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2792-neighboring-bitwise-xor) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3001-apply-operations-to-maximize-score](https://github.com/bhargavi1poyekar/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3227-find-missing-and-repeated-values](https://github.com/bhargavi1poyekar/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/bhargavi1poyekar/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
@@ -706,6 +707,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2456-construct-smallest-number-from-di-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2470-removing-stars-from-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2470-removing-stars-from-a-string) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
+| [3001-apply-operations-to-maximize-score](https://github.com/bhargavi1poyekar/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3447-clear-digits](https://github.com/bhargavi1poyekar/Leetcode/tree/master/3447-clear-digits) |
 ## Simulation
 |  |
@@ -947,6 +949,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2636-maximum-subsequence-score](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2636-maximum-subsequence-score) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3001-apply-operations-to-maximize-score](https://github.com/bhargavi1poyekar/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3430-count-days-without-meetings](https://github.com/bhargavi1poyekar/Leetcode/tree/master/3430-count-days-without-meetings) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/bhargavi1poyekar/Leetcode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Greedy
@@ -965,6 +968,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2636-maximum-subsequence-score](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2636-maximum-subsequence-score) |
+| [3001-apply-operations-to-maximize-score](https://github.com/bhargavi1poyekar/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Recursion
 |  |
 | ------- |
@@ -1334,6 +1338,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2610-closest-prime-numbers-in-range](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2649-count-total-number-of-colored-cells) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
+| [3001-apply-operations-to-maximize-score](https://github.com/bhargavi1poyekar/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3227-find-missing-and-repeated-values](https://github.com/bhargavi1poyekar/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Monotonic Stack
 |  |
@@ -1343,6 +1348,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0739-daily-temperatures](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0883-car-fleet) |
 | [0937-online-stock-span](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0937-online-stock-span) |
+| [3001-apply-operations-to-maximize-score](https://github.com/bhargavi1poyekar/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -1451,6 +1457,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2610-closest-prime-numbers-in-range](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
+| [3001-apply-operations-to-maximize-score](https://github.com/bhargavi1poyekar/Leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Merge Sort
 |  |
 | ------- |
