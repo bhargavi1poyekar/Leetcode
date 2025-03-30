@@ -1,19 +1,21 @@
 class Solution:
     def partitionLabels(self, s: str) -> List[int]:
-        
-        last_occ=Counter()
+        # Stores the last index of each character in 's'
+        last_occurrence = [0] * 26
+        for i, char in enumerate(s):
+            last_occurrence[ord(char) - ord("a")] = i
 
-        for i in range(len(s)):
-            last_occ[s[i]]=i
-        
-        partition_size=[]
-        curr_size=0
-        curr_end=last_occ[s[0]]
-        for i in range(len(s)):
-            curr_end=max(curr_end,last_occ[s[i]])
-            curr_size+=1
-            if i==curr_end:
-                partition_size.append(curr_size)
-                curr_size=0
-        
-        return(partition_size)
+        partition_end = 0
+        partition_start = 0
+        partition_sizes = []
+
+        for i, char in enumerate(s):
+            partition_end = max(
+                partition_end, last_occurrence[ord(char) - ord("a")]
+            )
+            # End of the current partition
+            if i == partition_end:
+                partition_sizes.append(i - partition_start + 1)
+                partition_start = i + 1
+
+        return partition_sizes
