@@ -1,6 +1,6 @@
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
-        @lru_cache(None)
+        # @lru_cache(None)
         def dp(i):
             if i < 0: 
                 return True
