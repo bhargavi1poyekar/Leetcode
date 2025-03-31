@@ -4,15 +4,17 @@ class Solution:
         def dp(i):
             if i < 0: 
                 return True
-            if i not in memo:
-                for word in wordDict:
-                    if (i >= len(word) - 1) and dp(i - len(word)):
-                        if s[i - len(word) + 1 : i + 1] == word:
-                            return True
-            else:
+            if i in memo:
                 return memo[i]
             
-            return False
+            for word in wordDict:
+                if (i >= len(word) - 1) and dp(i - len(word)):
+                    if s[i - len(word) + 1 : i + 1] == word:
+                        memo[i] = True
+                        return memo[i]
+            
+            memo[i] = False
+            return memo[i]
         
         memo = {}
         return dp(len(s) - 1)
