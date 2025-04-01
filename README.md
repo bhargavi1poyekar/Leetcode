@@ -785,6 +785,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0070-climbing-stairs) |
+| [0091-decode-ways](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
@@ -824,6 +825,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0071-simplify-path](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0079-word-search) |
+| [0091-decode-ways](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0127-word-ladder) |
 | [0139-word-break](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0139-word-break) |
