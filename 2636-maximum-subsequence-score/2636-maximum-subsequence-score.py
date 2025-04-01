@@ -57,11 +57,11 @@ class Solution:
 
         # Implementation
 
-        sorted_zip = sorted(zip(nums1, nums2), key=lambda variable: variable[1], reverse = True)     
+        sorted_zip = sorted(zip(nums2, nums1), reverse = True)     
         max_score = float('-inf')
         min_heap = []
         prefix_sum = 0
-        for num1, num2 in sorted_zip:
+        for num2, num1 in sorted_zip:
             heapq.heappush(min_heap, num1)
             prefix_sum += num1
 
