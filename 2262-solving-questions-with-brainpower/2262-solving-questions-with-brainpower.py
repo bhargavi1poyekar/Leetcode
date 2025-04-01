@@ -1,16 +1,17 @@
 class Solution:
     def mostPoints(self, questions: List[List[int]]) -> int:
-
-        def dp(i):
-            if i >= len(questions):
+        n = len(questions)
+        dp = [0] * n
+        
+        def dfs(i):
+            if i >= n:
                 return 0
-            
-            if i in memo:
-                return memo[i]
-            
-            j = i + questions[i][1] + 1
-            memo[i]=max(questions[i][0] + dp(j), dp(i + 1))
-            return memo[i]
-    
-        memo={}
-        return dp(0)
+            if dp[i]:
+                return dp[i]
+            points, skip = questions[i]
+
+            # dp[i] = max(skip it, solve it)
+            dp[i] = max(dfs(i + 1), points + dfs(i + skip + 1))
+            return dp[i]
+        
+        return dfs(0)
