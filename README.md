@@ -787,6 +787,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -1364,6 +1365,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0002-add-two-numbers) |
+| [0062-unique-paths](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0202-happy-number](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0202-happy-number) |
@@ -1526,4 +1528,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2333-count-number-of-rectangles-containing-each-point](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2333-count-number-of-rectangles-containing-each-point) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
