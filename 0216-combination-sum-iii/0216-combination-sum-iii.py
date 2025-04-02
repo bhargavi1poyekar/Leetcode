@@ -1,17 +1,18 @@
 class Solution:
     def combinationSum3(self, k: int, n: int) -> List[List[int]]:
         
-        def backtrack(curr, i, currsum):
-            if len(curr) == k and currsum == n:
+        def backtrack(i, curr, currsum):
+            if currsum == n and len(curr) == k:
                 ans.append(curr[:])
-                return 
-            
-            for j in range(i+1, 10):
-                if currsum + j <= n:
-                    curr.append(j)
-                    backtrack(curr, j, currsum + j)
+                return
+
+            for num in range(i, 10):
+                if currsum + num <= n:
+                    curr.append(num)
+                    backtrack(num + 1, curr, currsum + num)
                     curr.pop()
         
         ans = []
-        backtrack([], 0, 0)
+        backtrack(1, [], 0)
         return ans
+
