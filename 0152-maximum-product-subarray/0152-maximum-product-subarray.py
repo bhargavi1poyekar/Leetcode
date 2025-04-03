@@ -1,15 +1,20 @@
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
-        
-        ans=max(nums) # default max element
-        min_prod,max_prod=1,1 
-        
-        for i in nums:
-            if i==0: # if multiplied with 0, prod becomes 0, hence we dont want to include it.
-                min_prod,max_prod=1,1
-                continue
-            tmp=max_prod*i # max_prod changes, and we have to use it in min_prod calculation
-            max_prod=max(tmp,min_prod*i,i)
-            min_prod=min(tmp,min_prod*i,i)
-            ans=max(ans,max_prod) # Finally, we decide, whether to use this element in product
-        return ans
+        if len(nums) == 0:
+            return 0
+
+        max_so_far = nums[0]
+        min_so_far = nums[0]
+        result = max_so_far
+
+        for i in range(1, len(nums)):
+            curr = nums[i]
+            temp_max = max(curr, max_so_far * curr, min_so_far * curr)
+            min_so_far = min(curr, max_so_far * curr, min_so_far * curr)
+
+            # Update max_so_far after updates to min_so_far to avoid overwriting it
+            max_so_far = temp_max
+            # Update the result with the maximum product found so far
+            result = max(max_so_far, result)
+
+        return result
