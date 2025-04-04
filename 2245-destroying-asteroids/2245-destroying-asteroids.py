@@ -1,12 +1,12 @@
 class Solution:
     def asteroidsDestroyed(self, mass: int, asteroids: List[int]) -> bool:
-
+        
         asteroids.sort()
-
-        for ast in asteroids:
-            if ast>mass:
+        for asteroid in asteroids:
+            if asteroid > mass:
                 return False
-            else:
-                mass+=ast
+            mass += asteroid
         
         return True
+
+
