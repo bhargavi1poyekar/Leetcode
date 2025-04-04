@@ -453,6 +453,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2206-detonate-the-maximum-bombs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2206-detonate-the-maximum-bombs) |
 | [2211-k-radius-subarray-averages](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2211-k-radius-subarray-averages) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2245-destroying-asteroids](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2245-destroying-asteroids) |
 | [2262-solving-questions-with-brainpower](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2294-minimum-time-to-complete-trips](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2294-minimum-time-to-complete-trips) |
@@ -989,6 +990,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1777-determine-if-two-strings-are-close](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2245-destroying-asteroids](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2245-destroying-asteroids) |
 | [2333-count-number-of-rectangles-containing-each-point](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2333-count-number-of-rectangles-containing-each-point) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
@@ -1013,6 +1015,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1502-construct-k-palindrome-strings](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
+| [2245-destroying-asteroids](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2245-destroying-asteroids) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
