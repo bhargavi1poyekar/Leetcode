@@ -1,17 +1,19 @@
 class Solution:
     def jump(self, nums: List[int]) -> int:
+        
+        left = 0
+        right = 0
+        num_jump = 0
 
-        l=0
-        r=0
-        jmp=0
+        while right < len(nums) - 1:
+            max_jump = 0
 
-        while(r<len(nums)-1):
+            for i in range(left, right+1):
+                max_jump = max(max_jump, i + nums[i])
             
-            max_jmp=0
-            for i in range(l,r+1):
-                max_jmp=max(max_jmp,i+nums[i])
-            
-            l=r+1
-            r=max_jmp
-            jmp+=1
-        return jmp
+            left = right + 1
+            right = max_jump
+
+            num_jump += 1
+        
+        return num_jump
