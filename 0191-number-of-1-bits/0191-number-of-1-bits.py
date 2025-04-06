@@ -9,5 +9,5 @@ class Solution:
         for _ in range(32):
             if (n & mask) != 0:
                 set_bits += 1
-            mask <<= 1
+            n >>= 1
         return set_bits
