@@ -1411,6 +1411,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0224-basic-calculator](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0224-basic-calculator) |
 | [0368-largest-divisible-subset](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0445-add-two-numbers-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0445-add-two-numbers-ii) |
+| [0504-base-7](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0504-base-7) |
 | [1014-k-closest-points-to-origin](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1236-n-th-tribonacci-number](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1236-n-th-tribonacci-number) |
 | [1448-maximum-69-number](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1448-maximum-69-number) |
