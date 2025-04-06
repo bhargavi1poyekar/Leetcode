@@ -9,7 +9,6 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
-
         '''Psedocode/ Plan
         7 -> 7`-> 13 -> 13` -> 11 -> 11` -> 10 -> 10` -> 1 -> 1`
 
@@ -54,7 +53,8 @@ class Solution:
             copy = copy.next
         
         return copyHead
-        
 
-
-
+        '''
+        Time Complexity: O(N)
+        Space Complexity: O(N)
+        '''
