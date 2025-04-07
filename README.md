@@ -1449,6 +1449,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0089-gray-code](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0089-gray-code) |
 | [0190-reverse-bits](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0191-number-of-1-bits) |
+| [0201-bitwise-and-of-numbers-range](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0201-bitwise-and-of-numbers-range) |
 | [0222-count-complete-tree-nodes](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0371-sum-of-two-integers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
