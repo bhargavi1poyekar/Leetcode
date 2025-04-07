@@ -2,9 +2,11 @@ class Solution:
     def countBits(self, n: int) -> List[int]:
         def pop_count(x: int) -> int:
             count = 0
-            while x != 0:
-                x &= x - 1 # zeroing out the least significant nonzero bit
-                count += 1
+            mask = 1
+            while x:
+                if (x & mask) != 0:  
+                    count += 1
+                x >>= 1
             return count
             
         ans = [0] * (n + 1)
