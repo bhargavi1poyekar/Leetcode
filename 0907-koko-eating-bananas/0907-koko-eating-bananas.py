@@ -1,12 +1,13 @@
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
+        
         def check(k):
-            sum_time = 0
-            for ban in piles:
-                sum_time += ceil(ban/k)
-            
-            return sum_time <= h
+            hours = 0 
+            for pile in piles:
+                hours += ceil(pile/k)
 
+            return hours <= h
+        
         left = 1
         right = max(piles)
 
@@ -16,5 +17,5 @@ class Solution:
                 right = mid - 1
             else:
                 left = mid + 1
-
-        return left 
+        
+        return left
