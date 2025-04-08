@@ -3,21 +3,18 @@ class Solution:
         
         m = len(matrix)
         n = len(matrix[0])
+
         left = 0
-        right = m * n - 1
+        right = (m*n) - 1
 
         while left <= right:
-            mid = ( left + right ) // 2
-            
+            mid = (left + right) // 2
             row = mid // n
             col = mid % n
-
-            num = matrix[row][col]
-
-            if num == target:
+        
+            if matrix[row][col] == target:
                 return True
-            
-            elif num > target:
+            elif matrix[row][col] > target:
                 right = mid - 1
             else:
                 left = mid + 1
