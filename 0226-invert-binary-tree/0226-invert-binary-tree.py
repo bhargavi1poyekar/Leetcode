@@ -6,13 +6,33 @@
 #         self.right = right
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-
-        if not root:
-            return None
         
-        root.left, root.right = root.right, root.left
+        '''
+        Understand:
 
-        self.invertTree(root.left)
-        self.invertTree(root.right)
+        Given root. 
+        we need to invert. all left needs to be right. give mirror image of the current tree. 
+        empty tree -> return empty
 
+        Match:
+        dfs. 
+
+        Plan:
+        at every dfs -> just swap left and right. and do the same for left child, as well as right child. 
+        '''
+
+        def dfs(root):
+            if not root:
+                return
+
+            root.left, root.right = root.right, root.left
+            dfs(root.left)
+            dfs(root.right)
+        
+        dfs(root)
         return root
+
+        '''
+        Time Complexity -> O(n)
+        Space Complexity -> O(N) -> stack overhead. 
+        '''
