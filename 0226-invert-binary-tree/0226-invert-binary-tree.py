@@ -34,5 +34,5 @@ class Solution:
 
         '''
         Time Complexity -> O(n)
-        Space Complexity -> O(N) -> stack overhead. 
+        Space Complexity -> O(h) -> stack overhead. h function calls. in worst case 
         '''
