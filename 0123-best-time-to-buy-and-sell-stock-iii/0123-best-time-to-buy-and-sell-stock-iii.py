@@ -1,18 +1,19 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        @lru_cache
-        def dp(i, remainingTrans, holding):
-            if i == len(prices) or remainingTrans == 0:
+        @lru_cache(None)
+        def dp(i, holding, remainT):
+            if i == len(prices) or remainT == 0:
                 return 0
             
-            doNothing = dp(i+1, remainingTrans, holding)
-            doSomething = 0
+            doNothing = dp(i+1, holding, remainT)
 
             if holding:
-                doSomething = prices[i] + dp(i+1, remainingTrans-1, 0)
+                # Sell
+                doSomething = dp(i+1, False, remainT-1) + prices[i]
             else:
-                doSomething = -prices[i] + dp(i+1, remainingTrans, 1)
+                # Buy
+                doSomething = dp(i+1, True, remainT) - prices[i]
             
-            return max(doSomething, doNothing)
+            return max(doNothing, doSomething)
         
-        return dp(0, 2, 0)
+        return dp(0, False, 2)
