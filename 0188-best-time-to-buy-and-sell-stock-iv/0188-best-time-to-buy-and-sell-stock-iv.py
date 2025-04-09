@@ -1,12 +1,13 @@
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
         
-        @lru_cache
+        @lru_cache(None)
         def dp(i, holding, remainT):
             if i >= len(prices) or remainT == 0:
                 return 0
             
             doNothing = dp(i+1, holding, remainT)
+            doSomething = 0
 
             if holding:
                 # Sell
