@@ -45,3 +45,8 @@ class Solution:
             max_vowel = max(max_vowel, vowel_count)
         
         return max_vowel
+
+        '''
+        Time Complexity: O(n)
+        Space Complexity: O(1)
+        '''
