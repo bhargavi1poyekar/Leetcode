@@ -1,20 +1,20 @@
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
-        if len(nums) == 0:
+        if not nums:
             return 0
 
-        max_so_far = nums[0]
-        min_so_far = nums[0]
-        result = max_so_far
+        max_prod = nums[0]
+        min_prod = nums[0]
+        largest_prod = max_prod
 
         for i in range(1, len(nums)):
-            curr = nums[i]
-            temp_max = max(curr, max_so_far * curr, min_so_far * curr)
-            min_so_far = min(curr, max_so_far * curr, min_so_far * curr)
+            num = nums[i]
+            temp_max = max(num, max_prod*num, min_prod*num)
+            min_prod = min(num, min_prod*num, max_prod*num)
 
-            # Update max_so_far after updates to min_so_far to avoid overwriting it
-            max_so_far = temp_max
-            # Update the result with the maximum product found so far
-            result = max(max_so_far, result)
+            max_prod = temp_max
+            largest_prod = max(max_prod, largest_prod)
 
-        return result
+        return largest_prod    
+
+
