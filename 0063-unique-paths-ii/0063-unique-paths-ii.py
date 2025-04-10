@@ -1,26 +1,25 @@
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
+        # only go to grids with value 0. 
+
         def isValid(row, col):
-            return row >= 0 and col >= 0 and obstacleGrid[row][col] == 0
+            return 0 <= row < m and 0 <= col < n and obstacleGrid[row][col] == 0
 
         m = len(obstacleGrid)
-        n = len(obstacleGrid[0])
+        n = len(obstacleGrid[0]) if m else 0
 
         if obstacleGrid[0][0] == 1 or obstacleGrid[m-1][n-1] == 1:
-            return 0
+            return 0 
 
         dp = [[0] * n for _ in range(m)]
-        dp[0][0] = 1 # Base case
+        dp[0][0] = 1
+
+        for i in range(m):
+            for j in range(n):
+                if isValid(i, j):
+                    if isValid(i-1, j):
+                        dp[i][j] += dp[i-1][j]
+                    if isValid(i, j-1):
+                        dp[i][j] += dp[i][j-1]
         
-        for row in range(m):
-            for col in range(n):
-                if isValid(row, col):
-                    if isValid(row-1, col):
-                        dp[row][col] += dp[row - 1][col]
-                    if isValid(row, col-1):
-                        dp[row][col] += dp[row][col - 1]
-                else:
-                    dp[row][col] == 0
-        
-        # print(dp)
-        return dp[m - 1][n - 1]
+        return dp[m-1][n-1]
