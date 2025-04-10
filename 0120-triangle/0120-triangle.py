@@ -4,19 +4,23 @@ class Solution:
         if not triangle:
             return 0
 
-        dp = [[0] * len(triangle[row]) for row in range(len(triangle))]
-        dp[0][0] = triangle[0][0]
         Row = len(triangle)
 
-        for row in range(1, len(triangle)):
-            Col = len(triangle[row])
-            for col in range(len(triangle[row])):
-                if col == 0:
-                    dp[row][col] = dp[row-1][col] + triangle[row][col]
-                elif col == Col - 1:
-                    dp[row][col] = dp[row-1][col-1] + triangle[row][col]
+        dp = [[0] * len(triangle[row]) for row in range(Row)]
+
+        dp[0][0] = triangle[0][0]
+        # print(dp[0][0])
+
+        for i in range(1, Row):
+            len_col = len(triangle[i])
+            for j in range(len_col):
+                if j == 0:
+                    dp[i][j] = dp[i-1][j] + triangle[i][j]
+                elif j == len_col - 1:
+                    dp[i][j] = dp[i-1][j-1] + triangle[i][j]
                 else:
-                    dp[row][col] = min(dp[row-1][col], dp[row-1][col-1]) + triangle[row][col]
+                    dp[i][j] = min(dp[i-1][j], dp[i-1][j-1]) + triangle[i][j]
         
+        # print(dp)
         return min(dp[Row-1])
-                    
+
