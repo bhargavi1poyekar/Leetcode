@@ -9,7 +9,7 @@ class Solution:
         
         def dfs(root):
             if not root:
-                return 
+                return []
             
             if not root.left and not root.right:
                 return [root.val]
