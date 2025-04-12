@@ -50,3 +50,8 @@ class Solution:
             h.next = l2
         
         return newhead.next
+
+        '''
+        Time Complexity: O(n)
+        Space Complexity: O(1)
+        '''
