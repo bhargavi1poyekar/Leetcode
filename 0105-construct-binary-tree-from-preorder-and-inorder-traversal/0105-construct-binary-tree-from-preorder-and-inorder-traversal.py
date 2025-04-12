@@ -6,33 +6,29 @@
 #         self.right = right
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
-        
-        preorder = deque(preorder)
-        index_hash = {}
 
-        for i in range(len(inorder)):
-            index_hash[inorder[i]] = i
-        
-        def construct(left, right):
-            if left >= right:
+        preorder = deque(preorder)
+
+        def dfs(low, high):
+            if low >= high:
                 return None
             
             val = preorder.popleft()
             node = TreeNode(val)
 
-            index = index_hash[val]
-            node.left = construct(left, index)
-            node.right = construct(index+1, right)
-        
+            idx = hash_idx[val]
+            node.left = dfs(low, idx)
+            node.right = dfs(idx + 1, high)
+
             return node
+
+        hash_idx = {}        
+        for i in range(len(inorder)):
+            hash_idx[inorder[i]] = i
         
-        return construct(0, len(inorder))
+        return dfs(0, len(inorder))
 
 
 
 
-
-
-
-
-
+        
