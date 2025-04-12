@@ -402,6 +402,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0747-min-cost-climbing-stairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0753-open-the-lock](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0753-open-the-lock) |
 | [0792-binary-search](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0792-binary-search) |
+| [0876-hand-of-straights](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0883-car-fleet) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0907-koko-eating-bananas](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0907-koko-eating-bananas) |
@@ -954,6 +955,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0740-delete-and-earn](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0740-delete-and-earn) |
 | [0753-open-the-lock](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0753-open-the-lock) |
 | [0768-partition-labels](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0768-partition-labels) |
+| [0876-hand-of-straights](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0876-hand-of-straights) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0952-word-subsets) |
@@ -1010,6 +1012,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0368-largest-divisible-subset](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0502-ipo](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0502-ipo) |
 | [0658-find-k-closest-elements](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0658-find-k-closest-elements) |
+| [0876-hand-of-straights](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0883-car-fleet) |
 | [0941-sort-array-by-parity](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [1014-k-closest-points-to-origin](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -1045,6 +1048,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0678-valid-parenthesis-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0768-partition-labels](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0768-partition-labels) |
+| [0876-hand-of-straights](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0876-hand-of-straights) |
 | [1448-maximum-69-number](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1448-maximum-69-number) |
 | [1502-construct-k-palindrome-strings](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1829-maximum-units-on-a-truck](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1829-maximum-units-on-a-truck) |
