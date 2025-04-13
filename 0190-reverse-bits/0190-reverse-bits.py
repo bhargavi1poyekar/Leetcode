@@ -2,12 +2,12 @@ class Solution:
     def reverseBits(self, n: int) -> int:
         
         reverse = 0
-        index = 31 # leftmost bit
+        index = 31
 
         while n:
-            digit = n & 1 # get 1 or 0 by & with 1
-            reverse += digit << index # shift to that position. 
-            n >>= 1 # Shift to next bit. 
-            index -= 1 # next position. 
+            right_most_digit = n & 1
+            reverse += right_most_digit << index
+            n >>= 1
+            index -= 1
         
         return reverse
