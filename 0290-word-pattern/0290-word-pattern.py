@@ -47,3 +47,8 @@ class Solution:
                 return False
         
         return True
+
+        '''
+        Time Complexity: O(n)
+        Space Complexity: O(n)
+        '''
