@@ -23,3 +23,9 @@ class Solution:
         arr_count = Counter(arr)
         count_set = set(arr_count.values())
         return len(count_set) == len(arr_count)
+
+        '''
+        Time Complexity: O(n)
+        Space: O(N)
+        '''
+
