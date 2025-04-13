@@ -12,5 +12,4 @@ class Solution:
                 return []
             return inorder(root.left) + [root.val] + inorder(root.right)
         
-        sorted_arr = inorder(root)
-        return sorted_arr[k-1]
+        return inorder(root)[k-1]
