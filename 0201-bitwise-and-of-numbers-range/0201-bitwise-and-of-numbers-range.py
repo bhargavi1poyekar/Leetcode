@@ -1,5 +1,6 @@
 class Solution:
     def rangeBitwiseAnd(self, left: int, right: int) -> int:
+        
         shift = 0
         # find the common 1-bits
         while left < right:
