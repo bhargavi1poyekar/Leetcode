@@ -39,5 +39,11 @@ class Solution:
         
         memo = {}
         return dp(len(s)-1)
+
+        '''
+        Time Complexity: O(n . m. k) -> n states -> for i, m -> number of words, k -> operation for each word. 
+
+        Space Complexity: O(n)
+        '''
                 
             
