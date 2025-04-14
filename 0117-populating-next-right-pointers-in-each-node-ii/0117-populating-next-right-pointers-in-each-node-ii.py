@@ -61,6 +61,11 @@ class Solution:
             queue.popleft()
         
         return root
+        '''
+        Time Complexity -> O(N)
+        Space -> O(n)
+        '''
+
 
 
         
