@@ -1,83 +1,47 @@
 import heapq
 class Solution:
     def maxScore(self, nums1: List[int], nums2: List[int], k: int) -> int:
-        
         '''
-        U:
-        2 arrays -> nums1 and nums2 -> len n
-        k 
+        Understand:
 
-        to do: 
-        subsequence of indices of nums1 of len k
-        for these indices:
-            scores -> (sum of selected elements from num1) * min(nums2 [indices])
-        
-        to return: max possible score
+        Given -> 2 0-indexed int arrays nums1 and nums2 of length n.
+        pos int k
 
-        Understanding with example
+        choose subseq of num1 of len k. 
 
-        nums1 = [1,3,3,2], nums2 = [2,1,3,4], k = 3
-        0, 1, 2 -> 7 * 1 -> 7
-        1, 2, 3 -> 8 * 1 -> 8
-        0, 1, 3 -> 6 * 1 -> 6
-        0, 2, 3 -> 6 * 2 -> 12
+        and for the same indices chosen -> select min val of nums2. 
+        sum the nums1 chosen element * min nums2. 
 
-        max -> 12
+        return max possible score. 
 
-        Questions:
-        if empty arr -> score 0?
-        if always nums1 len == nums len ?
-        can any case have k > n? if yes what to return. 
-
-        Match:
-
-        Since according to this question, we might need max nums, and min nums2, so -> heap good option. 
+        Match: select min nums2, max possible score -> we can use heaps. 
 
         Plan:
-        Since order of the sequence doesnt matter exactly. we just need to have same indices fr both nums1 and nums2.
+        we want min of nums2. -> we can sort nums1 and nums2 based on nums2 in descending order. 
 
-        1. Sort our nums2 -> in ascending order.
-        2. And nums1 -> should be arranged acc to nums2 indices. 
+        then we can traverse over this, and keep prefix sum of nums1. 
+        at every point we get min nums2 as we move forward. when we reach k -> we do the multiplication with prefix. 
 
-        (nums1, nums2)
-        zip = [, , , ] # sorted zip. 
-            [(2, 4), (3, 3), (1, 2), (3, 1)]
-
-        Now lets have a heap. 
-
-        lets iterate over this zip. 
-        and then min_nums2 = nums2
-
-        min_heap.append(nums1)
-
-        if len(min_heap) == k:
-            max = max(max, sum(min_heap) * nums2)
-            min_heap.pop
+        Now we need to exclude the nums1. so for this, we can add nums in min heap, and after we have k elements in heap, we can take out the min nums1. subtract it from prefix as well. 
         '''
 
-        # Implementation
+        nums = sorted(zip(nums2, nums1), reverse = True)
 
-        sorted_zip = sorted(zip(nums2, nums1), reverse = True)     
-        max_score = float('-inf')
-        min_heap = []
         prefix_sum = 0
-        for num2, num1 in sorted_zip:
-            heapq.heappush(min_heap, num1)
+        min_heap = []
+        max_score = float('-inf')
+
+        for num2, num1 in nums:
             prefix_sum += num1
+            heapq.heappush(min_heap, num1)
 
             if len(min_heap) == k:
-                score = prefix_sum * num2
-                max_score = max(max_score, score)
+                max_score = max(max_score, prefix_sum * num2)
                 prefix_sum -= heapq.heappop(min_heap)
-        
+            
         return max_score
 
         '''
-        sorted_zip = [(2, 4), (3, 3), (1, 2), (3, 1)]
-        min_heap = [2, 3, 3]
-        max_score = 12
-        k = 3
-        num1 = 3, num2 = 1
-        score = 8
-
+        Time Complexity: O(n log n) for sorting. 
+        Space Complexity: O(k)
         '''
