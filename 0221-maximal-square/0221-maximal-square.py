@@ -35,3 +35,8 @@ class Solution:
                     max_side = max(max_side, dp[i][j])
                 
         return max_side ** 2
+
+        '''
+        Time Complexity: O(M*N)
+        Space Complexity: O(M*N)
+        '''
