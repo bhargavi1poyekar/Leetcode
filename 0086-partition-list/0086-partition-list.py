@@ -41,6 +41,10 @@ class Solution:
             curr = curr.next
         
         small.next = lhead.next
-        large.next = None
+        large.next = None # this is important. 
         return shead.next
 
+        '''
+        Time Complexity -> O(N)
+        Space COmplexity -> O(1)
+        '''
