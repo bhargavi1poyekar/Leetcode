@@ -53,3 +53,8 @@ class Solution:
         
         return newhead.next
 
+        '''
+        Time Complexity: O(N) -> N being max of length of l1 or l2.
+        Space Complexity: O(N)
+        '''
+
