@@ -21,6 +21,13 @@ class Solution:
         
         return ans
 
+        '''
+        Time Complexity: O(N* m log m) -> m -> length of individual strings. and 
+        N -> num of strings. 
+
+        Space: O(N)
+        '''
+
 
 
 
