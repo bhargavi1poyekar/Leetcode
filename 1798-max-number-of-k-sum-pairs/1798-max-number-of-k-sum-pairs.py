@@ -42,3 +42,9 @@ class Solution:
                 left += 1
             
         return num_op
+
+        '''
+        Time Complexity : O nlogn  -> for sorting. 
+        Space ComplexitY: O(n) -> for sorting. 
+        '''
+        
