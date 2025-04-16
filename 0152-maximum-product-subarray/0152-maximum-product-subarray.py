@@ -1,20 +1,37 @@
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
+        
+        '''
+        Understand:
+
+        Given: nums -> find subarr with largest prod and return prod. 
+        
+        the integers will be negative ? yes
+        will there be 0 ? yes
+
+        Match: If not negative intergers -> we could have used greedy approach like Kadane's algorithm. Where if the subarray prod is lesser than curr element. then it wont exactly contribute, and hence we drop it. 
+
+        But here because of Negative integers and prod. -> 2 negative integers give a positive product. So here we can do is get max and min. because if we get any 2 non negative integers, then previous negative product can be saved. 
+
+        '''
         if not nums:
-            return 0
+            return -1
+
+        max_so_far = nums[0]
+        min_so_far = nums[0]
 
         max_prod = nums[0]
-        min_prod = nums[0]
-        largest_prod = max_prod
 
         for i in range(1, len(nums)):
-            num = nums[i]
-            temp_max = max(num, max_prod*num, min_prod*num)
-            min_prod = min(num, min_prod*num, max_prod*num)
+            temp_max = max(nums[i], max_so_far * nums[i], min_so_far * nums[i])
+            min_so_far = min(nums[i], max_so_far * nums[i], min_so_far * nums[i])
+            max_so_far = temp_max
+            max_prod = max(max_prod, max_so_far)
+        
+        return max_prod
 
-            max_prod = temp_max
-            largest_prod = max(max_prod, largest_prod)
-
-        return largest_prod    
-
+        '''
+        Time Complexity: O(n)
+        Space Complexity: O(1)
+        '''
 
