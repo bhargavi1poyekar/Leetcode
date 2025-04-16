@@ -65,7 +65,8 @@ class Solution:
         # return False
 
         '''
-
+        Time Complexity: O(N)
+        Space Complexity: O(N)
         '''
 
 
