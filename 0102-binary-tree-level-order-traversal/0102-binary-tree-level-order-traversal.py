@@ -6,15 +6,33 @@
 #         self.right = right
 class Solution:
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
-        
+        '''
+        Understand:
+
+        Given root -> return level order traversal. 
+        left to right level by level. 
+
+        Match: BFS -> using queue.
+
+        Plan:
+        add root to queue. 
+        now at every level, 
+        popleft queue -> add to the level. 
+
+        and add the node.left and node.right to the queue if exist. 
+        COntinue till queue is empty. 
+        '''
+
         if not root:
             return []
-            
+
         queue = deque([root])
-        lot = []
+
+        level_order_trav = []
 
         while queue:
             level = []
+
             for _ in range(len(queue)):
                 node = queue.popleft()
                 level.append(node.val)
@@ -23,8 +41,12 @@ class Solution:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
-            
-            lot.append(level)
+                
+            level_order_trav.append(level)
         
-        return lot
-        
+        return level_order_trav
+
+        '''
+        Time COmplexity: O(n)
+        Space complexitY: O(N)
+        '''
