@@ -467,6 +467,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2245-destroying-asteroids](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2245-destroying-asteroids) |
 | [2262-solving-questions-with-brainpower](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2294-minimum-time-to-complete-trips](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2294-minimum-time-to-complete-trips) |
 | [2308-divide-array-into-equal-pairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
