@@ -43,7 +43,7 @@ class Solution:
                 return False
             if isSame(root, subRoot): return True
 
-            return isSame(root.left, subRoot) or isSame(root.right, subRoot)
+            return dfs(root.left, subRoot) or dfs(root.right, subRoot)
         
         return dfs(root, subRoot)
 
