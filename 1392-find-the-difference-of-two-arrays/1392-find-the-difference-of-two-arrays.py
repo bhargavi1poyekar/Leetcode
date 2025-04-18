@@ -33,5 +33,10 @@ class Solution:
         
         return [get_diff(nums1_set, nums2_set), get_diff(nums2_set, nums1_set)]
 
+        '''
+        Time Complexity: O(N)
+        Space Complexity: O(N)
+        
+        '''
         
         
