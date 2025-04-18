@@ -8,6 +8,9 @@ class MinStack:
     Match: Stack
 
     Plan: Keep 2 stacks -> one for normal elements, and other for storing min values at each step. 
+
+    Time Complexity -> O(1) for each function
+    Space Complexity -> O(N)
     '''
 
     def __init__(self):
