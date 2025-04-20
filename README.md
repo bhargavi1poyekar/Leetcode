@@ -402,6 +402,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0747-min-cost-climbing-stairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0753-open-the-lock](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0753-open-the-lock) |
 | [0792-binary-search](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0792-binary-search) |
+| [0797-rabbits-in-forest](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0876-hand-of-straights](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0883-car-fleet) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -964,6 +965,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0740-delete-and-earn](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0740-delete-and-earn) |
 | [0753-open-the-lock](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0753-open-the-lock) |
 | [0768-partition-labels](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0768-partition-labels) |
+| [0797-rabbits-in-forest](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0876-hand-of-straights](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0876-hand-of-straights) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
@@ -1059,6 +1061,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0678-valid-parenthesis-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0768-partition-labels](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0768-partition-labels) |
+| [0797-rabbits-in-forest](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0876-hand-of-straights](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0876-hand-of-straights) |
 | [1448-maximum-69-number](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1448-maximum-69-number) |
 | [1502-construct-k-palindrome-strings](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
@@ -1450,6 +1453,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0371-sum-of-two-integers](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [0445-add-two-numbers-ii](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0445-add-two-numbers-ii) |
 | [0504-base-7](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0504-base-7) |
+| [0797-rabbits-in-forest](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [1014-k-closest-points-to-origin](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1236-n-th-tribonacci-number](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1236-n-th-tribonacci-number) |
 | [1448-maximum-69-number](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1448-maximum-69-number) |
