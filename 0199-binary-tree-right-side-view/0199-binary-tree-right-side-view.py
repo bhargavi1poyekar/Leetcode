@@ -7,12 +7,23 @@
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
         
+        '''
+        Understand:
+
+        Given root -> return values that can be seen from the right side. 
+
+        Last element of a level. 
+
+        Match: BFS traversal on tree. 
+
+        Plan:
+        at every level, once you finish the iteration, append the last element to final answer. 
+        '''
         if not root:
             return []
-
+            
         queue = deque([root])
         rsv = []
-
         while queue:
             for _ in range(len(queue)):
                 node = queue.popleft()
@@ -20,7 +31,13 @@ class Solution:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
-            
+                
             rsv.append(node.val)
-
+    
         return rsv
+
+        '''
+        Time Complexity: O(N)
+        Space COmplexity: O(h)
+        '''
+                
