@@ -1,29 +1,42 @@
 class Solution:
     def pivotIndex(self, nums: List[int]) -> int:
-        
         '''
+        Understand:
+
+        Given -> arr of integers nums. 
+        return leftmost pivot index. 
+
+        pivot index => sum of all nums strictly to left = sum of alll nums strictly to right. 
+
+        if no elements in left/ right -> left_sum/right_sum = 0
+
+        if no such index, return -1
+
+        Match: Prefix Sum
+
         Plan:
-        total_sum = sum(nums)
+        we keep on adding leftsum. 
+        and at beginning -> we calculate total_sum. 
 
-        while traversing nums
+        So right_sum = total - left - curr_element. 
 
-            curr_sum => left_sum
-            right_sum = total_Sum- leftsum - num
+        then check condition. if true, return index. 
 
-            if leftsum == rightsum:
-                return index of num. 
-        
-        return -1
+        else, add currelement to leftSum. 
         '''
 
-        total_sum = sum(nums)
         left_sum = 0
+        total_sum = sum(nums)
 
-        for i in range(len(nums)):
-            right_sum = total_sum - left_sum - nums[i]
+        for i, num in enumerate(nums):
+            right_sum = total_sum - left_sum - num
             if left_sum == right_sum:
                 return i
-            left_sum += nums[i]
+            left_sum += num
         
         return -1
-        
+
+        '''
+        Time Complexity: O(N)
+        Space Complexity: O(N)
+        '''
