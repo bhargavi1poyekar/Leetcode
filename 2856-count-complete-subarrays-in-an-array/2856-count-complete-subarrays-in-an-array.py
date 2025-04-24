@@ -3,11 +3,12 @@ class Solution:
         total_distinct = len(set(nums))
         count = defaultdict(int)
         left = res = 0
+        n = len(nums)
 
         for right in range(len(nums)):
             count[nums[right]] += 1
             while len(count) == total_distinct:
-                res += len(nums) - right
+                res += n - right
                 count[nums[left]] -= 1
                 if count[nums[left]] == 0:
                     del count[nums[left]]
