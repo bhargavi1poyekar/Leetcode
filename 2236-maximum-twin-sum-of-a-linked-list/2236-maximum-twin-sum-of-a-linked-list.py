@@ -5,21 +5,22 @@
 #         self.next = next
 class Solution:
     def pairSum(self, head: Optional[ListNode]) -> int:
+        '''
+        Understand:
+        given a ll -> we need to break it in middle, reverse the second half, and then have twin sum with first hald and second half. 
         
-        # Middle, reverse and add 
-        
-        prev = None
-        slow = head
-        fast = head
+        Match: Middle + reverse + sum
+        '''
 
+        slow = fast = head
+        prev = None
         while fast and fast.next:
             prev = slow
             slow = slow.next
             fast = fast.next.next
-        
-        prev.next = None
 
         curr = slow
+        prev.next = None
         prev = None
 
         while curr:
@@ -27,15 +28,19 @@ class Solution:
             curr.next = prev
             prev = curr
             curr = nn
+        
+        head2 = prev
+        max_twin_sum = 0
+        while head and head2:
+            twin_sum = head.val + head2.val
+            max_twin_sum = max(max_twin_sum, twin_sum)
+            head, head2 = head.next, head2.next
 
-        max_sum = 0
-        curr_sum = 0
-        while head and prev:
-            curr_sum = head.val + prev.val
-            head, prev = head.next, prev.next
-            max_sum = max(max_sum, curr_sum)
+        return max_twin_sum 
         
-        return max_sum
+        '''
+        Time Complexity: O(N)
+        Space Complexity: O(1)
+        '''
+            
         
-        
-
