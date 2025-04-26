@@ -8,6 +8,15 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
+        
+        '''
+        Understand: 
+
+        Given head -> reorder it. 
+
+        Match: Middle - Reverse - Merge. 
+        '''
+
         if not head or not head.next:
             return head
 
@@ -40,3 +49,5 @@ class Solution:
             curr, prev = curr.next, prev.next
         
         return newlist.next
+
+        
