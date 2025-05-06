@@ -460,6 +460,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2000-minimum-speed-to-arrive-on-time](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2000-minimum-speed-to-arrive-on-time) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+| [2048-build-array-from-permutation](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2048-build-array-from-permutation) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2107-find-unique-binary-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2107-find-unique-binary-string) |
 | [2145-grid-game](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2145-grid-game) |
@@ -774,6 +775,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0735-asteroid-collision) |
 | [0874-backspace-string-compare](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0874-backspace-string-compare) |
 | [0983-validate-stack-sequences](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0983-validate-stack-sequences) |
+| [2048-build-array-from-permutation](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2048-build-array-from-permutation) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2428-equal-row-and-column-pairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/2428-equal-row-and-column-pairs) |
