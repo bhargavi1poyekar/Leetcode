@@ -1,18 +1,5 @@
 class MinStack:
 
-    '''
-    Understand: Designing a stack -> supports push, pop, top and retriev min element. 
-
-    O(1) time complexity for each function
-
-    Match: Stack
-
-    Plan: Keep 2 stacks -> one for normal elements, and other for storing min values at each step. 
-
-    Time Complexity -> O(1) for each function
-    Space Complexity -> O(N)
-    '''
-
     def __init__(self):
         self.stack = []
         self.min_stack = []
@@ -20,24 +7,22 @@ class MinStack:
     def push(self, val: int) -> None:
         self.stack.append(val)
         if self.min_stack:
-            min_val = self.min_stack[-1]
-            if min_val > val:
-                self.min_stack.append(val)
-            else:
-                self.min_stack.append(min_val)
+            min_val = min(val, self.min_stack[-1])
         else:
-            self.min_stack.append(val)
+            min_val = val
+        
+        self.min_stack.append(min_val)
 
     def pop(self) -> None:
-        self.min_stack.pop()
         self.stack.pop()
+        self.min_stack.pop()
 
     def top(self) -> int:
         return self.stack[-1]
 
     def getMin(self) -> int:
         return self.min_stack[-1]
-
+    
 
 # Your MinStack object will be instantiated and called as such:
 # obj = MinStack()
