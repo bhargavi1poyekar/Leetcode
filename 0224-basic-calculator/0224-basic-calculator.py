@@ -12,29 +12,22 @@ class Solution:
                 stack.append(sign)
                 res = 0
                 sign = 1
-            
             elif ch.isdigit():
                 num = num*10 + int(ch)
-
             elif ch == '+':
-                res += sign * num
+                res += num * sign
+                num = 0
                 sign = 1
-                num = 0
-            
             elif ch == '-':
-                res += sign * num
-                sign = -1
+                res += num * sign
                 num = 0
-            
+                sign = -1
             elif ch == ')':
-                res += sign * num
+                res += num * sign
                 res *= stack.pop()
                 res += stack.pop()
                 num = 0
-                # sign = 1
         
-        return res + sign * num
+        return res + num * sign
 
-         
-
-
+            
