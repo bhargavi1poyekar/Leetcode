@@ -3,15 +3,13 @@ class Solution:
         
         stack = []
 
-        for pos, spd in sorted(zip(position, speed))[::-1]:
-            distance = target - pos
-            time = distance / spd
+        for position, speed in sorted(zip(position, speed))[::-1]:
+            distance = target - position
+            time = distance / speed
 
-            if stack and stack[-1] < time:
+            if not stack:
                 stack.append(time)
-            elif not stack:
+            elif stack and stack[-1] < time:
                 stack.append(time)
         
         return len(stack)
-
-
