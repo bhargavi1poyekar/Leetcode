@@ -6,26 +6,9 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        '''
-        Understand:
-
-        Given -> head of LL. 
-        return if ll has cycle. 
-
-        Match: slow and fast pointer. 
-
-        Plan:
-        we start slow and fast from head, but fast at twice speed of slow. 
-        slow moves by 1, and fast moves by 2. 
-
-        if both meet -> then there is a cycle. -> return True
-        else if exists loop, because, fast becomes None -> then no Cycle. 
-        '''
-
-        if not head:
-            return False
-
-        slow = fast = head
+        
+        slow = head
+        fast = head
 
         while fast and fast.next:
             slow = slow.next
@@ -35,8 +18,3 @@ class Solution:
                 return True
         
         return False
-        
-        '''
-        Time Complexity: O(N)
-        Space COmplexity: O(N)
-        '''
