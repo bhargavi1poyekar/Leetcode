@@ -8,22 +8,11 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        
-        '''
-        Understand: 
-
-        Given head -> reorder it. 
-
-        Match: Middle - Reverse - Merge. 
-        '''
-
         if not head or not head.next:
             return head
-
-        # Middle -> reverse -> merge. 
+            
+        slow = fast = head
         prev = None
-        slow = head
-        fast = head
 
         while fast and fast.next:
             prev = slow
@@ -31,23 +20,29 @@ class Solution:
             fast = fast.next.next
 
         prev.next = None
-        prev = None
+
         curr = slow
+        prev = None
 
         while curr:
             nn = curr.next
             curr.next = prev
             prev = curr
             curr = nn
+        
+        head2 = prev
+        
+        curr = nHead = ListNode()
 
-        curr = newlist = ListNode()
-
-        while head and prev:
+        while head and head2:
             curr.next = head
             curr, head = curr.next, head.next
-            curr.next = prev
-            curr, prev = curr.next, prev.next
+            curr.next = head2
+            curr, head2 = curr.next, head2.next
         
-        return newlist.next
+        return nHead.next
 
+
+
+        
         
