@@ -7,12 +7,12 @@
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         
-        def checksame(p, q):
+        def isSame(p, q):
             if not p and not q:
                 return True
             if not p or not q:
                 return False
-            return p.val == q.val and checksame(p.left, q.right) and checksame(p.right, q.left)
+            
+            return p.val == q.val and isSame(p.right, q.left) and isSame(p.left, q.right)
         
-        return checksame(root.left, root.right)
-        
+        return isSame(root.left, root.right)
