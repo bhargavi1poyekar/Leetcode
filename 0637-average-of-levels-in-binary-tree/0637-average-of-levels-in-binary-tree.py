@@ -7,52 +7,23 @@
 class Solution:
     def averageOfLevels(self, root: Optional[TreeNode]) -> List[float]:
         
-        '''
-        Understand:
-
-        Given root -> return average val of nodes on each level.
-
-        Match: BFS traversal
-
-        Plan:
-        add root to queue. 
-
-        avg_list = []
-
-        while queue. 
-            list of node vals
-            for each node in queue
-                pop node
-                add node val to list
-                add left and right nodes if exist. 
-            
-            calculate avg of list and add to the avg list.
-        
-        return avg list. 
-        '''
-
-        # Implementation
-
         queue = deque([root])
+        avgs = []
 
-        avg_list = []
-        
         while queue:
-            level = []
+            sum = 0
+            count = 0 
             for _ in range(len(queue)):
                 node = queue.popleft()
-                level.append(node.val)
+                sum += node.val
+                count += 1
 
                 if node.left:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
-
-            avg_list.append(sum(level) / len(level))
-
-        return avg_list 
-
-        '''
-        Time Complexity: O(n)
-        Space: O(n)
-        '''
+            
+            avgs.append(sum / count)
+        
+        return avgs
+                
