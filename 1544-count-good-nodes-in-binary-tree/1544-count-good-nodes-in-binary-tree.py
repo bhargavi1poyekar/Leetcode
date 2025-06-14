@@ -7,19 +7,18 @@
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
         
+        self.goodnodes = 0
         def dfs(root, maxval):
             if not root:
                 return 0
-
-            leftgood = dfs(root.left, max(root.val, maxval))
-            rightgood = dfs(root.right, max(root.val, maxval))
-
+            
             if root.val >= maxval:
-                return 1 + leftgood + rightgood
-            return leftgood + rightgood
+                self.goodnodes += 1
+            
+            dfs(root.left, max(maxval, root.val))
+            dfs(root.right, max(maxval, root.val))
         
-        return dfs(root, root.val)
-
-
+        dfs(root, root.val)
+        return self.goodnodes
 
             
