@@ -7,18 +7,17 @@
 class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
         
-        self.paths = []
-
-        def dfs(root, op):
+        self.total_sum = 0
+        def dfs(root, num):
             if not root:
                 return 
-            
+            num = num * 10 + root.val
             if not root.left and not root.right:
-                op = op * 10 + root.val
-                self.paths.append(op)
+                self.total_sum += num
             
-            dfs(root.left, op*10 + root.val)
-            dfs(root.right, op*10 + root.val)
+            dfs(root.left, num)
+            dfs(root.right, num)
         
         dfs(root, 0)
-        return sum(self.paths)
+        return self.total_sum
+
