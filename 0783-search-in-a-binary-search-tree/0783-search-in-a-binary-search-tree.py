@@ -6,15 +6,17 @@
 #         self.right = right
 class Solution:
     def searchBST(self, root: Optional[TreeNode], val: int) -> Optional[TreeNode]:
-        if not root:
-            return None
         
-        if root.val == val:
-            return root
+        def dfs(root, val):
+            if not root:
+                return None
+            
+            if root.val == val:
+                return root
+            
+            if val < root.val:
+                return dfs(root.left, val)
+            else:
+                return dfs(root.right, val)
         
-        if root.val < val:
-            return self.searchBST(root.right, val)
-        else:
-            return self.searchBST(root.left, val)
-    
-    
+        return dfs(root, val)
