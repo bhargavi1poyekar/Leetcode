@@ -11,38 +11,36 @@ class Solution:
         def dfs(row, col):
             if (row, col) not in seen:
                 seen.add((row, col))
-            else:
-                return
-
+            
             for dx, dy in directions:
                 nextr, nextc = row + dx, col + dy
-                if isValid(nextr, nextc):
+                if isValid(nextr, nextc) and (nextr, nextc) not in seen:
                     dfs(nextr, nextc)
+    
         
-        seen = set()
         Row = len(board)
-        Col = len(board[0])
+        Col = len(board[0])     
+        seen = set()
 
         for row in range(Row):
-            if board[row][0] == 'O':
+            if board[row][0] == 'O' and (row, 0) not in seen:
                 dfs(row, 0)
-            if board[row][Col-1] == 'O':
+            if board[row][Col-1] == 'O' and (row, Col-1) not in seen:
                 dfs(row, Col-1)
         
         for col in range(Col):
-            if board[0][col] == 'O':
+            if board[0][col] == 'O' and (0, col) not in seen:
                 dfs(0, col)
-            if board[Row-1][col] == 'O':
+            if board[Row-1][col] == 'O' and (Row-1, col) not in seen:
                 dfs(Row-1, col)
         
         for row in range(Row):
             for col in range(Col):
                 if (row, col) not in seen and board[row][col] == 'O':
                     board[row][col] = 'X'
+
         
-        # return board
+        
 
 
-
-
-
+        
