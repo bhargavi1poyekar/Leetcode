@@ -1,27 +1,24 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         
-        indegree = [0] * (numCourses)
         graph = defaultdict(list)
-        
+        indegree = [0] * (numCourses)
         for a, b in prerequisites:
-            indegree[a] += 1
             graph[b].append(a)
-        
+            indegree[a] += 1
+
         queue = deque()
-        seen = set()
-        for i in range(len(indegree)):
+        for i in range(numCourses):
             if indegree[i] == 0:
-                seen.add(i)
                 queue.append(i)
-        
+
+        numCount = 0
         while queue:
-            node = queue.popleft()
-            for nghbr in graph[node]:
+            course = queue.popleft()
+            numCount += 1
+            for nghbr in graph[course]:
                 indegree[nghbr] -= 1
-                if nghbr not in seen and indegree[nghbr] == 0:
-                    seen.add(nghbr)
+                if indegree[nghbr] == 0:
                     queue.append(nghbr)
         
-        return len(seen) == numCourses
-                
+        return numCount == numCourses
