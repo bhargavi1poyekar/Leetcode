@@ -7,16 +7,16 @@
 class Solution:
     def deleteNode(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
         
-        def findmin(root):
+        def goLeft(root):
             while root.left:
                 root = root.left
             return root.val
         
-        def findmax(root):
+        def goRight(root):
             while root.right:
                 root = root.right
             return root.val
-        
+            
         if not root:
             return None
         
@@ -27,11 +27,12 @@ class Solution:
         else:
             if not root.left and not root.right:
                 root = None
+                return root
             elif root.right:
-                root.val = findmin(root.right)
+                root.val = goLeft(root.right)
                 root.right = self.deleteNode(root.right, root.val)
-            elif root.left:
-                root.val = findmax(root.left)
+            else:
+                root.val = goRight(root.left)
                 root.left = self.deleteNode(root.left, root.val)
-        
+
         return root
