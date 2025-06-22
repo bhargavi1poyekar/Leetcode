@@ -14,7 +14,7 @@ class Solution:
                     flat_board.append(board[row][col])
             i += 1
 
-        seen = {0}
+        seen = {(0)}
         queue = deque([(0, 0)])
         # steps = -1
 
@@ -23,7 +23,8 @@ class Solution:
 
             if flat_board[curr] != -1:
                 curr = flat_board[curr] - 1
-            elif curr == end_idx - 1:
+
+            if curr == end_idx - 1:
                 return steps
 
             for next in range(curr+1, min(curr + 7, end_idx)):
