@@ -5,31 +5,28 @@ class Solution:
             return 0 <= row < Row and 0 <= col < Col and maze[row][col] == '.'
         
         def isExit(row, col):
-            return (row == 0 or row == Row-1 or col == 0 or col == Col-1)
-        
-        er, ec = entrance
-        seen = {(er, ec)}
-        queue = deque([(er, ec, 0)])
+            return (row == 0 or row == Row-1 or col == 0 or col == Col-1) and ((row, col) != (eRow, eCol))
 
         directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
-
+        
         Row = len(maze)
         Col = len(maze[0])
 
+        eRow, eCol = entrance 
+
+        queue = deque([(eRow, eCol, 0)])
+        seen = {(eRow, eCol)}
+
         while queue:
-            # print(queue)
             row, col, steps = queue.popleft()
 
-            # print(row, col)
-            # print(isExit(row, col))
-            # print((row != er and col != er))
-            if isExit(row, col) and (row, col) != (er, ec):
+            if isExit(row, col):
                 return steps
-            
+
             for dx, dy in directions:
                 nextr, nextc = row + dx, col + dy
                 if isValid(nextr, nextc) and (nextr, nextc) not in seen:
                     seen.add((nextr, nextc))
-                    queue.append((nextr, nextc, steps+1))
+                    queue.append((nextr, nextc, steps + 1))
         
         return -1
