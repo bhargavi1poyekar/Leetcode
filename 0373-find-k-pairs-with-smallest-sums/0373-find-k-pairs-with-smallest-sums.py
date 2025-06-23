@@ -12,10 +12,12 @@ class Solution:
             k -= 1
 
             if (i+1) < len(nums1) and (i+1, j) not in seen:
+                seen.add((i+1, j))
                 sum = nums1[i+1] + nums2[j]
                 heapq.heappush(min_heap, (sum, i+1, j))
             
             if (j+1) < len(nums2) and (i, j+1) not in seen:
+                seen.add((i, j+1))
                 sum = nums1[i] + nums2[j+1]
                 heapq.heappush(min_heap, (sum, i, j+1))
         
