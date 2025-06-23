@@ -1,32 +1,30 @@
 class Solution:
     def totalCost(self, costs: List[int], k: int, candidates: int) -> int:
-        
         min_heap = []
-        n = candidates
 
-        for i in range(n):
+        for i in range(candidates):
             min_heap.append((costs[i], 0))
         
-        for i in range(len(costs)-1, max(len(costs)-n-1, n-1), -1):
+        for i in range(len(costs)-1, max(len(costs)-candidates-1, candidates-1), -1):
             min_heap.append((costs[i], 1))
 
         heapq.heapify(min_heap)
 
-        left = n
-        right = len(costs)-n-1
-        total_cost = 0
+        first_idx = candidates
+        second_idx = len(costs)-candidates-1
 
-        for _ in range(k):
+        total_cost = 0
+        for i in range(k):
             cost, half = heapq.heappop(min_heap)
             total_cost += cost
 
-            if left <= right:
+            if first_idx <= second_idx:
                 if half == 0:
-                    heapq.heappush(min_heap, (costs[left], 0))
-                    left += 1
+                    heapq.heappush(min_heap, (costs[first_idx], 0))
+                    first_idx += 1
                 else:
-                    heapq.heappush(min_heap, (costs[right], 1))
-                    right -= 1
+                    heapq.heappush(min_heap, (costs[second_idx], 1))
+                    second_idx -= 1
         
         return total_cost
 
