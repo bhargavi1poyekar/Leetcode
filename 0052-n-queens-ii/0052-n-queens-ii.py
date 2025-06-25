@@ -1,31 +1,30 @@
 class Solution:
     def totalNQueens(self, n: int) -> int:
-
-        def backtrack(row, diags, antidiags, cols):
+    
+        def backtrack(row, cols, left_diags, right_diags):
             if row == n:
-                return 1 # return 1 solution
-
-            solutions = 0
-
+                return 1
+            
+            count = 0
             for col in range(n):
-                curr_diag = row - col
-                curr_anti_diag = row + col
+                left_diag = row - col
+                right_diag = row + col
 
-                if col in cols or curr_diag in diags or curr_anti_diag in antidiags:
+                if col in cols or left_diag in left_diags or right_diag in right_diags:
                     continue
                 
                 cols.add(col)
-                diags.add(curr_diag)
-                antidiags.add(curr_anti_diag)
+                left_diags.add(left_diag)
+                right_diags.add(right_diag)
 
-                solutions += backtrack(row+1, diags, antidiags, cols)
+                count += backtrack(row+1, cols, left_diags, right_diags)
 
                 cols.remove(col)
-                diags.remove(curr_diag)
-                antidiags.remove(curr_anti_diag)
-            
-            return solutions
+                left_diags.remove(left_diag)
+                right_diags.remove(right_diag)
 
+            return count
+        
         return backtrack(0, set(), set(), set())
 
-        
+
