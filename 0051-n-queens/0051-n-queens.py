@@ -1,6 +1,7 @@
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         
+        # Create duplicate of state
         def create_board(state):
             board = []
             for row in state:
