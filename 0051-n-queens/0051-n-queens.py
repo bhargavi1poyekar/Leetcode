@@ -1,46 +1,38 @@
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
-
+        
         def create_board(state):
             board = []
             for row in state:
                 board.append("".join(row))
             return board
 
-        def backtrack(row, diagonals, anti_diagonals, cols,state):
-            # Base case - N queens have been placed
+        def backtrack(row, cols, left_diags, right_diags, state):
             if row == n:
                 ans.append(create_board(state))
                 return 
-
+            
+            count = 0
             for col in range(n):
-                curr_diagonal = row - col
-                curr_anti_diagonal = row + col
-                # If the queen is not placeable
-                if (col in cols 
-                      or curr_diagonal in diagonals 
-                      or curr_anti_diagonal in anti_diagonals):
-                    continue
+                left_diag = row - col
+                right_diag = row + col
 
-                # "Add" the queen to the board
+                if col in cols or left_diag in left_diags or right_diag in right_diags:
+                    continue
+                
                 cols.add(col)
-                diagonals.add(curr_diagonal)
-                anti_diagonals.add(curr_anti_diagonal)
+                left_diags.add(left_diag)
+                right_diags.add(right_diag)
                 state[row][col]="Q"
 
-                # Move on to the next row with the updated board state
-                backtrack(row + 1, diagonals, anti_diagonals, cols,state)
+                backtrack(row+1, cols, left_diags, right_diags, state)
 
-                # "Remove" the queen from the board since we have already
-                # explored all valid paths using the above function call
                 cols.remove(col)
-                diagonals.remove(curr_diagonal)
-                anti_diagonals.remove(curr_anti_diagonal)
+                left_diags.remove(left_diag)
+                right_diags.remove(right_diag)
                 state[row][col]="."
-
-        ans=[]
+        
+        ans = []
         empty_board=[["."]*n for _ in range(n)]
         backtrack(0, set(), set(), set(), empty_board)
         return ans
-
-        
