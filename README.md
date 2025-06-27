@@ -923,6 +923,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0290-word-pattern](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0383-ransom-note](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0392-is-subsequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0394-decode-string) |
 | [0399-evaluate-division](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0399-evaluate-division) |
@@ -998,6 +999,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0290-word-pattern](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0290-word-pattern) |
 | [0347-top-k-frequent-elements](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0433-minimum-genetic-mutation](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0433-minimum-genetic-mutation) |
 | [0496-next-greater-element-i](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -1150,6 +1152,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [1160-letter-tile-possibilities](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1364-tuple-with-same-product](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1364-tuple-with-same-product) |
@@ -1662,6 +1665,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0225-implement-stack-using-queues) |
+| [0387-first-unique-character-in-a-string](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0649-dota2-senate](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0649-dota2-senate) |
 | [0954-maximum-sum-circular-subarray](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 | [0969-number-of-recent-calls](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0969-number-of-recent-calls) |
