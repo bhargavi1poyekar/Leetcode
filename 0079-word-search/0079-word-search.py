@@ -3,10 +3,13 @@ class Solution:
         
         def isValid(row, col):
             return 0 <= row < Row and 0 <= col < Col
-        
+
         directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
         
-        def backtrack(row, col, i, seen):
+        Row = len(board)
+        Col = len(board[0])
+
+        def backtrack(row, col, i,  seen):
             if i == len(word):
                 return True
             
@@ -21,16 +24,10 @@ class Solution:
             
             return False
         
-        Row = len(board)
-        Col = len(board[0])
-
         for row in range(Row):
             for col in range(Col):
-                if board[row][col] == word[0]: 
+                if board[row][col] == word[0]:
                     if backtrack(row, col, 1, {(row, col)}):
                         return True
+        
         return False
-
-
-            
-            
