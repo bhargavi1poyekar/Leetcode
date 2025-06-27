@@ -22,7 +22,7 @@ class Solution:
             else:
                 ver2 = convert_str_to_num(version2[i])
             
-            print(ver1, ver2)
+            # print(ver1, ver2)
             if ver1 < ver2:
                 return -1
             elif ver1 > ver2:
