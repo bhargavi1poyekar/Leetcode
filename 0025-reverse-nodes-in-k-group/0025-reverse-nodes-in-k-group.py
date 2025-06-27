@@ -5,13 +5,12 @@
 #         self.next = next
 class Solution:
     def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
-        
         count_ptr = head
         curr = head
         num_nodes = 0
         prev = None
 
-        while count_ptr and num_nodes < k:
+        while count_ptr:
             count_ptr = count_ptr.next
             num_nodes += 1
             
@@ -33,8 +32,3 @@ class Solution:
                 prev = tail
             
         return head
-
-        
-
-        
-
