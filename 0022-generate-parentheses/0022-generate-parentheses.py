@@ -1,21 +1,21 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         
-        def backtrack(curr, left, right):
-            if len(curr) == 2*n:
-                ans.append(''.join(curr))
+        valid = []
+        def backtrack(arr, left, right):
+            if len(arr) == n*2:
+                valid.append(''.join(arr))
                 return 
-            
+
             if left < n:
-                curr.append('(')
-                backtrack(curr, left+1, right)
-                curr.pop()
-            
+                arr.append('(')
+                backtrack(arr, left+1, right)
+                arr.pop()
+
             if right < left:
-                curr.append(')')
-                backtrack(curr, left, right+1)
-                curr.pop()
-        
-        ans = []
+                arr.append(')')
+                backtrack(arr, left, right+1)
+                arr.pop()
+
         backtrack([], 0, 0)
-        return ans
+        return valid
