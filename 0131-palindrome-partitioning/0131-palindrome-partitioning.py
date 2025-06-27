@@ -1,27 +1,31 @@
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
+        
+        def is_palindrome(string, start, end):
+            left = start
+            right = end
 
-        ans=[]
-
-        def is_palindrome(string,start,end):
-
-            while start<end:
-                if string[start]!=string[end]:
+            while left <= right:
+                if string[left] != string[right]:
                     return False
-                start+=1
-                end-=1
+                left += 1
+                right -= 1
+            
             return True
         
-        def backtrack(start,curr):
-            if start>=len(s):
-                ans.append(list(curr))
-                return 
+        partitions = []
 
-            for i in range(start, len(s)):
-                if is_palindrome(s,start,i):
-                    curr.append(s[start:i+1])
-                    backtrack(i+1,curr)
-                    curr.pop()
-        
-        backtrack(0,[])
-        return ans
+        def backtrack(i, arr):
+            if i == len(s):
+                partitions.append(arr[:])
+                return 
+            
+            for j in range(i, len(s)):
+                if is_palindrome(s, i, j):
+                    arr.append(s[i:j+1])
+                    backtrack(j+1, arr)
+                    arr.pop()
+            
+        backtrack(0, [])
+        return partitions
+            
