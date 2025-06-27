@@ -1,33 +1,13 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        
-        '''
-        Understand:
-
-        Given: arr of strs -> group anagrams. 
-        Return in any order. 
-
-        Match: Hash -> sort the string and keep it as a key in hash. Then sort
-        '''
-
         anagrams = defaultdict(list)
+
         for string in strs:
-            sorted_str = sorted(string)
-            anagrams[tuple(sorted_str)].append(string)
+            anag = ''.join(sorted(string))
+            anagrams[anag].append(string)
         
-        ans = []
-        for ang in anagrams:
-            ans.append(anagrams[ang])
+        answer = []
+        for anagram in anagrams:
+            answer.append(anagrams[anagram])
         
-        return ans
-
-        '''
-        Time Complexity: O(N* m log m) -> m -> length of individual strings. and 
-        N -> num of strings. 
-
-        Space: O(N)
-        '''
-
-
-
-
+        return answer
