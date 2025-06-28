@@ -10,10 +10,10 @@ class Solution:
         left = 1
         right = max(piles)
 
-        while left <= right:
+        while left < right:
             mid = left + (right - left) // 2
             if check(mid):
-                right = mid - 1
+                right = mid
             else:
                 left = mid + 1
         
