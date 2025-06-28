@@ -12,15 +12,17 @@ class Solution:
         def dfs(root):
             if not root:
                 return 0
+            
+            if not root.left and not root.right:
+                return 1
 
-            left_height = dfs(root.left)
-            right_height = dfs(root.right)
+            left_path = dfs(root.left)
+            right_path = dfs(root.right)
+        
+            self.diameter = max(self.diameter, left_path + right_path)
 
-            self.diameter = max(self.diameter, left_height + right_height)
-
-            return 1 + max(left_height, right_height)
+            return 1 + max(left_path, right_path)
         
         dfs(root)
         return self.diameter
-
-            
+        
