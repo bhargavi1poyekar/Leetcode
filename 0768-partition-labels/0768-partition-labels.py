@@ -1,20 +1,22 @@
 class Solution:
     def partitionLabels(self, s: str) -> List[int]:
         
-        last_index = {}
+        last_index = defaultdict(int)
+
         for i, ch in enumerate(s):
             last_index[ch] = i
         
-        partition = []
-        partition_start = 0
-        partition_end = 0
-        for i in range(len(s)):
-            partition_end = max(partition_end, last_index[s[i]])
+        start_p = 0
+        max_p_end = 0
+        partition_size = []
 
-            if i == partition_end:
-                partition.append(partition_end - partition_start + 1)
-                partition_start = i + 1
+        for i, ch in enumerate(s):
+            max_p_end = max(max_p_end, last_index[ch])
+            if i == max_p_end:
+                size = max_p_end - start_p + 1
+                partition_size.append(size)
+                start_p = i + 1
         
-        return partition
-
-
+        return partition_size
+            
+            
