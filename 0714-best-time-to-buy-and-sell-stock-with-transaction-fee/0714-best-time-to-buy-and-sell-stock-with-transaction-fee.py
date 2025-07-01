@@ -9,12 +9,10 @@ class Solution:
             doNothing = dp(i+1, holding)
 
             if holding:
-                # Sell
                 doSomething = dp(i+1, False) + prices[i] - fee
             else:
-                # Buy
                 doSomething = dp(i+1, True) - prices[i]
             
             return max(doNothing, doSomething)
-        
+         
         return dp(0, False)
