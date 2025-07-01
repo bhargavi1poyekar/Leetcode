@@ -1,18 +1,18 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        @lru_cache
+        
+        @lru_cache(None)
         def dp(i, prevDaySold, holding):
             if i == len(prices):
                 return 0
             
             doNothing = dp(i+1, False, holding)
             doSomething = 0
-
             if holding:
-                doSomething = prices[i] + dp(i+1, True, 0)
+                doSomething = dp(i+1, True, False) + prices[i]
             elif not holding and not prevDaySold:
-                doSomething = -prices[i] + dp(i+1, False, 1)
+                doSomething = dp(i+1, False, True) - prices[i]
             
-            return max(doSomething, doNothing)
-        
-        return dp(0, False, 0)
+            return max(doNothing, doSomething)
+         
+        return dp(0, False, False)
