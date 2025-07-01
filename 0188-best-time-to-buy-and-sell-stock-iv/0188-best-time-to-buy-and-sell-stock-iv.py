@@ -1,7 +1,7 @@
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
         
-        @lru_cache()
+        @lru_cache(None)
         def dp(i, remainT, holding):
             if i == len(prices) or remainT == 0:
                 return 0
