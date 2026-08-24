@@ -411,6 +411,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0876-hand-of-straights](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0883-car-fleet) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [0905-sort-array-by-parity](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0905-sort-array-by-parity) |
 | [0907-koko-eating-bananas](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0941-sort-array-by-parity](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0941-sort-array-by-parity) |
@@ -581,6 +582,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0768-partition-labels](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0868-push-dominoes) |
 | [0874-backspace-string-compare](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0874-backspace-string-compare) |
+| [0905-sort-array-by-parity](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0905-sort-array-by-parity) |
 | [0908-middle-of-the-linked-list](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [0941-sort-array-by-parity](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [0953-reverse-only-letters](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0953-reverse-only-letters) |
@@ -1089,6 +1091,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0658-find-k-closest-elements](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0876-hand-of-straights](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0883-car-fleet) |
+| [0905-sort-array-by-parity](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0905-sort-array-by-parity) |
 | [0941-sort-array-by-parity](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [0977-squares-of-a-sorted-array](https://github.com/bhargavi1poyekar/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1014-k-closest-points-to-origin](https://github.com/bhargavi1poyekar/Leetcode/tree/master/1014-k-closest-points-to-origin) |
